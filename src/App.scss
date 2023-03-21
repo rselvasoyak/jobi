@@ -1,8 +1,10 @@
-.App {
-  text-align: center;
-}
+@use "./partials/abstract/variables" as *;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+// Abstract 
+@use"./partials/abstract/defaultStyle";
+// Base 
+@use "./partials/base/setup";
+
+// Component 
+
+@use "./partials/abstract/mediaQueries"; 
