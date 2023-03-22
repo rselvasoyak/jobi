@@ -1,0 +1,135 @@
+@use "../abstract/variables" as *;
+
+nav{
+    display: flex;
+    // border: 2px solid blue;
+    padding: 2.5rem;
+    background-color: $darkGreen;
+    .navLeft{
+        display: flex;
+        // justify-content: space-around;
+        // border: 2px solid green;
+        width: 60%;
+        .logo{
+            width: 10%;
+            // border: 2px solid purple;
+           margin-left: 7rem;
+            img{
+                width: 100%;
+            }
+        }
+        .searchBar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // border: 2px solid red;
+            width: 40%;
+            .searchInput, .searchOption{
+                border: none;
+            }
+            .searchInput{
+                flex-basis: 60%;
+                padding: 1.8rem;
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+                background-color: $lightGrey;
+            }
+            .searchInput::placeholder{
+                padding-left: 2rem; 
+                position: relative; 
+                font-size: 1.6rem;
+            }
+            .searchInput::placeholder::before{
+            content: ""; 
+            background-image: url('../assets/mvpAssets/searchIcon.png');
+            background-repeat: no-repeat;
+            background-size: contain; 
+            position: absolute; 
+            left: 0; 
+            top: 50%;
+            transform: translateY(-50%); 
+            width: 1.5rem; 
+            height: 1.5rem; 
+            }
+
+            .searchOption{
+                flex-basis: 15%;
+                padding: 1.5rem;
+                background-color: $grey;
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
+                font-size: 1.6rem;
+            }
+            .searchOption::before{
+                content: "";
+            //   position: absolute;
+            //   left: 0.5em;
+            //   width: 1rem;
+            //   height: auto;
+            //   background-image: url('../assets/mvpAssets/Line.png');
+            //   background-size: contain;
+            //   background-repeat: no-repeat;
+            //   background-position: center;
+            }
+        }
+    }
+    .navRight{
+        display: flex;
+        // border: 2px solid red;
+        flex-basis: 40%;
+        align-items: center;
+        justify-content: space-around;
+        a{
+            color: $whiteFont;
+        }
+        .searchLinks{
+            // border: 2px solid yellow;
+            display: flex;
+            flex-basis: 40%;
+            justify-content: space-around;
+            a{
+                // border: 2px solid red;
+                font-size: 1.8rem;
+            }
+            .pages{
+                border: none;
+                color: $whiteFont;
+                background-color: inherit;
+                font-size: 1.8rem;
+            }
+            .pages option{
+                color: $black;
+            }
+        }
+        .userAuthLinks {
+            // border: 2px solid royalblue;
+            flex-basis: 28%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .primaryLink {
+                color: $black;
+            }
+        }
+    }
+}
+
+// nav {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   border: 2px solid blue;
+//   padding: 1rem;
+// }
+
+// .navLeft {
+//   display: flex;
+//   border: 2px solid green;
+//   align-items: center;
+// }
+
+// .navRight {
+//   display: flex;
+//   border: 2px solid red;
+//   align-items: center;
+//   justify-content: center;
+// }

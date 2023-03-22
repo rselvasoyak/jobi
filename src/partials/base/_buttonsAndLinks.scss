@@ -1,0 +1,33 @@
+@use "../abstract/variables" as *;
+// Anchor Links 
+    // General Anchor Links Styling 
+    a{
+        font-size: 1.6rem;
+        text-decoration: none;
+        text-transform: capitalize;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+    }
+
+    .primaryLink{
+        padding: 1rem 3rem;
+        background-color: $limeGreen;
+        border-radius: 17px;
+    }
+
+
+
+// General Button Styling 
+
+// .primaryButton{
+
+// }
+// .secondaryButton{
+
+// }
+// .otherButtons{
+
+// }
