@@ -1,8 +1,16 @@
 import IndexHeader from "./HeaderOptions/IndexHeader";
+import TrendingServices from "./TrendingServices";
 
 const IndexPage =() => {
     return(
-        <IndexHeader />
+        <>
+            <header>
+                <IndexHeader />
+            </header>
+            <main>
+                <TrendingServices />
+            </main>
+        </>
     );
 }
 
