@@ -34,3 +34,6 @@ export default App;
 
 // Pseudo-Code: 
 
+
+// To do - End: 
+  // Run tests: https://www.freecodecamp.org/news/how-to-build-a-react-project-with-create-react-app-in-10-steps/
