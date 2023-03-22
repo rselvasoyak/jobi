@@ -1,6 +1,8 @@
+import IndexHeader from "./HeaderOptions/IndexHeader";
+
 const IndexPage =() => {
     return(
-        <p> Index Page</p>
+        <IndexHeader />
     );
 }
 

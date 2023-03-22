@@ -1,0 +1,22 @@
+@use "../../abstract/variables" as *;
+
+.indexSecondNav{
+    background-color: $whiteFont;
+    padding: 1rem 3rem;
+    border-bottom: 2px solid $lightGrey;
+    ul{
+        display: flex;
+        // border: 2px solid red;
+        width: 100%;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+        margin: 0;
+        li{
+            list-style: none;
+            a{
+                color: $darkGrey;
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -10,6 +10,8 @@
 
 // Component 
 @use "./partials/components/nav";
+  // Headers
+  @use "./partials/components/headers/indexHeader";
 
 // Media Queries 
 @use "./partials/abstract/mediaQueries"; 
