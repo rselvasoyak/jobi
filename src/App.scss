@@ -1,10 +1,10 @@
 @use "./partials/abstract/variables" as *;
 
 // Abstract 
-@use"./partials/abstract/defaultStyle";
 
 // Base 
 @use "./partials/base/buttonsAndLinks";
+@use"./partials/base/defaultStyle";
 @use "./partials/base/setup";
 @use "./partials/base/typography";
 

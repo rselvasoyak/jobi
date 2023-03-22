@@ -5,6 +5,7 @@ nav{
     // border: 2px solid blue;
     padding: 2.5rem;
     background-color: $darkGreen;
+    height: 10vh;
     .navLeft{
         display: flex;
         // justify-content: space-around;
@@ -85,7 +86,7 @@ nav{
         .searchLinks{
             // border: 2px solid yellow;
             display: flex;
-            flex-basis: 40%;
+            flex-basis: 42%;
             justify-content: space-around;
             a{
                 // border: 2px solid red;
@@ -103,7 +104,7 @@ nav{
         }
         .userAuthLinks {
             // border: 2px solid royalblue;
-            flex-basis: 20%;
+            flex-basis: 23%;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -133,3 +134,7 @@ nav{
 //   align-items: center;
 //   justify-content: center;
 // }
+
+
+// To do: 
+    // Add hover and focus state on links with an underline for those states 

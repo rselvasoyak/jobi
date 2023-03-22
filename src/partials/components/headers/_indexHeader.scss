@@ -4,6 +4,7 @@
     background-color: $whiteFont;
     padding: 1rem 3rem;
     border-bottom: 2px solid $lightGrey;
+    height: 7vh;
     ul{
         display: flex;
         // border: 2px solid red;
@@ -17,6 +18,59 @@
                 color: $darkGrey;
                 font-weight: 600;
             }
+        }
+    }
+}
+
+.headerContent{
+    height: 80vh;
+    border: 2px solid pink;
+    .wrapper{
+        display: flex;
+        align-items: center;
+        border: 2px solid red;;
+    }
+    .indexHeaderText {
+        border: 2px solid green;
+        flex-basis: 50%;
+        max-height: 50rem;
+        height: auto;
+        h1{
+            margin: 1rem 0 4rem 0;
+        }
+        p{
+            margin: 0 0 1rem 0;
+            width: 60%;
+            line-height: 2;
+        }
+        .secondaryLink{
+            margin: 3rem 0;
+        }
+        .trustedBy{
+            display: flex;
+            align-items: center;
+            justify-self: left;
+            margin: 1rem 0;
+            .trustedCompanies{
+                display: flex;
+                border: 2px solid green;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                margin-left: 5rem;
+            }
+        }
+    }
+    .headerImg{
+        // position: absolute;
+        // right: 0;
+        // top: 35rem;
+        width: 80rem;
+        height: 50rem;
+        border: 2px solid purple;
+        img{
+            width: 100%;
+            height: 100%;
         }
     }
 }
