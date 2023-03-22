@@ -15,7 +15,14 @@
     .primaryLink{
         padding: 1rem 3rem;
         background-color: $limeGreen;
-        border-radius: 17px;
+        border-radius: 20px;
+    }
+
+    .secondaryLink {
+        padding: 1rem 3rem;
+        background-color: $jobiGreen;
+        border-radius: 20px;
+        color: $whiteFont;
     }
 
 

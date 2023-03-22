@@ -1,8 +1,12 @@
+import logo1 from "../../partials/assets/mvpAssets/Logo 1.png"
+import logo2 from "../../partials/assets/mvpAssets/Logo 2.png"
+import logo3 from "../../partials/assets/mvpAssets/Logo 3.png"
+
 const IndexHeader = () => {
+
     return (
         <>
         <header>
-            <div className="wrapper">
                 <nav className="indexSecondNav">
                     <ul>
                         <li><a href=" "> design & creative </a></li>
@@ -20,12 +24,26 @@ const IndexHeader = () => {
                     </ul>
                 </nav>
                 <section className="headerContent">
-                    <div className="indexHeaderContent"></div>
-                    <div className="headerImg">
-                        <img src="" alt=""></img>
-                    </div>
-                </section>
-            </div>
+                    <div className="wrapper">
+                        <div className="indexHeaderText">
+                            <p className="headerP">#1 online marketplace</p>
+                            <h1> Find the talents for any job. </h1>
+                            <p> Unlock your potential with quality job & earn from world leading brands & co. </p>
+                            <a className="secondaryLink" href=" "> Post a job </a>
+                            <div className="trustedBy">
+                                <p> Trusted by: </p>
+                                <div className="trustedCompanies">
+                                    <img src={ logo1 } alt=""></img>
+                                    <img src={ logo2 } alt=""></img>
+                                    <img src={ logo3 } alt=""></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="headerImg">
+                            <img src="http://placekitten.com/g/200/300" alt=""></img>
+                        </div>
+                    </div> {/* wrapper ending */}
+                </section> {/* header content ending */}
         </header>
         </>
     )

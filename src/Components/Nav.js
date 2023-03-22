@@ -2,7 +2,7 @@ import logo from "../partials/assets/mvpAssets/Logo-3.png";
 
 const Nav = () => {
     return (
-        <nav className="wrapper">
+        <nav>
             <div className="navLeft">
                 <div className="logo" >
                     <img src= {logo} alt="Jobi company logo with 2 green and while circles overlapping"></img>
