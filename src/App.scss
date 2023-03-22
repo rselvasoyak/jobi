@@ -2,10 +2,14 @@
 
 // Abstract 
 @use"./partials/abstract/defaultStyle";
+
 // Base 
+@use "./partials/base/buttonsAndLinks";
 @use "./partials/base/setup";
 @use "./partials/base/typography";
 
 // Component 
+@use "./partials/components/nav";
 
+// Media Queries 
 @use "./partials/abstract/mediaQueries"; 
