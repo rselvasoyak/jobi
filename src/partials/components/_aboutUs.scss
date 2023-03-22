@@ -1,0 +1,47 @@
+@use "../abstract/variables" as *;
+
+.whyUs{
+    margin: 5rem 0;
+    .wrapper{
+        display: flex;
+        border: 2px solid rebeccapurple;
+    }
+    .whyUsImgCont{
+        border: 2px solid orange;
+        flex-basis: 50%;
+        // display: flex;
+        // justify-content: center;
+        img{
+            width: 90%;
+        }
+    }
+    .whyUsContent{
+        border: 2px solid blue;
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 2rem;
+        h2{
+            margin: 2.5rem 0;
+        }
+        h4{
+            color: $jobiGreen;
+            font-size: 1.8rem;
+        }
+        .reasonTitle{
+            text-transform: capitalize;
+            color: $darkGreen;
+            font-weight: 600;
+        }
+    }
+    .reason{
+        border: 2px solid green;
+        margin: 2rem 0;
+        .topRow{
+            border: 2px solid pink;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
