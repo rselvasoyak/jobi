@@ -13,7 +13,7 @@ const Nav = () => {
                     className="searchInput"
                     type="search" id="searchInput" name="search" placeholder="Search Here..." aria-label="Search"></input>
                     <select
-                    className="searchOption"
+                     className="searchOption"
                      id="searchOption" name="searchOption">
                         <option value="talents">Talents</option>
                         <option value="jobs">Jobs</option>
