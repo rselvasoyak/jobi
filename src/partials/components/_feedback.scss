@@ -1,0 +1,75 @@
+@use "../abstract/variables" as *;
+
+.feedback{
+    margin: 2rem 0;
+    .wrapper{
+        border: 2px solid orangered;
+        padding: 3rem 1rem;
+    }
+    .feedbackHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            width: 50%;
+            text-align: center;
+            text-transform: none;
+            margin: 1rem 0 6rem 0;
+        }
+        .feedbackLogo{
+            margin: 1rem 0 0 0;;
+        }
+    }
+    .quote{
+        .quoteAndButtons{
+            display: flex;
+            justify-content: center;
+        }
+        blockquote{
+            position: relative;
+            margin: 1rem 4rem 5rem 4rem;
+        }
+        blockquote::before{
+            content: "❝";
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        blockquote::after{
+            content: "❞";
+            position: absolute;
+        }
+        .quoteBy{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid blue;
+            margin-bottom: 5rem;
+            div{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin: .7rem 0 0 0;
+            }
+            img{
+                height: 100%;
+            }
+            .quoteByFrom{
+                font-weight: 600;
+            }
+        }
+    }
+    .clientImgs{
+        border: 2px solid blue;
+        display: flex;
+        justify-content: center;
+        .client{
+            border: 2px solid green;
+            background-color: $grey;
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            margin: 2rem 2rem;
+        }
+    }
+}
