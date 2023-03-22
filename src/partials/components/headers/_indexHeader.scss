@@ -25,10 +25,11 @@
 .headerContent{
     height: 80vh;
     border: 2px solid pink;
+    display: flex;
     .wrapper{
         display: flex;
-        align-items: center;
-        border: 2px solid red;;
+        align-self: center;
+        border: 2px solid red;
     }
     .indexHeaderText {
         border: 2px solid green;
