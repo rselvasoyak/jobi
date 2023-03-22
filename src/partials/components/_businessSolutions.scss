@@ -1,0 +1,43 @@
+@use "../abstract/variables" as *;
+
+.businessSolution{
+    .wrapper{
+        display: flex;
+        border: 2px solid blue;
+        .businessContent{
+            background-color: $brown;
+            padding: 9rem;
+            flex-basis: 55%;
+            h2{
+                color: $whiteFont;
+                margin: 2rem 0;
+                .emphasize{
+                    display: block;
+                    color: $lightBrown;
+                }
+            }
+            p{
+                color: $whiteFont;
+                line-height: 2;
+                margin: 0;
+                font-size: 2rem;
+            }
+
+            .bottomContent .stats{
+                display: flex;
+                justify-content: space-between;
+                border-top: 2px solid $whiteFont;
+                margin-top: 7rem;
+            }
+            .stat{
+                border: 2px solid pink;
+            }
+            .statTitle {
+                font-size: 3.2rem;
+                font-weight: 600;
+                margin: 1rem 0;
+            }
+
+        }
+    }
+}
