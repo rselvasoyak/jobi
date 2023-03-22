@@ -42,3 +42,8 @@ const Nav = () => {
 }
 
 export default Nav;
+
+// To add to Nav: 
+    // Character Limit Function? 
+    // Loading State once the page loads? 
+    // Error Page if there is an error 
