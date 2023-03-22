@@ -17,32 +17,33 @@ const TrendingServices = () => {
                         </button>
                     </div>
                 </div>
-                <div className="serviceLinks">
-                    <div className="service">
+                <ul className="serviceLinks">
+                    <li className="service">
                         <div className="serviceImgCont">
                             {/* <img></img> */}
                         </div>
                         <p><span> wordPress </span> development.</p>
-                    </div>
-                    <div className="service">
+                    </li>
+                    <li className="service">
                         <div className="serviceImgCont">
                             {/* <img></img> */}
                         </div>
                         <p><span> audio & </span> video editing.</p>
-                    </div>
-                    <div className="service">
+                    </li>
+                    <li className="service">
                         <div className="serviceImgCont">
                             {/* <img></img> */}
                         </div>
                         <p><span> product & </span> branding design</p>
-                    </div>
-                    <div className="service">
+                    </li>
+                    <li className="service">
                         <div className="serviceImgCont">
                             {/* <img></img> */}
                         </div>
                         <p> <span> admin & </span> customer support </p>
-                    </div>
-                </div> {/* service links ending */}
+                    </li>
+                </ul> {/* serviceLinks ending */}
+
             </div> {/* wrapper ending */}
         </section>
     )
