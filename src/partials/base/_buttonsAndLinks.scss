@@ -65,8 +65,20 @@
             // }
         }
 
+        // Feedback
+        .carouselBtn{
+            border: none;
+            background-color: inherit;
+            cursor: pointer;
+                                        // &:hover, 
+            // &:focus{
+
+            // }
+        }
+
 
 
 
 // To Do 
     // Changle the link and button 'clicked' state color? 
+    // Add active and visited states to clickable anchor links 
