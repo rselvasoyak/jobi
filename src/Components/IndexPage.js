@@ -1,4 +1,5 @@
 // Components
+import AboutUs from "./AboutUs";
 import IndexHeader from "./HeaderOptions/IndexHeader";
 import Marketplace from "./Marketplace";
 import TrendingServices from "./TrendingServices";
@@ -12,6 +13,7 @@ const IndexPage =() => {
             <main>
                 <TrendingServices />
                 <Marketplace />
+                <AboutUs />
             </main>
         </>
     );
