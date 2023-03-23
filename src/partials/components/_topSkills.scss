@@ -1,15 +1,31 @@
 @use "../abstract/variables" as *;
 
-.bottomFooter{
-    height: 30vh;
+.topSkills{
     .wrapper{
+        padding: 4rem 0;
         nav{
+            height: auto;
             background-color: $whiteFont;
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem 0;
+            margin: 5rem 0;
         }
         .navColumn{
-            border: 2px solid peach;
-            p{
+            h4{
+                margin-top: 0;
+                color: $black;
+            }
+            .initial{
+                color: $jobiGreen;
+            }
+            ul{
+                padding: 0;
+            }
+            li{
                 font-size: 1.8rem;
+                text-transform: capitalize;
+                margin: 1.6rem 0;
             }
         }
     }
