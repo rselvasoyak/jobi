@@ -70,11 +70,46 @@
             border: none;
             background-color: inherit;
             cursor: pointer;
-                                        // &:hover, 
+            // &:hover, 
             // &:focus{
 
             // }
         }
+
+
+        // Footer Nav 
+        .lookLink{
+            border: 2px solid $jobiGreen;
+            color: $jobiGreen;
+            padding: 1rem 3rem;
+            border-radius: 5px;
+            // &:hover, 
+            // &:focus{
+
+            // }
+        }
+
+        .postLink{
+            border: 2px solid $jobiGreen;
+            background-color: $jobiGreen;
+            color: $whiteFont;
+            padding: 1rem 3rem;
+            border-radius: 5px;
+            // &:hover, 
+            // &:focus{
+
+            // }
+        }
+
+        .send{
+            border: none;
+            padding: .8rem 1.5rem;
+            color: $whiteFont;
+            background-color: $darkGreen;
+            border-radius: 5px;
+        }
+
+
 
 
 

@@ -12,12 +12,12 @@ const TopFooter = () => {
                     <p>Signup and start find your job or talents.</p>
                 </div>
                 <div className="footerTopLinks"> 
-                    <a className="" href=" "> Looking for Job?</a>
-                    <a className="" href=" "> Post a job</a>
+                    <a className="lookLink" href=" "> Looking for Job?</a>
+                    <a className="postLink" href=" "> Post a job</a>
                 </div>
             </div>
             <div className="footerNav">
-                <div className="">
+                <div className="brandVisual">
                     <div className="logo" >
                         <img src= {logo} alt="Jobi company logo with 2 green and while circles overlapping"></img>
                     </div>
@@ -26,7 +26,7 @@ const TopFooter = () => {
                     </div>
                 </div>
                 <div className="footerNavList">
-                    <h6>products</h6>
+                    <h5>products</h5>
                     <ul>
                         <li>
                             <a href=" ">
@@ -61,7 +61,7 @@ const TopFooter = () => {
                     </ul>
                 </div>
                 <div className="footerNavList">
-                    <h6>links</h6>
+                    <h5>links</h5>
                     <ul>
                         <li>
                             <a href=" ">
@@ -86,7 +86,7 @@ const TopFooter = () => {
                     </ul>
                 </div>
                 <div className="footerNavList">
-                    <h6>legal</h6>
+                    <h5>legal</h5>
                     <ul>
                         <li>
                             <a href=" ">
@@ -116,13 +116,15 @@ const TopFooter = () => {
                     <div className="formInputBundle">
                         <form>
                             <label></label>
-                            <input
-                                placeholder=" Enter your email"
-                            >
-                            </input>
-                                <button>
+                            <div className="inputRow">
+                                <input
+                                    placeholder=" Enter your email"
+                                >
+                                </input>
+                                <button className="send">
                                     Send
                                 </button>
+                            </div>
                         </form>
                         <p className="formText"> We only send interesting and relevant emails</p>
                     </div> {/* form input bundle ending */}
