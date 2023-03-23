@@ -11,10 +11,8 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <header>      
-        <Nav />
-      </header>  
+    <>  
+      <Nav />
       <main>
         <Routes>
           <Route path='/' element={ <IndexPage /> } />
@@ -23,9 +21,7 @@ function App() {
           <Route path='/error' element ={ <ErrorPage /> } />
         </Routes>
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
