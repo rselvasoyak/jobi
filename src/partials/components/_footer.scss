@@ -11,3 +11,31 @@ footer{
         }
     }
 }
+
+.topFooter{
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerHeader{
+        display: flex;
+        border: 2px solid blue;
+        width: 100%;
+    }
+    .footerNav{
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid pink;
+        width: 100%;
+        .footerNavList{
+            border: 2px solid orangered;
+        }
+        .footerForm{
+            border: 2px solid orangered;
+        }
+
+        input{
+            border: none;
+        }
+    }
+}
