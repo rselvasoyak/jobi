@@ -29,16 +29,6 @@
             position: relative;
             margin: 1rem 4rem 5rem 4rem;
         }
-        blockquote::before{
-            content: "❝";
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        blockquote::after{
-            content: "❞";
-            position: absolute;
-        }
         .quoteBy{
             display: flex;
             align-items: center;

@@ -8,10 +8,13 @@
             background-color: $whiteFont;
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
             padding: 3rem 0;
             margin: 5rem 0;
         }
         .navColumn{
+            flex-basis: 20%;
+            padding-left: 2rem;
             h4{
                 margin-top: 0;
                 color: $black;

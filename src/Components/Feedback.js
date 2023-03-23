@@ -20,7 +20,7 @@ const Feedback = () => {
                         <button className="carouselBtn">
                             <img src={prevButton} alt=""></img>
                         </button>
-                        <blockquote>Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple.</blockquote>
+                        <blockquote>❝Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple❞</blockquote>
                         <button className="carouselBtn">
                             <img src={nextButton} alt=""></img>
                         </button>
