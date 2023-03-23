@@ -1,0 +1,16 @@
+@use "../abstract/variables" as *;
+
+.bottomFooter{
+    height: 30vh;
+    .wrapper{
+        nav{
+            background-color: $whiteFont;
+        }
+        .navColumn{
+            border: 2px solid peach;
+            p{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
