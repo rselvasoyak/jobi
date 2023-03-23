@@ -1,0 +1,35 @@
+@use "../abstract/variables" as *;
+
+.leadingBrand{
+    .wrapper{
+        background-color: $darkGreen;
+        display: flex;
+        border: 2px solid palevioletred;
+    }
+    .content{
+        flex-basis: 50%;
+        border: 2px solid red;
+        padding: 10rem;
+        h2{
+            margin: 0 0 2.5rem 0;
+            color: $whiteFont;
+        }
+        p{
+            width: 60%;
+            line-height: 2;
+            margin-top: 0;
+            margin-bottom: 5rem;
+            color: $whiteFont;
+        }
+    }
+    .leadingBrandImg{
+        flex-basis: 50%;
+        border: 2px solid green;
+        display: flex;
+        justify-content: center;
+        padding: 5rem;
+        img{
+            width: 80%;
+        }
+    }
+}
