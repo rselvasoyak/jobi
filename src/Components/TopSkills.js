@@ -1,6 +1,6 @@
 const TopSkills = () => {
     return(
-        <section className="bottomFooter">
+        <section className="topSkills">
             <div className="wrapper">
                 <nav>
                     <div className="navColumn">
