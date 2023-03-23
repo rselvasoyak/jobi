@@ -1,10 +1,10 @@
 const TopSkills = () => {
     return(
-        <section className="bottomFooter">
+        <section className="topSkills">
             <div className="wrapper">
                 <nav>
                     <div className="navColumn">
-                        <h4 className="mainSkill"> trending skills </h4>
+                        <h4 className="mainSkill initial"> trending skills </h4>
                         <ul>
                             <li>blockchain</li>
                             <li>node.js</li>
@@ -48,9 +48,9 @@ const TopSkills = () => {
                             <li>SEO services</li>
                             <li>translation services</li>
                         </ul>
-                    </div>
+                    </div>{/* navColumn ending */}
                 </nav>
-            </div> {/* g */}
+            </div> {/* wrapper ending */}
         </section>
     )
 }
