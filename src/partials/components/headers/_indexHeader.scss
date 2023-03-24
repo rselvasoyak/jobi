@@ -4,10 +4,8 @@
     background-color: $whiteFont;
     padding: 1rem 3rem;
     border-bottom: 2px solid $lightGrey;
-    height: 7vh;
     ul{
         display: flex;
-        // border: 2px solid red;
         width: 100%;
         justify-content: space-between;
         padding: 1rem 5rem;
@@ -24,8 +22,8 @@
 
 .headerContent{
     height: 80vh;
-    border: 2px solid pink;
     display: flex;
+    border: 5px solid red;
     .wrapper{
         display: flex;
         align-self: center;
@@ -39,10 +37,9 @@
         h1{
             margin: 1rem 0 4rem 0;
         }
-        p{
+        h4{
             margin: 0 0 1rem 0;
-            width: 60%;
-            line-height: 2;
+            color: $newGron;
         }
         .secondaryLink{
             margin: 3rem 0;

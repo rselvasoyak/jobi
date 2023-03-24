@@ -5,16 +5,23 @@
         display: flex;
         border: 2px solid blue;
         .businessContent{
+            border: 2px solid magenta;
             background-color: $brown;
-            padding: 9rem;
-            flex-basis: 55%;
+            padding: 7rem 10rem;
+            flex-basis: 50%;
             h2{
                 color: $whiteFont;
-                margin: 2rem 0;
+                line-height: 1.1;
+                text-transform: none;
+                margin-top: 1rem;
+                margin-bottom: 3rem;
                 .emphasize{
                     display: block;
                     color: $lightBrown;
                 }
+            }
+            h4{
+                margin: 0;
             }
             p{
                 color: $whiteFont;
@@ -23,7 +30,8 @@
                 font-size: 2rem;
             }
 
-            .bottomContent .stats{
+            .bottomInfo .stats{
+                border: 2px solid blue;
                 display: flex;
                 justify-content: space-between;
                 border-top: 2px solid $whiteFont;
@@ -31,6 +39,10 @@
             }
             .stat{
                 border: 2px solid pink;
+                margin-top: 1rem;
+                p{
+                    margin: 0;
+                }
             }
             .statTitle {
                 font-size: 3.2rem;
@@ -38,6 +50,9 @@
                 margin: 1rem 0;
             }
 
+        }
+        .businessImg{
+            background-color: $darkGreen;
         }
     }
 }

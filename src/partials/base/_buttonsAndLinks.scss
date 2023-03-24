@@ -35,6 +35,28 @@
         // }
     }
 
+    // MarketPlace 
+    .explore{
+        color: $jobiGreen;
+        &:hover, 
+        &:focus{
+            padding-bottom: .6rem;
+            border-bottom: 2px solid $jobiGreen;
+            border-radius: 1px;
+        }
+    }
+    .exploreJobi{
+        border: solid 2px red;
+        padding: 1rem 3rem;
+        background-color: $jobiGreen;
+        border-radius: 20px;
+        color: $whiteFont;
+        // &:hover, 
+        // &:focus{
+
+        // }
+    }
+
 
 
 // General Button Styling 

@@ -7,17 +7,19 @@ const Nav = () => {
                 <div className="logo" >
                     <img src= {logo} alt="Jobi company logo with 2 green and while circles overlapping"></img>
                 </div>
-                <form className="searchBar">
-                    <label for="searchInput" class="sr-only">Search</label>
-                    <input 
-                    className="searchInput"
-                    type="search" id="searchInput" name="search" placeholder="Search Here..." aria-label="Search"></input>
-                    <select
-                     className="searchOption"
-                     id="searchOption" name="searchOption">
-                        <option value="talents">Talents</option>
-                        <option value="jobs">Jobs</option>
-                    </select>
+                <form>
+                    <div className="searchBar">
+                        <label for="searchInput" class="sr-only">Search</label>
+                        <input 
+                        className="searchInput"
+                        type="search" id="searchInput" name="search" placeholder="Search Here..." aria-label="Search"></input>
+                        <select
+                        className="searchOption"
+                        id="searchOption" name="searchOption">
+                            <option value="talents">Talents</option>
+                            <option value="jobs">Jobs</option>
+                        </select>
+                    </div>
                 </form>
             </div>
             <div className="navRight">
@@ -28,6 +30,7 @@ const Nav = () => {
                     className="pages"
                     id="pages"
                     name="pages" aria-describedby="Available Pages in Jobi">
+                        <option defaultChecked value="default" title="default">Pages</option>
                         <option value="Home" title="Home">Home</option>
                         <option value="Job Lists" title="Job Lists">Job Lists</option>
                     </select>

@@ -26,7 +26,7 @@ const IndexHeader = () => {
                 <section className="headerContent">
                     <div className="wrapper">
                         <div className="indexHeaderText">
-                            <p className="headerP">#1 online marketplace</p>
+                            <h4 className="headerP">#1 online marketplace</h4>
                             <h1> Find the talents for any job. </h1>
                             <p> Unlock your potential with quality job & earn from world leading brands & co. </p>
                             <a className="secondaryLink" href=" "> Post a job </a>
