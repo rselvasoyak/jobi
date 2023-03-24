@@ -6,6 +6,7 @@ import JobListPage from './Components/JobListPage';
 import SingleJobPage from './Components/SingleJobPage';
 import Footer from './Components/Footer';
 import ErrorPage from './Components/ErrorPage';
+// import SecondIndex from './Components/SecondIndex';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <>  
       <Nav />
+      {/* <SecondIndex /> */}
       <main>
         <Routes>
           <Route path='/' element={ <IndexPage /> } />
