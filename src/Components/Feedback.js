@@ -18,11 +18,11 @@ const Feedback = () => {
                 <div className="quote">
                     <div className="quoteAndButtons">
                         <button className="carouselBtn">
-                            <img src={prevButton} alt=""></img>
+                            <img src={prevButton} alt="button to go left on on changing content"></img>
                         </button>
-                        <blockquote>Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple.</blockquote>
+                        <blockquote>❝Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple.❞</blockquote>
                         <button className="carouselBtn">
-                            <img src={nextButton} alt=""></img>
+                            <img src={nextButton} alt="button to go right on on changing content"></img>
                         </button>
                     </div>
                     <p className="quoteBy"> 

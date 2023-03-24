@@ -25,15 +25,15 @@ const BusinessSolution = () => {
                                     <p className="statTitle"> 30 k+</p>
                                     <p>smal</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+                            </div>{/* stats ending */}
+                        </div>{/* bottom nav ending */}
+                    </div>{/* business content ending */}
                     <div className="explore">
                         <a className="secondaryLink" href=" "> explore jobi business</a>
-                    </div>
-                </div>
+                    </div>{/* explore ending */}
+                </div>{/* business content ending */}
                 <div className="businessImg"></div>
-            </div>
+            </div>{/* wrapper ending */}
         </section>
     )
 }
