@@ -1,4 +1,4 @@
-import logo from "../partials/assets/mvpAssets/Logo-3.png";
+import logo from "../partials/assets/mvpAssets/Logo.png";
 
 const Nav = () => {
     return (
