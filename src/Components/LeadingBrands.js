@@ -13,10 +13,12 @@ const LeadingBrands = () => {
                     <p>
                         We collaborate with a number of top tier companies on imagining the future of work, have a look.
                     </p>
-                    <a className="secondaryLink learnMore" href=" "> learn more</a>
+                    <div className="learnMore">
+                        <a className="secondaryLink learnMore" href=" "> learn more</a>
+                    </div>
                 </div>
                 <div className="leadingBrandImg">
-                    <img src={leadingImg} alt=""></img>
+                    <img src={leadingImg} alt="Design with company logo and an ad stating they collaborate with 100+ leading brands"></img>
                 </div>
             </div>
         </section>
