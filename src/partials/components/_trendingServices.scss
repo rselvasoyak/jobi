@@ -1,14 +1,13 @@
 @use "../abstract/variables" as *;
 
 .trendingServ{
-    .wrapper{
-        border: 2px solid blue;
-    }
+    background-color: $lightGrey;
+    padding: 4rem;
     .serviceTopRow{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 0;
+        padding: 0 1rem;
         .carouselButtons{
             background-color: $whiteFont;
             border: 2px solid $lightGrey;
@@ -23,20 +22,30 @@
     .serviceLinks{
         display: flex;
         justify-content: space-between;
+        padding: 0;
+        margin-bottom: 4rem;
         .service{
-            border: 2px solid orange;
+            background-color: lightpink;
+            border-radius: 3px;
             height: 45rem;
             width: 40rem;
             position: relative;
-            p{
+            margin: 0 1rem;
+            .serviceTitle{
                 position: absolute;
                 bottom: 0;
-                // left: 15%;
-                width: 40rem;
+                width: 100%;
+                padding: 2rem 0;
+                color: $whiteFont;
+                font-weight: 600;
                 line-height: 1.8;
+                border-radius: 3px;
                 text-transform: capitalize;
-                background-image: linear-gradient(to top, $black, $grey);
+                background: linear-gradient(to top, $black 20%, rgba($color:$grey, $alpha: 0.1));
                 margin: 0;
+                p{
+                    margin-left: 5rem;
+                }
             }
             span{
                 display: block;

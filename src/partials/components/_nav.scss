@@ -2,37 +2,36 @@
 
 nav{
     display: flex;
-    // border: 2px solid blue;
-    padding: 2.5rem;
-    background-color: $darkGreen;
-    height: 10vh;
+    padding: 4rem 2rem;
+    border-bottom: 2px solid $lightGrey;
     .navLeft{
         display: flex;
-        // justify-content: space-around;
-        // border: 2px solid green;
+        align-items: center;
+        border: 2px solid green;
         width: 60%;
         .logo{
             width: 10%;
-            // border: 2px solid purple;
            margin-left: 7rem;
             img{
                 width: 100%;
             }
         }
+        form{
+            background-color: $lightGrey;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+        }
         .searchBar{
             display: flex;
             align-items: center;
             justify-content: center;
-            // border: 2px solid red;
-            width: 40%;
             .searchInput, .searchOption{
                 border: none;
             }
             .searchInput{
-                flex-basis: 60%;
-                padding: 1.8rem;
-                border-bottom-left-radius: 10px;
-                border-top-left-radius: 10px;
+                width: 40rem;
+                border-right: 2px solid $grey;
+                padding: 1rem;
                 background-color: $lightGrey;
             }
             .searchInput::placeholder{
@@ -56,85 +55,44 @@ nav{
             .searchOption{
                 flex-basis: 15%;
                 padding: 1.5rem;
-                background-color: $grey;
+                background-color: $lightGrey;
                 border-bottom-right-radius: 10px;
                 border-top-right-radius: 10px;
                 font-size: 1.6rem;
-            }
-            .searchOption::before{
-                content: "";
-            //   position: absolute;
-            //   left: 0.5em;
-            //   width: 1rem;
-            //   height: auto;
-            //   background-image: url('../assets/mvpAssets/Line.png');
-            //   background-size: contain;
-            //   background-repeat: no-repeat;
-            //   background-position: center;
             }
         }
     }
     .navRight{
         display: flex;
-        // border: 2px solid red;
         flex-basis: 40%;
         align-items: center;
         justify-content: space-around;
-        a{
-            color: $whiteFont;
-        }
         .searchLinks{
-            // border: 2px solid yellow;
             display: flex;
             flex-basis: 42%;
             justify-content: space-around;
             a{
-                // border: 2px solid red;
                 font-size: 1.8rem;
+                color: $black;
             }
             .pages{
                 border: none;
-                color: $whiteFont;
                 background-color: inherit;
                 font-size: 1.8rem;
             }
-            .pages option{
-                color: $black;
-            }
         }
         .userAuthLinks {
-            // border: 2px solid royalblue;
-            flex-basis: 23%;
+            width: 25rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
             .primaryLink {
                 color: $black;
+                margin-left: 10rem;
             }
         }
     }
 }
-
-// nav {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   border: 2px solid blue;
-//   padding: 1rem;
-// }
-
-// .navLeft {
-//   display: flex;
-//   border: 2px solid green;
-//   align-items: center;
-// }
-
-// .navRight {
-//   display: flex;
-//   border: 2px solid red;
-//   align-items: center;
-//   justify-content: center;
-// }
-
 
 // To do: 
     // Add hover and focus state on links with an underline for those states 
