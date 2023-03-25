@@ -1,0 +1,42 @@
+import logo from "../../partials/assets/mvpAssets/Logo.png";
+import shape from "../../partials/assets/mvpAssets/Shape.png";
+
+const SecondaryNav = () => {
+    return (
+        <>
+            <nav className="secondNavigation">
+                <div className="secNavLeft">
+                    <div className="navLeftContent">
+                        <div className="logo">
+                            <img src={logo} alt=" jobi logo with lime green and light green cirles"></img>
+                        </div>
+                        <div className="buttonCont">
+                            <button className="category">
+                                Category
+                            </button>
+                        </div>
+                    </div>
+                    <ul className="secondNav">
+                        <li><a href=" ">home</a></li>
+                        <li><a href=" ">job</a></li>
+                        <li><a href=" "> explore </a></li>
+                        <li><a href=" ">contact</a></li>
+                        <li><a href=" "> pages </a></li>
+                    </ul>
+                    <div className="designIcon">
+                        <img src={shape} alt=" a complimentary drawing design"></img>
+                    </div>
+                    <div className="jobLinks">
+                        <div className="postLogin">
+                            <a href=" " className=""> post job</a>
+                            <a href=" " className=""> login </a>
+                        </div>
+                        <a href=" " className="primaryLink">hire top talents</a>
+                    </div>{/* job links end */}
+                </div>{/* secNAvLeft ending */}
+            </nav>
+        </>
+    )
+}
+
+export default SecondaryNav;

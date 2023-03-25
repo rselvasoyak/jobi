@@ -1,7 +1,11 @@
-const JobListPage = () => {
+import SecondaryNav from "./JobListsView/SecondaryNav";
+
+const JobListsPage = () => {
     return(
-        <p> Job List Page </p>
+        <>
+            <SecondaryNav />
+        </>
     )
 }
 
-export default JobListPage;
+export default JobListsPage;

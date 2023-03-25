@@ -1,0 +1,16 @@
+@use "../abstract/variables" as *;
+
+.secondNavigation{
+    display: flex;
+    border: 2px solid blue;
+    .secNavLeft{
+        display: flex;
+        .navLeftContent{
+            display: flex;
+            border: 2px solid red;
+        }
+        .secondNav{
+            display: flex;
+        }
+    }
+}

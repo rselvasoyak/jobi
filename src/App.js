@@ -2,9 +2,9 @@ import './App.scss';
  
 import Nav from './Components/Nav';
 import IndexPage from './Components/IndexPage';
-import JobListPage from './Components/JobListPage';
+import JobListsPage from './Components/JobListPage';
 import SingleJobPage from './Components/SingleJobPage';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 import ErrorPage from './Components/ErrorPage';
 // import SecondIndex from './Components/SecondIndex';
 
@@ -18,7 +18,7 @@ function App() {
       <main>
         <Routes>
           <Route path='/' element={ <IndexPage /> } />
-          <Route path='/jobLists' element={ <JobListPage /> } />
+          <Route path='/jobLists' element={ <JobListsPage /> } />
           <Route path='/singleJobPage' element={ <SingleJobPage /> } />
           <Route path='/error' element ={ <ErrorPage /> } />
         </Routes>
