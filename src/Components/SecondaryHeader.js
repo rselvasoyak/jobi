@@ -1,3 +1,5 @@
+import bigDrawing from "../partials/assets/mvpAssets/Bg Shape.png"
+
 const SecondaryHeader = () => {
     return (
         <>
@@ -28,6 +30,9 @@ const SecondaryHeader = () => {
                 <button className="search">
                     search
                 </button>
+            </div>
+            <div className="designMiniIcon">
+                <img src={bigDrawing} alt=""></img>
             </div>
         </header>
         </>

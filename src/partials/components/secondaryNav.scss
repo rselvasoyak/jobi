@@ -9,16 +9,15 @@
     border-bottom: none;
     .secNavLeft{
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
         // border: 2px solid palevioletred;
         width: 50%;
         .navLeftContent{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             // border: 2px solid red;
             width: 40%;
-            margin-right: 5%;
             .buttonCont{
                 margin: auto 0;
             }

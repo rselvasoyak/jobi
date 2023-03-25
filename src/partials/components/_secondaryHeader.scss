@@ -7,7 +7,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 50vh;
+    position: relative;
+    padding-bottom: 5rem;
     h1{
         margin: 0;
         color: $whiteFont;
@@ -60,5 +62,10 @@
             border-top-right-radius: 5px;
             border-bottom-right-radius: 5px;
         }
+    }
+    .designMiniIcon{
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 }
