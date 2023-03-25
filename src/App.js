@@ -1,6 +1,6 @@
 import './App.scss';
  
-import Nav from './Components/Nav';
+// import Nav from './Components/Nav';
 import IndexPage from './Components/IndexPage';
 import JobListsPage from './Components/JobListPage';
 import SingleJobPage from './Components/SingleJobPage';
@@ -13,7 +13,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>  
-      <Nav />
+      {/* <Nav /> */}
       {/* <SecondIndex /> */}
       <main>
         <Routes>
