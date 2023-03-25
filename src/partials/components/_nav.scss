@@ -2,16 +2,18 @@
 
 nav{
     display: flex;
-    padding: 4rem 2rem;
+    justify-content: space-between;
+    height: 12vh;
     border-bottom: 2px solid $lightGrey;
     .navLeft{
         display: flex;
         align-items: center;
-        border: 2px solid green;
-        width: 60%;
+        justify-content: space-around;
+        // border: 2px solid green;
+        width: 40%;
         .logo{
-            width: 10%;
-           margin-left: 7rem;
+            width: 15%;
+            // margin-left: 7rem;
             img{
                 width: 100%;
             }

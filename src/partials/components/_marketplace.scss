@@ -16,6 +16,7 @@
         padding: 0;
         .field{
             border: 2px solid $lightGrey;
+            margin: 0 .5rem;
             height: 30rem;
             width: 25rem;
             padding: 1.5rem 0;
@@ -41,3 +42,6 @@
         }
     }
 }
+
+// To check
+    // Flex-Wrap for responsiveness

@@ -13,7 +13,7 @@ const ErrorPage = () => {
                         Page Not Found
                     </h1>
                     <p>Publishing industries for previewing layouts & visual mockups used.</p>
-                    <button>
+                    <button className="goBack">
                         <p className="goBack">go back</p>
                         <div>
                             <img src={slider} alt="arrow pointing towards right"></img>
