@@ -60,6 +60,7 @@
 
 
 
+
 // General Button Styling 
 
     // Index Page 
@@ -140,6 +141,30 @@
             // }
         }
 
+        .category{
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 3rem;
+            background-color: rgba($color: $whiteFont, $alpha: 0.1);
+            color: $limeGreen;
+        }
+
+        // Second Navigation 
+        .login{
+            border: none;
+            background-color: inherit;
+            font-size: 1.8rem;
+            color: $limeGreen;
+            text-transform: capitalize;
+        }
+
+        .search{
+            padding: 0 5rem;
+            font-size: 1.8rem;
+            text-transform: capitalize;
+            background-color: $limeGreen;
+            border: none;
+        }
 
 
 

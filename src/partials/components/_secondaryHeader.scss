@@ -1,0 +1,71 @@
+@use "../abstract/variables" as *;
+
+.secondHeader{
+    background-color: $darkGreen;
+    display: flex;
+    // border: 2px solid aqua;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+    padding-bottom: 5rem;
+    h1{
+        margin: 0;
+        color: $whiteFont;
+    }
+    p{
+        color: $whiteFont;
+    }
+    .formCont{
+        // border: 2px solid red;
+        padding: 0;
+        display: flex;
+        width: auto;
+        margin-top: 5rem;
+        form{
+            display: flex;
+            // border: 2px solid magenta;
+            padding: 2.5rem 2rem 2rem 2rem;
+            background-color: $whiteFont;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .searchInput{
+            border: 2px solid blue;
+            padding: 0;
+            // background-color: $whiteFont;
+            border: none;
+            input{
+                border: none;
+                padding: 1rem 0;
+            }
+        }
+        .searchOptions{
+            // border: 2px solid pink;
+            border-left: 2px solid $lightGrey;
+            padding-left: 3rem;
+            select{
+                border: none;
+                background-color: inherit;
+                padding: 1rem 0;
+            }
+        }
+        input, select{
+            width: 25rem;
+        }
+        p{
+            margin: 0;
+            color: $grey;
+        }
+        .search{
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+    .designMiniIcon{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
