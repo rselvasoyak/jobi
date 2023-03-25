@@ -23,17 +23,19 @@ const SecondaryNav = () => {
                         <li><a href=" ">contact</a></li>
                         <li><a href=" "> pages </a></li>
                     </ul>
-                    <div className="designIcon">
-                        <img src={shape} alt=" a complimentary drawing design"></img>
-                    </div>
-                    <div className="jobLinks">
-                        <div className="postLogin">
-                            <a href=" " className=""> post job</a>
-                            <a href=" " className=""> login </a>
-                        </div>
-                        <a href=" " className="primaryLink">hire top talents</a>
-                    </div>{/* job links end */}
                 </div>{/* secNAvLeft ending */}
+                <div className="designIcon">
+                    <img src={shape} alt=" a complimentary drawing design"></img>
+                </div>
+                <div className="jobLinks">
+                    <div className="postLogin">
+                        <a href=" " className="post"> post job</a>
+                        <button className="login"> login </button>
+                    </div>
+                    <div>
+                        <a href=" " className="primaryLink">hire top talents</a>
+                    </div>
+                </div>{/* job links end */}
             </nav>
         </>
     )

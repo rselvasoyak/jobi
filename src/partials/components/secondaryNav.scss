@@ -2,15 +2,59 @@
 
 .secondNavigation{
     display: flex;
-    border: 2px solid blue;
+    // border: 2px solid blue;
+    background-color: $darkGreen;
+    padding: 1rem 0;
     .secNavLeft{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // border: 2px solid palevioletred;
+        width: 50%;
         .navLeftContent{
             display: flex;
-            border: 2px solid red;
+            justify-content: space-around;
+            // border: 2px solid red;
+            width: 40%;
+            margin-right: 5%;
+            .buttonCont{
+                margin: auto 0;
+            }
         }
         .secondNav{
             display: flex;
+            justify-content: space-between;
+            // border: 2px solid orange;
+            width: 50%;
+            padding: 0;
+            a{
+                color: $whiteFont;
+            }
+        }
+    }
+    .designIcon{
+        margin: 0 auto;
+        // border: 2px solid brown;
+        width: auto;
+    }
+    .jobLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 2px solid purple;
+        width: 40%;
+        .postLogin{
+            padding: 2rem;
+            margin-right: 2rem;
+            width: 25%;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: space-between;
+            .post{
+                padding-right: 3rem;
+                border-right: 2px solid $limeGreen;
+                color: $whiteFont;
+            }
         }
     }
 }
