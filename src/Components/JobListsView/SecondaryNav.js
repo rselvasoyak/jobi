@@ -10,7 +10,7 @@ const SecondaryNav = () => {
                         <div className="logo">
                             <img src={logo} alt=" jobi logo with lime green and light green cirles"></img>
                         </div>
-                        <div className="buttonCont">
+                        <div className="categButton">
                             <button className="category">
                                 Category
                             </button>

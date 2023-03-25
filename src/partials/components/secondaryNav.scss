@@ -4,7 +4,7 @@
     display: flex;
     // border: 2px solid blue;
     background-color: $darkGreen;
-    padding: 1rem 0;
+    padding: 0 10rem;
     height: 12vh;
     border-bottom: none;
     .secNavLeft{
@@ -15,10 +15,12 @@
         width: 50%;
         .navLeftContent{
             display: flex;
-            justify-content: space-evenly;
-            // border: 2px solid red;
-            width: 40%;
-            .buttonCont{
+            border: 2px solid red;
+            width: 35%;
+            .logo{
+                margin-right: 4rem;
+            }
+            .categButton{
                 margin: auto 0;
             }
         }
@@ -40,14 +42,13 @@
     }
     .jobLinks{
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         // border: 2px solid purple;
         width: 40%;
         .postLogin{
             padding: 2rem;
             margin-right: 2rem;
-            width: 25%;
             // border: 2px solid blue;
             display: flex;
             justify-content: space-between;
@@ -55,6 +56,9 @@
                 padding-right: 3rem;
                 border-right: 2px solid $limeGreen;
                 color: $whiteFont;
+            }
+            .login{
+                padding-left: 3rem;
             }
         }
     }
