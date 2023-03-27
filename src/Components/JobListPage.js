@@ -1,4 +1,4 @@
-import JobFilterForm from "./JobFilterForm";
+import JobFilterForm from "./JobListsPage/JobFilterForm";
 import SecondaryNav from "./JobListsView/SecondaryNav";
 import SecondaryHeader from "./SecondaryHeader";
 
