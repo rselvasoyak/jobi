@@ -1,5 +1,5 @@
-import left from "../partials/assets/mvpAssets/Left Arrow.png";
-import right from "../partials/assets/mvpAssets/Right Arrow.png";
+// import left from "../partials/assets/mvpAssets/Left Arrow.png";
+// import right from "../partials/assets/mvpAssets/Right Arrow.png";
 
 
 const TrendingServices = () => {
