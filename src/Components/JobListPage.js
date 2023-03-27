@@ -7,7 +7,7 @@ const JobListsPage = () => {
         <>
             <SecondaryNav />
             <SecondaryHeader />
-            <div>
+            <div className="wrapper">
                 <JobFilterForm />
             </div>
         </>
