@@ -1,3 +1,4 @@
+import JobLists from "./JobLists";
 import JobFilterForm from "./JobListsPage/JobFilterForm";
 import SecondaryNav from "./JobListsView/SecondaryNav";
 import SecondaryHeader from "./SecondaryHeader";
@@ -9,6 +10,7 @@ const JobListsPage = () => {
             <SecondaryHeader />
             <div className="wrapper">
                 <JobFilterForm />
+                <JobLists />
             </div>
         </>
     )
