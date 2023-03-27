@@ -4,7 +4,7 @@ const JobFilterForm = () => {
             <section className="filterByForm">
                 <h4>filter by </h4>
                 <aside>
-                    <form action="" method="" name="">
+                    <form action="#" method="GET" name="filter">
                         <fieldset>
                             <label htmlFor="keyword"
                             className="sr-only" > search by keyword </label>
