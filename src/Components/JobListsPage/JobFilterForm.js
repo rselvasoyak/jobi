@@ -207,9 +207,6 @@ const JobFilterForm = () => {
                     </form>
                 </aside>
             </section>
-            <section className="jobPosts">
-                <p>Hello 1</p>
-            </section>
         </>
     )
 }
