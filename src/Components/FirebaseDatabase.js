@@ -18,15 +18,11 @@ const FirebaseDatabase = ({children}) => {
             jobsData.forEach((job) => {
                 console.log(job);
               const firebaseObj = push(dbRef, job); 
-            //   console.log(firebaseObj); 
               return firebaseObj;
             })
         }
         setIsDataPushed(true);
 
-        // const firebaseObj = push (dbRef, jobsData); 
-        // console.log(firebaseObj);
-        // console.log(jobsData);
     }, [isDataPushed]);
 
     useEffect(() => {
@@ -35,20 +31,14 @@ const FirebaseDatabase = ({children}) => {
             const dbRef = ref(database);
 
             /* const firebaseData = await */ onValue(dbRef, (response) => {
-                // console.log(response);
                 const jobsData = [];
                 const firebaseJobs = response.val();
                 for (let key in firebaseJobs){
                     // console.log(key);
                     jobsData.push({key:key, ...firebaseJobs[key]})
                 }
-                // console.log(jobsData);
                 setJobs(jobsData);
-                // console.log(jobs);
             });
-            // firebaseData();
-        // }
-        // fetchData();
     }, [])
     console.log(jobs);
     return children({jobs});
