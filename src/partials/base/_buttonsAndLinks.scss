@@ -64,6 +64,36 @@
         color: $whiteFont;
         border-radius: 20px;
     }
+    // Footer Nav 
+    .lookLink{
+        border: 2px solid $jobiGreen;
+        color: $jobiGreen;
+        padding: 1rem 3rem;
+        border-radius: 5px;
+        // &:hover, 
+        // &:focus{
+
+        // }
+    }
+
+    .secondLookLink{
+        border: 2px solid $darkGreen;
+        color: $darkGreen;
+        padding: 1rem 3rem;
+        border-radius: 5px; 
+    }
+
+    .secondPostLink{
+        border: 2px solid $limeGreen;
+        background-color: $limeGreen;
+        color: $darkGrey;
+        padding: 1rem 3rem;
+        border-radius: 5px;
+        // &:hover, 
+        // &:focus{
+
+        // }
+    }
 
 
 
@@ -107,18 +137,6 @@
             // }
         }
 
-
-        // Footer Nav 
-        .lookLink{
-            border: 2px solid $jobiGreen;
-            color: $jobiGreen;
-            padding: 1rem 3rem;
-            border-radius: 5px;
-            // &:hover, 
-            // &:focus{
-
-            // }
-        }
 
         .postLink{
             border: 2px solid $jobiGreen;

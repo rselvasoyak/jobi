@@ -3,12 +3,15 @@
 
 .jobLists{
     margin: 10rem 0;
-    margin-left: 5rem;
-    border: 2px solid green;
+    margin-left: 4rem;
     width: auto;
     .topTopRow{
-        // border: 2px solid cyan;
         margin: 0 2rem;
+        color: $blurDarkGrey;
+        span{
+            color: $black;
+            display: inline-block;
+        }
     }
     .listsContainer{
         display: flex;
@@ -18,25 +21,20 @@
         border: 2px solid $lightGrey;
         padding: 3rem;
         border-radius: 10px;
-        // background-color: $lighttGreen;
-        // border: 2px solid blue;
-        margin: 0 2rem;
+        margin: .5rem 2rem 1rem 2rem;
         flex-basis: calc(50% - 4rem);
         .topListRow{
-            // border: 2px solid red;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .listContent{
-            // border: 2px solid magenta;
             .jobType{
                 width: 10rem;
                 text-align: center;
                 padding: .4rem .9rem;
                 font-weight: 600;
                 text-transform: capitalize;
-                // border: 2px solid blue;
                 background-color: $blueGreen;
                 color: $green;
                 border-radius: 10px;
@@ -55,7 +53,6 @@
             }
         }
         .bottomListRow{
-            // border: 2px solid green;
             display: flex;
             justify-content: space-between;
             align-items: center;

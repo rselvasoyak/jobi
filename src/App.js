@@ -1,29 +1,23 @@
 import './App.scss';
  
-// import Nav from './Components/Nav';
-import IndexPage from './Components/IndexPage';
-import JobListsPage from './Components/JobListPage';
-import SingleJobPage from './Components/SingleJobPage';
-// import Footer from './Components/Footer';
+import IndexPage from './Components/IndexPage/IndexPage';
+import JobListsPage from './Components/JobListsPage/JobListPage';
+import SingleJobPage from './Components/SingleJobPage/SingleJobPage';
+import Footer from './Components/Footer/Footer';
 import ErrorPage from './Components/ErrorPage';
-// import SecondIndex from './Components/SecondIndex';
 
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>  
-      {/* <Nav /> */}
-      {/* <SecondIndex /> */}
-      <main>
         <Routes>
           <Route path='/' element={ <IndexPage /> } />
           <Route path='/jobLists' element={ <JobListsPage /> } />
           <Route path='/singleJobPage' element={ <SingleJobPage /> } />
           <Route path='/error' element ={ <ErrorPage /> } />
         </Routes>
-      </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -3,11 +3,11 @@
 .secondHeader{
     background-color: $darkGreen;
     display: flex;
-    // border: 2px solid aqua;
+    border: 2px solid aqua;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    min-height: 35vh;
     position: relative;
     padding-bottom: 5rem;
     h1{

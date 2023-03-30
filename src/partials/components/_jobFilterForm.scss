@@ -2,10 +2,10 @@
 
 .filterByForm{
     margin: 10rem 0;
-    max-width: 25%;
+    min-width: 20%;
     h4{
         color: $black;
-        margin: 2rem 0;
+        margin: 2rem .5rem;
     }
     .filterCont{
         display: flex;
