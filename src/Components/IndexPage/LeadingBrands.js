@@ -1,4 +1,4 @@
-import leadingImg from "../partials/assets/mvpAssets/Right.png"
+import leadingImg from "../../partials/assets/mvpAssets/Right.png"
 
 const LeadingBrands = () => {
     return (

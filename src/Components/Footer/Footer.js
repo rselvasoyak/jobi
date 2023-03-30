@@ -1,6 +1,6 @@
-import facebook from "../partials/assets/mvpAssets/Facebook.png"
-import insta from "../partials/assets/mvpAssets/instagram.png"
-import pinterest from "../partials/assets/mvpAssets/pinterest.png"
+import facebook from "../../partials/assets/mvpAssets/Facebook.png"
+import insta from "../../partials/assets/mvpAssets/instagram.png"
+import pinterest from "../../partials/assets/mvpAssets/pinterest.png"
 import TopFooter from "./TopFooter"
 
 const Footer = () => {

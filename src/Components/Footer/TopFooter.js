@@ -1,10 +1,17 @@
-import logo from "../partials/assets/mvpAssets/Logo-3.png";
-import drawing from "../partials/assets/mvpAssets/drawing1.png";
+import logo from "../../partials/assets/mvpAssets/Logo-3.png";
+import drawing from "../../partials/assets/mvpAssets/drawing1.png";
+import { Link, useLocation } from "react-router-dom";
+// import { $lightGreen, $whiteFont } from "../../../partials/abstract/_variables.scss";
 
 const TopFooter = () => {
+    const location = useLocation();
+    const bgColor = location.pathname === "/" ? "#e9f2ef": "#fff";
+    const lookLinkStyle = location.pathname === "/" ? "lookLink" : "secondLookLink";
+    const postJobStyle = location.pathname === "/" ? "postLink" : "secondPostLink";
+    const signupBackground = location.pathname === "/" ? "inherit" : "#F5F5F5";
+    
  return(
-    <>
-    <section className="topFooter">
+    <section className="topFooter" style={{ backgroundColor: bgColor }}>
         <div className="wrapper">
             <div className="footerHeader">
                 <div className="footerContent">
@@ -12,8 +19,8 @@ const TopFooter = () => {
                     <p>Signup and start find your job or talents.</p>
                 </div>
                 <div className="footerTopLinks"> 
-                    <a className="lookLink" href=" "> Looking for Job?</a>
-                    <a className="postLink" href=" "> Post a job</a>
+                    <Link to="/jobLists" className={`${lookLinkStyle}`}> Looking for Job?</Link>
+                    <a className={`${postJobStyle}`} href=" "> Post a job</a>
                 </div>
             </div>
             <div className="footerNav">
@@ -116,8 +123,9 @@ const TopFooter = () => {
                     <div className="formInputBundle">
                         <form>
                             <label></label>
-                            <div className="inputRow">
+                            <div className="inputRow" style={{ backgroundColor:signupBackground }}>
                                 <input
+                                style={{ backgroundColor:signupBackground }}
                                     placeholder=" Enter your email"
                                 >
                                 </input>
@@ -132,7 +140,6 @@ const TopFooter = () => {
             </div> {/* footer nav ending */}
         </div> {/* wrapper ending */}
     </section>
-    </>
  )   
 }
 

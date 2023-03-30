@@ -1,4 +1,5 @@
-import logo from "../partials/assets/mvpAssets/Logo-3.png";
+import logo from "../../partials/assets/mvpAssets/Logo-3.png";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
@@ -24,7 +25,7 @@ const Nav = () => {
             </div>
             <div className="navRight">
                 <div className="searchLinks">
-                    <a href=" "> find job</a>
+                    <Link to="/jobLists"> find job </Link>
                     <a href=" "> find talents </a>
                     <select 
                     className="pages"

@@ -1,17 +1,17 @@
-import google from "../partials/assets/mvpAssets/Logo-1.png"
+import google from "../../partials/assets/mvpAssets/Logo-1.png"
 
 const JobLists = ({jobs}) => {
     return(
         <section className="jobLists"> 
             <div className="topTopRow"> 
                 <p>
-                   Top Row 
+                   All <span>7,096</span> jobs found 
                 </p>
             </div>
             <div className="listsContainer">
                 {jobs.map ((job)=> {
                     // console.log(job); 
-                    const { key, contractType, title} = job;
+                    const { key, contractType, title, location} = job;
                     return(
                         <div className="job" key={key}>
                             <div className="topListRow">
@@ -32,7 +32,7 @@ const JobLists = ({jobs}) => {
                                 </div>
                             </div>
                             <div className="bottomListRow">
-                                <p>USA, California</p>
+                                <p>{location.country},{location.city}</p>
                                 <div>
                                     <a href=" " className="apply"> apply</a>
                                 </div>

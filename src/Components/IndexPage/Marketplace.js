@@ -1,11 +1,12 @@
-import editing from "../partials/assets/mvpAssets/Icon-2.png";
-import tele from "../partials/assets/mvpAssets/Icon-3.png";
-import marketing from "../partials/assets/mvpAssets/Icon-4.png";
-import code from "../partials/assets/mvpAssets/Icon-5.png";
-import account from "../partials/assets/mvpAssets/Icon-6.png";
-import pen from "../partials/assets/mvpAssets/Combined-Shape.png";
+import editing from "../../partials/assets/mvpAssets/Icon-2.png";
+import tele from "../../partials/assets/mvpAssets/Icon-3.png";
+import marketing from "../../partials/assets/mvpAssets/Icon-4.png";
+import code from "../../partials/assets/mvpAssets/Icon-5.png";
+import account from "../../partials/assets/mvpAssets/Icon-6.png";
+import pen from "../../partials/assets/mvpAssets/Combined-Shape.png";
 // import rightArrow from "../partials/assets/mvpAssets/Right Arrow.png";
 
+import {Link} from "react-router-dom";
 
 const Marketplace = () => {
     return(
@@ -14,7 +15,7 @@ const Marketplace = () => {
                 <div className="marketTopRow">
                     <h3> Explore the marketplace. </h3>
                     <div>
-                        <a href=" " className="explore"> Explore all fields </a>
+                        <Link to ="/jobLists"className="explore"> Explore all fields </Link>
                     </div>
                 </div>
                 <ul className="marketLists">

@@ -1,8 +1,8 @@
-import FirebaseDatabase from "./FirebaseDatabase";
-import JobLists from "./JobLists";
-import JobFilterForm from "./JobListsPage/JobFilterForm";
-import SecondaryNav from "./JobListsView/SecondaryNav";
-import SecondaryHeader from "./SecondaryHeader";
+import FirebaseDatabase from "../FirebaseDatabase";
+import JobLists from "../JobListsPage/JobLists";
+import JobFilterForm from "./JobFilterForm";
+import SecondaryNav from "../Nav/SecondaryNav";
+import SecondaryHeader from "../HeaderOptions/SecondaryHeader";
 
 
 const JobListsPage = () => {

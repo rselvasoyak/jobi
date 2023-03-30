@@ -1,7 +1,7 @@
-import secondLogo from "../partials/assets/mvpAssets/Icon-8.png"
-import prevButton from "../partials/assets/mvpAssets/Slider Btn Prev.png"
-import nextButton from "../partials/assets/mvpAssets/Slider Button Next.png"
-import vector from "../partials/assets/mvpAssets/Vector 720.png"
+import secondLogo from "../../partials/assets/mvpAssets/Icon-8.png"
+import prevButton from "../../partials/assets/mvpAssets/Slider Btn Prev.png"
+import nextButton from "../../partials/assets/mvpAssets/Slider Button Next.png"
+import vector from "../../partials/assets/mvpAssets/Vector 720.png"
 
 
 

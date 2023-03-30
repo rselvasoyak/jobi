@@ -22,9 +22,9 @@ const FirebaseDatabase = ({children}) => {
             })
         }
         setIsDataPushed(true);
-
     }, [isDataPushed]);
 
+    // Pull Data 
     useEffect(() => {
         // const fetchData = async () => {
             const database = getDatabase(firebase);

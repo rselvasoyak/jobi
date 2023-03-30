@@ -1,6 +1,6 @@
-import whyUsImg from "../partials/assets/mvpAssets/Left.png"
-import up from "../partials/assets/mvpAssets/upArrow.png"
-import down from "../partials/assets/mvpAssets/downArrow.png"
+import whyUsImg from "../../partials/assets/mvpAssets/Left.png"
+import up from "../../partials/assets/mvpAssets/upArrow.png"
+import down from "../../partials/assets/mvpAssets/downArrow.png"
 
 const AboutUs = () => {
     return(
