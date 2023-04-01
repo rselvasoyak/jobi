@@ -17,9 +17,10 @@ const LeadingBrands = () => {
                         <a className="secondaryLink learnMore" href=" "> learn more</a>
                     </div>
                 </div>
-                <div className="leadingBrandImg">
+                <figure className="leadingBrandImg">
                     <img src={leadingImg} alt="Design with company logo and an ad stating they collaborate with 100+ leading brands"></img>
-                </div>
+                    <figcaption className="sr-only">Design with company logo and an ad stating they collaborate with 100+ leading brands</figcaption>
+                </figure>
             </div>
         </section>
     )

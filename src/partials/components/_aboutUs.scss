@@ -9,10 +9,10 @@
     }
     .whyUsImgCont{
         // border: 2px solid orange;
-        flex-basis: 50%;
+        // flex-basis: 50%;
         display: flex;
+        width: 50%;
         img{
-            width: 100%;
             object-fit: scale-down;
         }
     }
