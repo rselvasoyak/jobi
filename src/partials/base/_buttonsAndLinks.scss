@@ -192,7 +192,8 @@
             cursor: pointer;
             &:hover, 
             &:focus{
-                color: red;
+                transform: scale(1.1);
+                transition: .5s;
             }
             &:visited{
                 color: purple;
