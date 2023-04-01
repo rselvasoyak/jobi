@@ -5,7 +5,7 @@
         display: flex;
         border: 2px solid blue;
         .businessContent{
-            border: 2px solid magenta;
+            // border: 2px solid magenta;
             background-color: $brown;
             padding: 7rem 10rem;
             flex-basis: 50%;
@@ -31,14 +31,14 @@
             }
 
             .bottomInfo .stats{
-                border: 2px solid blue;
+                // border: 2px solid blue;
                 display: flex;
                 justify-content: space-between;
                 border-top: 2px solid $whiteFont;
-                margin-top: 7rem;
+                margin: 5rem 0;
             }
             .stat{
-                border: 2px solid pink;
+                // border: 2px solid pink;
                 margin-top: 1rem;
                 p{
                     margin: 0;

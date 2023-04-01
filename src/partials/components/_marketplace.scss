@@ -3,41 +3,44 @@
 
 .marketPlace{
     padding: 13rem 0;
-}
-.wrapper{
-    .marketTopRow{
+    .wrapper{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .marketLists {
-        display: flex;
-        justify-content: space-between;
-        padding: 0;
-        .field{
-            border: 2px solid $lightGrey;
-            margin: 0 .5rem;
-            height: 30rem;
-            width: 25rem;
-            padding: 1.5rem 0;
-            border-radius: 70px;
+        flex-direction: column;
+        // border: 2px solid red;
+        .marketTopRow{
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            &:hover, 
-            &focus{
-                border: 2px solid $jobiGreen;
-            }
-            .fieldContent{
-                height: 80%;
-                padding: 1rem 0;
+        }
+        .marketLists {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            .field{
+                border: 2px solid $lightGrey;
+                margin: 0 .5rem;
+                height: 30rem;
+                width: 25rem;
+                padding: 1.5rem 0;
+                border-radius: 70px;
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
-            }
-            p{
-                margin-bottom: 0;
+                &:hover, 
+                &focus{
+                    border: 2px solid $jobiGreen;
+                }
+                .fieldContent{
+                    height: 80%;
+                    padding: 1rem 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                p{
+                    margin-bottom: 0;
+                }
             }
         }
     }

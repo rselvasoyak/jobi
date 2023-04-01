@@ -1,6 +1,8 @@
 @use "../abstract/variables" as *;
 
-
+.wrapper{
+    flex-direction: row;
+}
 .jobLists{
     margin: 10rem 0;
     margin-left: 4rem;

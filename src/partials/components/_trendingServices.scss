@@ -3,6 +3,9 @@
 .trendingServ{
     background-color: $lightGrey;
     padding: 4rem;
+    .wrapper{
+        flex-direction: column;
+    }
     .serviceTopRow{
         display: flex;
         justify-content: space-between;

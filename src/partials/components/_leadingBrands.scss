@@ -4,6 +4,7 @@
     .wrapper{
         background-color: $darkGreen;
         display: flex;
+        flex-direction: row;
         padding: 4rem 0;
     }
     .content{
