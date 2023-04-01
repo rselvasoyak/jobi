@@ -35,9 +35,9 @@ const IndexHeader = () => {
                                 <img src={ logo1 } alt=""></img>
                                 <img src={ logo2 } alt=""></img>
                                 <img src={ logo3 } alt=""></img>
-                            </div>
-                        </div>
-                    </div>
+                            </div>{/* trusted companies end */}
+                        </div>{/* trustedBy container end  */}
+                    </div>{/* index header tet end */}
                     <div className="headerImg">
                         <img src="http://placekitten.com/g/200/300" alt=""></img>
                     </div>

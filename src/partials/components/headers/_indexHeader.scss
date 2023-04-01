@@ -2,7 +2,7 @@
 
 .indexSecondNav{
     background-color: $whiteFont;
-    height: 5vh;
+    height: 10vh;
     border-bottom: 2px solid $lightGrey;
     ul{
         display: flex;
@@ -22,13 +22,15 @@
 }
 
 .headerContent{
-    height: 83vh;
+    // height: 83vh;
+    // height: auto;
     display: flex;
+    justify-content: flex-start;
     // border: 5px solid red;
     .wrapper{
         display: flex;
         align-self: center;
-        // border: 2px solid red;
+        border: 2px solid red;
     }
     .indexHeaderText {
         // border: 2px solid green;
@@ -61,12 +63,12 @@
         }
     }
     .headerImg{
-        // position: absolute;
-        // right: 0;
+        position: absolute;
+        right: 0;
         // top: 35rem;
-        width: 80rem;
-        height: 50rem;
-        // border: 2px solid purple;
+        width: 70rem;
+        height: 70%;
+        border: 2px solid purple;
         img{
             width: 100%;
             height: 100%;

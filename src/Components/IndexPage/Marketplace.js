@@ -15,7 +15,7 @@ const Marketplace = () => {
                 <div className="marketTopRow">
                     <h3> Explore the marketplace. </h3>
                     <div>
-                        <Link to ="/jobLists"className="explore"> Explore all fields </Link>
+                        <Link to ="/jobLists"className="explore" aria-label="Explore all fields"> Explore all fields </Link>
                     </div>
                 </div>
                 <ul className="marketLists">

@@ -3,17 +3,19 @@
 nav{
     display: flex;
     justify-content: space-between;
-    height: 12vh;
+    height: 20vh;
+    padding: 1.5rem .5rem;
     border-bottom: 2px solid $lightGrey;
     .navLeft{
         display: flex;
         align-items: center;
         justify-content: space-around;
         // border: 2px solid green;
-        width: 40%;
+        // width: 40%;
         .logo{
             width: 15%;
             // margin-left: 7rem;
+            // border: 2px solid red;
             img{
                 width: 100%;
             }
@@ -66,9 +68,10 @@ nav{
     }
     .navRight{
         display: flex;
-        flex-basis: 40%;
+        // flex-basis: 40%;
         align-items: center;
         justify-content: space-around;
+        // border: 2px solid blue;
         .searchLinks{
             display: flex;
             flex-basis: 42%;

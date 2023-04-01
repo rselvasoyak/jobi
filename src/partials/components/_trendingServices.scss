@@ -25,15 +25,26 @@
     .serviceLinks{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        // border: 2px solid red;
+        width: 100%;
         padding: 0;
         margin-bottom: 4rem;
         .service{
             background-color: lightpink;
             border-radius: 3px;
-            height: 45rem;
-            width: 40rem;
+            height: 35rem;
+            width: calc((100% / 4) - 2.5rem);
             position: relative;
             margin: 0 1rem;
+            &:hover, 
+            &:focus{
+                box-sizing: border-box;
+                border: 2px solid $jobiGreen;
+            }
+            a{
+                border: 2px solid red;
+            }
             .serviceTitle{
                 position: absolute;
                 bottom: 0;

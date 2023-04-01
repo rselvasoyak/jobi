@@ -4,23 +4,23 @@
 
 const TrendingServices = () => {
     return (
-        <section className="trendingServ">
+        <section className="trendingServ" aria-label="Trending Services">
             <div className="wrapper">
                 <div className="serviceTopRow">
                     <h2> trending services </h2>
-                    {/* <div className="carouselButtons">
-                        <button className="left"> 
-                            <img src={ left }alt="left button arrow"></img>
+                    {/* <div className="carouselButtons" aria-label="Carousel Navigation">
+                        <button className="left" aria-label="Previous Service"> 
+                            <img src={ left } alt="Left arrow button"></img>
                         </button>
-                        <button className="right"> 
-                            <img src={ right }alt="right button arrow"></img>
+                        <button className="right" aria-label="Next Service"> 
+                            <img src={ right } alt="Right arrow button"></img>
                         </button>
                     </div> */}
                 </div>
                 <ul className="serviceLinks">
                     <li className="service">
                         <div className="serviceImgCont">
-                            {/* <img></img> */}
+                            <a href=" "> {/* <img></img> */} </a>
                         </div>
                         <div className="serviceTitle">
                             <p><span> wordPress </span> development.</p>
@@ -28,7 +28,7 @@ const TrendingServices = () => {
                     </li>
                     <li className="service">
                         <div className="serviceImgCont">
-                            {/* <img></img> */}
+                            <a href=" " aria-label="Audio and Video Editing"> {/* <img></img> */} </a>
                         </div>
                         <div className="serviceTitle">
                            <p><span> audio & </span> video editing.</p>
@@ -36,7 +36,7 @@ const TrendingServices = () => {
                     </li>
                     <li className="service">
                         <div className="serviceImgCont">
-                            {/* <img></img> */}
+                            <a href=" " aria-label="Product and Branding Design"> {/* <img></img> */} </a>
                         </div>
                         <div className="serviceTitle">
                             <p><span> product & </span> branding design</p>
@@ -44,7 +44,7 @@ const TrendingServices = () => {
                     </li>
                     <li className="service">
                         <div className="serviceImgCont">
-                            {/* <img></img> */}
+                            <a href=" www.google.com" aria-label="Admin and Customer Support"> {/* <img src={} alt=""></img> */} </a>
                         </div>
                         <div className="serviceTitle">
                             <p><span> admin & </span> customer support </p>

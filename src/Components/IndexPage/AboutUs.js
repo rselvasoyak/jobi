@@ -7,7 +7,7 @@ const AboutUs = () => {
        <section className="whyUs">
         <div className="wrapper">
             <div className="whyUsImgCont">
-                <img src={whyUsImg} alt=""></img>
+                <img src={whyUsImg} alt="Content displaying different applicant and job search elements from the site"></img>
             </div>
             <div className="whyUsContent">
                 <div className="headerInfo">
@@ -20,9 +20,9 @@ const AboutUs = () => {
                             <p className="reasonTitle">
                                 seamless search
                             </p>
-                            <button className="accordionButton">
-                                <img src={up}alt=""></img>
-                                <img src={down}alt=""></img>
+                            <button className="accordionButton" aria-expanded="true" aria-controls="reason1Text">
+                                {/* <img src={up}alt="Arrow pointing up"></img> */}
+                                <img src={down}alt="Arrow pointing down"></img>
                             </button>
                         </div>
                        <p className="reasonText"> 
@@ -34,35 +34,35 @@ const AboutUs = () => {
                             <p className="reasonTitle">
                                 hire top talents
                             </p>
-                            <button className="accordionButton">
-                                <img src={up}alt=""></img>
-                                <img src={down}alt=""></img>
+                            <button className="accordionButton" aria-expanded="false" aria-controls="reason1Text">
+                                <img src={up}alt="Arrow pointing up"></img>
+                                {/* <img src={down}alt="Arrow pointing down"></img> */}
                             </button>
                         </div>
-                        <p className="reasonText">
+                        {/* <p className="reasonText">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet risus id nunc porta, vitae venenatis sapien interdum. Phasellus dignissim laoreet suscipit. 
-                        </p>
+                        </p> */}
                     </div>
                     <div className="reason">
                         <div className="topRow">
                             <p className="reasonTitle">
                                 protected payments, every time
                             </p>
-                            <button className="accordionButton">
-                                <img src={up}alt=""></img>
-                                <img src={down}alt=""></img>
+                            <button className="accordionButton" aria-expanded="false" aria-controls="reason1Text">
+                                <img src={up}alt="Arrow pointing up"></img>
+                                {/* <img src={down}alt="Arrow pointing down"></img> */}
                             </button>
                         </div>
-                        <p className="reasonText">
+                        {/* <p className="reasonText">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet risus id nunc porta, vitae venenatis sapien interdum. Phasellus dignissim laoreet suscipit. 
-                        </p>
+                        </p> */}
                     </div>
                 </div>
                 <div className="learnMore"> 
                  <a className="secondaryLink" href=" "> learn more</a>
-                </div>
-            </div>
-        </div>
+                </div>{/* learn more ending */}
+            </div> {/* why choose us content ending  */}
+        </div> {/* wrapper ending */}
        </section>
     )
 }

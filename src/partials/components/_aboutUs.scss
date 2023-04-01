@@ -5,15 +5,15 @@
     .wrapper{
         display: flex;
         flex-direction: row;
-        // border: 2px solid rebeccapurple;
+        // border: 2px solid red;
     }
     .whyUsImgCont{
         // border: 2px solid orange;
         flex-basis: 50%;
         display: flex;
-        // justify-content: center;
         img{
-            width: 90%;
+            width: 100%;
+            object-fit: scale-down;
         }
     }
     .whyUsContent{
@@ -21,8 +21,8 @@
         flex-basis: 50%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        margin-left: 2rem;
+        padding-left: 3rem;
+        padding-bottom: 2rem;
         h2{
             margin: 2.5rem 0;
         }

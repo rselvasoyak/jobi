@@ -11,6 +11,10 @@
         &:focus{
             color: red;
         }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
 
     .primaryLink{
@@ -18,10 +22,14 @@
         background-color: $limeGreen;
         border-radius: 20px;
         cursor: pointer;
-        // &:hover, 
-        // &:focus{
-
-        // }
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
 
     .secondaryLink {
@@ -30,20 +38,29 @@
         border-radius: 20px;
         color: $whiteFont;
         cursor: pointer;
-        // &:hover, 
-        // &:focus{
-
-        // }
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
 
     // MarketPlace 
     .explore{
         color: $jobiGreen;
+        cursor: pointer;
         &:hover, 
         &:focus{
             padding-bottom: .6rem;
             border-bottom: 2px solid $jobiGreen;
             border-radius: 1px;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
         }
     }
     .exploreJobi{
@@ -52,10 +69,15 @@
         background-color: $jobiGreen;
         border-radius: 20px;
         color: $whiteFont;
-        // &:hover, 
-        // &:focus{
-
-        // }
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
 
     .apply{
@@ -63,6 +85,15 @@
         background-color: $green;
         color: $whiteFont;
         border-radius: 20px;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
     // Footer Nav 
     .lookLink{
@@ -70,10 +101,15 @@
         color: $jobiGreen;
         padding: 1rem 3rem;
         border-radius: 5px;
-        // &:hover, 
-        // &:focus{
-
-        // }
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
 
     .secondLookLink{
@@ -81,6 +117,15 @@
         color: $darkGreen;
         padding: 1rem 3rem;
         border-radius: 5px; 
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
 
     .secondPostLink{
@@ -89,10 +134,15 @@
         color: $darkGrey;
         padding: 1rem 3rem;
         border-radius: 5px;
-        // &:hover, 
-        // &:focus{
-
-        // }
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            color: purple;
+            text-decoration: underline;
+        }
     }
 
 
@@ -108,10 +158,14 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            // &:hover, 
-            // &:focus{
-
-            // }
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
         .right {
@@ -120,10 +174,14 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            // &:hover, 
-            // &:focus{
-
-            // }
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
         // Feedback
@@ -131,10 +189,14 @@
             border: none;
             background-color: inherit;
             cursor: pointer;
-            // &:hover, 
-            // &:focus{
-
-            // }
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
 
@@ -144,10 +206,15 @@
             color: $whiteFont;
             padding: 1rem 3rem;
             border-radius: 5px;
-            // &:hover, 
-            // &:focus{
-
-            // }
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
         .send{
@@ -156,14 +223,27 @@
             color: $whiteFont;
             background-color: $darkGreen;
             border-radius: 5px;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
         .goBack {
             cursor: pointer;
-            // &:hover, 
-            // &:focus{
-
-            // }
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
         .category{
@@ -172,6 +252,15 @@
             border-radius: 3rem;
             background-color: rgba($color: $whiteFont, $alpha: 0.1);
             color: $limeGreen;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
         // Second Navigation 
@@ -181,6 +270,15 @@
             font-size: 1.8rem;
             color: $limeGreen;
             text-transform: capitalize;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
         .search{
@@ -189,9 +287,33 @@
             text-transform: capitalize;
             background-color: $limeGreen;
             border: none;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
         }
 
-
+        .accordionButton{
+            border: none;
+            background-color: inherit;
+            border-radius: 20px;
+            width: 5rem;
+            height: auto;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                background-color: $lightGreen;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
 
 
 
