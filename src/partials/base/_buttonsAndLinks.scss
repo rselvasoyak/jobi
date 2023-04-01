@@ -57,9 +57,10 @@
             padding-bottom: .6rem;
             border-bottom: 2px solid $jobiGreen;
             border-radius: 1px;
+            color: $whiteFont;
         }
         &:visited{
-            color: purple;
+            color: red;
             text-decoration: underline;
         }
     }
