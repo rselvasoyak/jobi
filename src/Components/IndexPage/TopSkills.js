@@ -1,6 +1,6 @@
 const TopSkills = () => {
     return(
-            <section className="topSkills">
+            <section className="topSkills" aria-label="further information navigation containers">
                 <div className="wrapper">
                     <nav>
                         <div className="navColumn">
