@@ -7,7 +7,7 @@ import vector from "../../partials/assets/mvpAssets/Vector 720.png"
 
 const Feedback = () => {
     return (
-        <section className="feedback">'
+        <section className="feedback" aria-label="feedback section">'
             <div className="wrapper">
                 <div className="feedbackHeader">
                     <div className="feedbackLogo">

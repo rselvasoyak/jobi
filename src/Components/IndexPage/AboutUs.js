@@ -4,7 +4,7 @@ import down from "../../partials/assets/mvpAssets/downArrow.png"
 
 const AboutUs = () => {
     return(
-       <section className="whyUs">
+       <section className="whyUs" aria-label="Why Choose Us">
         <div className="wrapper">
             <div className="whyUsImgCont">
                 <img src={whyUsImg} alt="Content displaying different applicant and job search elements from the site"></img>

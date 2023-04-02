@@ -6,17 +6,17 @@ import icon3 from "../../partials/assets/icon3.png";
 
 const HowItWorks = () => {
     return(
-        <section className="howItWorks">
+        <section className="howItWorks" aria-label="How it Works">
             <div className="wrapper">
                 <div className="topCont">
                     <div className="topLeftCont" aria-label="an individual working on their laptop">
                         <img src="" alt="an individual working on their laptop"></img>
                     </div>
-                    <div className="topRightCont">
+                    <div className="topRightCont" aria-describedby="simpleTitleDescription">
                         <div className="playIcon" aria-label="video play icon">
                             <img src={play} alt=" an icon indicatng play sound"></img>
                         </div>
-                        <div className="simpleTitle">
+                        <div className="simpleTitle" aria-label="Let's get started. It's simple." id="simpleTitleDescription">
                             <h2>Let's get started</h2>
                             <h2> It's <span>simple.</span></h2>
                         </div>

@@ -1,8 +1,8 @@
 const BusinessSolution = () => {
     return (
-        <section className="businessSolution">
+        <section className="businessSolution" aria-label="Business Solutions">
             <div className="wrapper">
-                <div className="businessContent">
+                <div className="businessContent" aria-label="business solution content">
                     <div className="businessText">
                         <div className="topContent">
                             <h4> business solution </h4>
@@ -12,7 +12,7 @@ const BusinessSolution = () => {
                             </p>
                         </div>
                         <div className="bottomInfo">
-                            <div className="stats">
+                            <div className="stats" aria-label="stats information">
                                 <div className="stat" aria-label="Worldwide Clients">
                                     <p className="statTitle"> 30 k+</p>
                                     <p>Worldwide Client</p>

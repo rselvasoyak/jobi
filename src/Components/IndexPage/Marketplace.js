@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 
 const Marketplace = () => {
     return(
-        <section className="marketPlace">
+        <section className="marketPlace" aria-label="explore the marketplace">
             <div className="wrapper">
                 <div className="marketTopRow">
                     <h3> Explore the marketplace. </h3>
