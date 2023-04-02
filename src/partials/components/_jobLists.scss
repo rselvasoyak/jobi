@@ -1,7 +1,9 @@
 @use "../abstract/variables" as *;
 
-.wrapper{
-    flex-direction: row;
+.jobLists{
+    .wrapper{
+        flex-direction: row;
+    }
 }
 .jobLists{
     margin: 10rem 0;
@@ -29,6 +31,16 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            button{
+                border: none;
+                background-color: inherit;
+                cursor: pointer;
+                &:hover, 
+                &:focus{
+                    transform: scale(1.07);
+                    transition: .7s;
+                }
+            }
         }
         .listContent{
             .jobType{

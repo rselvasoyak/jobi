@@ -5,44 +5,59 @@ import jobsData from "./JobPostInfo";
 
 
 const FirebaseDatabase = ({children}) => {
-
-
-    const [jobs,setJobs] = useState([]);
-     const [isDataPushed, setIsDataPushed] = useState(false);
+    const [jobs, setJobs] = useState([]);
+    const [isDataPushed, setIsDataPushed] = useState(false);
+    const [isJobDataPushed, setIsJobDataPushed] = useState(false);
 
     // Push data 
     useEffect(() => {
-        if(!isDataPushed) {
+        const database = getDatabase(firebase);
+        const dbRef = ref(database);
+        onValue(dbRef, (response) => {
+            const firebaseJobs = response.val();
+            setIsJobDataPushed(jobsData.every(job => {
+                for (let key in firebaseJobs) {
+                    if (firebaseJobs[key].title === job.title) {
+                        return true;
+                    }
+                }
+                return false;
+            }));
+        });
+    }, []);
+
+    useEffect(() => {
+        const hasDataBeenPushed = localStorage.getItem('dataPushed');
+        if (!hasDataBeenPushed && !isJobDataPushed) {
             const database = getDatabase(firebase);
             const dbRef = ref(database); 
             jobsData.forEach((job) => {
-                console.log(job);
-              const firebaseObj = push(dbRef, job); 
-              return firebaseObj;
+                const firebaseObj = push(dbRef, job); 
+                return firebaseObj;
             })
+            setIsDataPushed(true);
+            localStorage.setItem('dataPushed', true);
         }
-        setIsDataPushed(true);
-    }, [isDataPushed]);
+    }, [isJobDataPushed, isDataPushed]);
 
     // Pull Data 
     useEffect(() => {
-        // const fetchData = async () => {
-            const database = getDatabase(firebase);
-            const dbRef = ref(database);
+        const database = getDatabase(firebase);
+        const dbRef = ref(database);
+        onValue(dbRef, (response) => {
+            const jobsData = [];
+            const firebaseJobs = response.val();
+            for (let key in firebaseJobs){
+                jobsData.push({key:key, ...firebaseJobs[key]});
+            }
+            setJobs(jobsData);
+        });
+    }, []);
 
-            /* const firebaseData = await */ onValue(dbRef, (response) => {
-                const jobsData = [];
-                const firebaseJobs = response.val();
-                for (let key in firebaseJobs){
-                    // console.log(key);
-                    jobsData.push({key:key, ...firebaseJobs[key]})
-                }
-                setJobs(jobsData);
-            });
-    }, [])
     console.log(jobs);
     return children({jobs});
 }
+
 
 export default FirebaseDatabase;
 

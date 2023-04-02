@@ -4,12 +4,16 @@
     .wrapper{
         background-color: $darkGreen;
         display: flex;
-        flex-direction: row;
-        padding: 4rem 0;
+        justify-content: center;
+        align-items: center;
+        // border: 2px solid brown;
+        padding: 5rem;
     }
     .content{
-        padding: 10rem 0 10rem 10rem;
-        width: 45%;
+        // padding: 10rem 0 10rem 10rem;
+        width: 50%;
+        padding-left: 5rem;
+        // border: 2px solid magenta;
         h2{
             margin: 0 0 2.5rem 0;
             color: $whiteFont;
@@ -24,11 +28,23 @@
         }
     }
     .leadingBrandImg{
-        width: 55%;
+        width: 50%;
         display: flex;
         justify-content: center;
+        // border: 2px solid red;
+        margin: 0;
+        // padding: 5rem;
         img{
-            max-width: 100%;
+            object-fit: cover;
+            width: 90%;
+            // border: 2px solid green;
+        }
+         figcaption {
+            border: 2px solid red;
+            width: 1px;
+            height: 1px;
+            position: absolute;
+            clip: rect(1px, 1px, 1px, 1px);
         }
     }
 }

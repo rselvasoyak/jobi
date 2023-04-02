@@ -1,71 +1,82 @@
 @use "../abstract/variables" as *;
 
-.secondHeader{
-    background-color: $darkGreen;
+.secondHeader {
+  background-color: $darkGreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 35vh;
+  position: relative;
+  padding-bottom: 5rem;
+
+  h1 {
+    margin: 0;
+    color: $whiteFont;
+  }
+
+  p {
+    color: $whiteFont;
+  }
+
+  .formCont {
+    padding: 0;
     display: flex;
-    // border: 2px solid aqua;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 35vh;
-    position: relative;
-    padding-bottom: 5rem;
-    h1{
-        margin: 0;
-        color: $whiteFont;
+    width: auto;
+    margin-top: 5rem;
+
+    form {
+      display: flex;
+      padding: 2.5rem;
+      background-color: $whiteFont;
+      border-radius: 5px 0 0 5px;
     }
-    p{
-        color: $whiteFont;
+
+    .searchInput, .searchOptions {
+      display: flex;
+      flex-direction: column;
+      color: $darkGrey;
     }
-    .formCont{
-        // border: 2px solid red;
-        padding: 0;
-        display: flex;
-        width: auto;
-        margin-top: 5rem;
-        form{
-            display: flex;
-            // border: 2px solid magenta;
-            padding: 2.5rem 2.5rem 2rem 2.5rem;
-            background-color: $whiteFont;
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
-        }
-        .searchInput{
-            border: 2px solid blue;
-            padding: 0;
-            // background-color: $whiteFont;
-            border: none;
-            input{
-                border: none;
-                padding: 1rem 0;
-            }
-        }
-        .searchOptions{
-            // border: 2px solid pink;
-            border-left: 2px solid $lightGrey;
-            padding-left: 3rem;
-            select{
-                border: none;
-                background-color: inherit;
-                padding: 1rem 0;
-            }
-        }
-        input, select{
-            width: 25rem;
-        }
-        p{
-            margin: 0;
-            color: $grey;
-        }
-        .search{
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-        }
+
+    .searchInput {
+      border: none;
+      padding: 0;
+
+      input {
+        border: none;
+        padding: 1rem 0;
+      }
     }
-    .designMiniIcon{
-        position: absolute;
-        bottom: 0;
-        left: 0;
+
+    .searchOptions {
+      border-left: 2px solid $lightGrey;
+      padding-left: 3rem;
+
+      select {
+        border: none;
+        background-color: inherit;
+        padding: 1rem 0;
+        color: $blurDarkGrey;
+      }
     }
+
+    input, select {
+      width: 25rem;
+    }
+
+    p {
+      margin: 0;
+      color: $grey;
+    }
+
+    .search {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+
+  .designMiniIcon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 }

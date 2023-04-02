@@ -26,7 +26,7 @@ const Nav = () => {
             <div className="navRight">
                 <div className="searchLinks">
                     <Link to="/jobLists"> find job </Link>
-                    <a href=" "> find talents </a>
+                    <a href="/"> find talents </a>
                     <select 
                     className="pages"
                     id="pages"
@@ -37,7 +37,7 @@ const Nav = () => {
                     </select>
                 </div>
                 <div className="userAuthLinks">
-                    <a href=" "> login </a>
+                    <a href="/"> login </a>
                     <a className="primaryLink" href=" "> register </a>
                 </div>{/* user authentication links end */}
             </div>{/* navRight ends  */}

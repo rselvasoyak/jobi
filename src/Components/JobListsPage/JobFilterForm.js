@@ -202,7 +202,7 @@ const JobFilterForm = () => {
                                 >
                                     Please select your English Fluency Level. 
                                 </div>
-                            </div>
+                            </div>{/* filter ending */}
                         </fieldset>
                     </form>
                 </aside>

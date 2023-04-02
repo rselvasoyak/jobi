@@ -17,11 +17,11 @@ const SecondaryNav = () => {
                         </div>
                     </div>
                     <ul className="secondNav">
-                        <li><a href=" ">home</a></li>
-                        <li><a href=" ">job</a></li>
-                        <li><a href=" "> explore </a></li>
-                        <li><a href=" ">contact</a></li>
-                        <li><a href=" "> pages </a></li>
+                        <li><a href="/">home</a></li>
+                        <li><a href="/">job</a></li>
+                        <li><a href="/"> explore </a></li>
+                        <li><a href="/">contact</a></li>
+                        <li><a href="/"> pages </a></li>
                     </ul>
                 </div>{/* secNAvLeft ending */}
                 <div className="designIcon">
@@ -29,11 +29,11 @@ const SecondaryNav = () => {
                 </div>
                 <div className="jobLinks">
                     <div className="postLogin">
-                        <a href=" " className="post"> post job</a>
+                        <a href="/" className="post"> post job</a>
                         <button className="login"> login </button>
                     </div>
                     <div>
-                        <a href=" " className="primaryLink">hire top talents</a>
+                        <a href="/" className="primaryLink">hire top talents</a>
                     </div>
                 </div>{/* job links end */}
             </nav>

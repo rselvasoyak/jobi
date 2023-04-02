@@ -11,23 +11,30 @@ const Feedback = () => {
             <div className="wrapper">
                 <div className="feedbackHeader">
                     <div className="feedbackLogo">
-                        <img src={secondLogo} alt=""></img>
+                        <img src={secondLogo} alt="Jobi company logo"
+                        aria-label="Jobi logo"></img>
                     </div>
                     <h2> Check what these clients have to say.</h2>
                 </div>
                 <div className="quote">
                     <div className="quoteAndButtons">
-                        <button className="carouselBtn">
-                            <img src={prevButton} alt="button to go left on on changing content"></img>
+                        <button className="carouselBtn"
+                        tabindex="0"
+                        aria-label="Previous button"
+                        >
+                            <img src={prevButton} alt="button to go left on on changing content" ></img>
                         </button>
                         <blockquote>❝Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple.❞</blockquote>
-                        <button className="carouselBtn">
-                            <img src={nextButton} alt="button to go right on on changing content"></img>
+                        <button className="carouselBtn" tabindex="0"
+                        aria-label="Next button"
+                        >
+                            <img src={nextButton} alt="button to go right on on changing content"
+                            ></img>
                         </button>
                     </div>
                     <p className="quoteBy"> 
                         <div>
-                            <img src={vector} alt=""></img>
+                            <img src={vector} alt="vector line"></img>
                         </div>
                         <span className="quoteByFrom">Rashed ks.</span>
                         Italy
@@ -35,19 +42,19 @@ const Feedback = () => {
                 </div> {/* quote ending */}
                 <div className="clientImgs">
                     <div className="client">
-                        <img src="" alt=""></img>
+                        <img src="" alt="Headshot of client who gave feedback"></img>
                     </div>
                     <div className="client">
-                        <img src="" alt=""></img>
+                        <img src="" alt="Headshot of client who gave feedback"></img>
                     </div>
                     <div className="client">
-                        <img src="" alt=""></img>
+                        <img src="" alt="Headshot of client who gave feedback"></img>
                     </div>
                     <div className="client">
-                        <img src="" alt=""></img>
+                        <img src="" alt="Headshot of client who gave feedback"></img>
                     </div>
                     <div className="client">
-                        <img src="" alt=""></img>
+                        <img src="" alt="Headshot of client who gave feedback"></img>
                     </div>{/* client ending */}
                 </div> {/* client Imgs ending */}
             </div> {/* wrapper ending */}

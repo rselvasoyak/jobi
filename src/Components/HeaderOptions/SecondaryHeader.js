@@ -14,32 +14,34 @@ const SecondaryHeader = () => {
                     <div className="formCont">
                         <form>
                             <div className="searchInput">
-                                <p>What are you looking for? </p>
-
-                                <label></label>
+                                <label htmlFor="searchInput">What are you looking for? </label>
                                 <input
+                                id="searchInput"
                                 placeholder="UX Design"
+                                aria-describedby="searchInputDescription"
                                 ></input>
+                                <span id="searchInputDescription" className="sr-only">Enter a keyword to search for job listings</span>
                             </div>
 
                             <div className="searchOptions">
-                                <p> Category </p>
-                                <select>
-                                    <option>Web Design</option>
-                                    <option>US Design</option>
-                                    <option>Accounting</option>
-                                    <option>Other</option>
+                                <label htmlFor="categorySelect">Category</label>
+                                <select id="categorySelect" aria-describedby="categoryDescription">
+                                    <option value="webDesign" label="Web Design">Web Design</option>
+                                    <option value="uxDesign" label="UX Design">US Design</option>
+                                    <option value="accounting" label="Accounting">Accounting</option>
+                                    <option value="other" label="Other">Other</option>
                                 </select>
+                                <span id="categoryDescription" className="sr-only">Please select a category from the options listed.</span>
                             </div>
                         </form>
-                        <button className="search">
+                        <button className="search" aria-label="Search for jobs">
                             search
                         </button>
                     </div>
                 ) : null
             }
             <div className="designMiniIcon">
-                <img src={bigDrawing} alt=""></img>
+                <img src={bigDrawing} alt="Decorative drawing"></img>
             </div>
         </header>
         </>
