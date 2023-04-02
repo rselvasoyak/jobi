@@ -1,5 +1,6 @@
 import SecondaryHeader from "../HeaderOptions/SecondaryHeader";
 import SecondaryNav from "../Nav/SecondaryNav";
+import JobDetails from "./JobDetails";
 
 const SingleJobPage = () => {
     return(
@@ -9,7 +10,7 @@ const SingleJobPage = () => {
             <SecondaryHeader />
         </header>
         <main>
-            
+            <JobDetails />
         </main>
         </>
     )
