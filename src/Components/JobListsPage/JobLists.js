@@ -1,4 +1,5 @@
 import google from "../../partials/assets/mvpAssets/Logo-1.png"
+import bookmark from "../../partials/assets/mvpAssets/Bookmark-1.png"
 
 const JobLists = ({jobs}) => {
     return(
@@ -15,12 +16,12 @@ const JobLists = ({jobs}) => {
                     return(
                         <div className="job" key={key}>
                             <div className="topListRow">
-                                <div className="logoCont">
-                                    <img src={google} alt=""></img>
+                                <div className="logoCont" aria-label="Google logo">
+                                    <img src={google} alt="google logo"></img>
                                 </div>
                                 <div>
-                                    <button>
-                                        Bookmark
+                                    <button aria-label="Bookmark this job">
+                                        <img src={bookmark} alt="bookmarking icon" aria-label="Bookmark your job"></img>
                                     </button>
                                 </div>
                             </div>
@@ -34,13 +35,13 @@ const JobLists = ({jobs}) => {
                             <div className="bottomListRow">
                                 <p>{location.country},{location.city}</p>
                                 <div>
-                                    <a href=" " className="apply"> apply</a>
+                                    <a href=" " className="apply" aria-label="Apply for this job"> apply</a>
                                 </div>
-                            </div> 
-                        </div> 
+                            </div> {/* bottom list ending */}
+                        </div> /* job ending */
                     );
                 })}
-            </div>  
+            </div>  {/* list container ending */}
     </section>
     )
 }
