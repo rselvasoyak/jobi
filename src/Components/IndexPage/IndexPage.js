@@ -8,6 +8,7 @@ import Marketplace from "./Marketplace";
 import TopSkills from "./TopSkills";
 import TrendingServices from "./TrendingServices";
 import Nav from '../Nav/Nav';
+import HowItWorks from "./HowItWorks";
 
 
 const IndexPage =() => {
@@ -22,6 +23,7 @@ const IndexPage =() => {
                 <Marketplace />
                 <AboutUs />
                 <BusinessSolution />
+                <HowItWorks />
                 <Feedback />
                 <LeadingBrands />
                 <TopSkills />

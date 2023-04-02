@@ -1,2 +1,59 @@
 @use "../abstract/variables" as *;
 
+.howItWorks{
+    .wrapper{
+        // border: 2px solid red;
+        flex-direction: column;
+        position: relative;
+    }
+    h2, p{
+        color: $whiteFont;
+    }
+    h2{
+        margin: 2rem 0;
+    }
+    .topCont{
+        display: flex;
+        .topLeftCont{
+            // border: 2px solid brown;
+            width: 30%;
+        }
+        .topRightCont {
+            // border: 2px solid blue;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(to left, $black, $transparent);
+            padding-left: 50rem;
+            padding-top: 5rem;
+            padding-bottom: 25rem;
+        }
+        span{
+            display: inline-block;
+            color: $jobiGreen;
+        }
+    }
+    .bottomCont{
+        // border: 2px solid green;
+        width: 100%;
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+        background-color: rgba($color: $black, $alpha: 0.3);
+        .info{
+            // border: 2px solid magenta;
+            width: calc(100% / 3);
+            padding: 4rem;
+            display: flex;
+            align-items: center;
+            padding-top: 4rem;
+            padding-bottom: 7rem;
+            .numberIcon{
+                // border: 2px solid blue;
+                margin: 0 1.5rem;
+            }
+        }
+    }
+}
