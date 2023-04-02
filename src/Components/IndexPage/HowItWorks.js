@@ -13,8 +13,8 @@ const HowItWorks = () => {
                         <img src="" alt="an individual working on their laptop"></img>
                     </div>
                     <div className="topRightCont">
-                        <div className="playIcon">
-                            <img src={play} alt=""></img>
+                        <div className="playIcon" aria-label="video play icon">
+                            <img src={play} alt=" an icon indicatng play sound"></img>
                         </div>
                         <div className="simpleTitle">
                             <h2>Let's get started</h2>
@@ -25,28 +25,28 @@ const HowItWorks = () => {
                 </div>
                 <div className="bottomCont">
                     <div className="info">
-                        <div className="numberIcon">
+                        <div className="numberIcon" aria-label="information section 1" aria-describedby="info1">
                             <img src={icon1} alt="icon indicating number 1" ></img>
                         </div>
-                        <div className="whySimple">
+                        <div className="whySimple" id="info1">
                             <p> It takes 2 minutes to open an account. </p>
                             <a className="explore" href="/" > open account </a>
                         </div>
                     </div>
                     <div className="info">
-                        <div className="numberIcon">
+                        <div className="numberIcon" aria-label="information section 2" aria-describedby="info2">
                             <img src={icon2} alt="icon indicating number 2" ></img>
                         </div>
-                        <div className="whySimple">
+                        <div className="whySimple" id="info2">
                             <p> Find talents or search your desir work. </p>
                             <a className="explore" href="/" > apply to job or hire </a>
                         </div>
                     </div>
                     <div className="info">
-                        <div className="numberIcon">
+                        <div className="numberIcon" aria-label="information section 3" aria-describedby="info3">
                             <img src={icon3} alt="icon indicating number 3" ></img>
                         </div>
-                        <div className="whySimple">
+                        <div className="whySimple" id="info3">
                             <p> Get work done quickly with jobi gateway </p>
                             <a className="explore" href="/" > payment method </a>
                         </div>
