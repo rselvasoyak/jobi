@@ -38,7 +38,7 @@ const FirebaseDatabase = ({children}) => {
             setIsDataPushed(true);
             localStorage.setItem('dataPushed', true);
         }
-    }, [isJobDataPushed]);
+    }, [isJobDataPushed, isDataPushed]);
 
     // Pull Data 
     useEffect(() => {
