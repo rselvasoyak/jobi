@@ -9,8 +9,8 @@ const Footer = () => {
             <TopFooter />
             <div className="wrapper">
                 <div className="footerLinks">
-                    <a href=" ">privacy & terms.</a>
-                    <a href=" ">contact us</a>
+                    <a href="/">privacy & terms.</a>
+                    <a href="/">contact us</a>
                 </div>
                 <p>Copyright @ 2022 jobi inc.</p>
                 <div className="socialMedia">

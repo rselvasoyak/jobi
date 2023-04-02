@@ -36,32 +36,32 @@ const TopFooter = () => {
                     <h5>products</h5>
                     <ul>
                         <li>
-                            <a href=" " aria-label="Take the Tour">
+                            <a href="/" aria-label="Take the Tour">
                                 Take the tour
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Live Chat">
+                            <a href="/" aria-label="Live Chat">
                                 Live chat 
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Self-Service">
+                            <a href="/" aria-label="Self-Service">
                                 Self-Service
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Mobile">
+                            <a href="/" aria-label="Mobile">
                                 Mobile
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label=" Collaboration">
+                            <a href="/" aria-label=" Collaboration">
                                 Collaboration
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Reviews">
+                            <a href="/" aria-label="Reviews">
                                 Reviews
                             </a>
                         </li>
@@ -71,22 +71,22 @@ const TopFooter = () => {
                     <h5>links</h5>
                     <ul>
                         <li>
-                            <a href=" " aria-label="Pricing">
+                            <a href="/" aria-label="Pricing">
                                 Pricing
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="About us">
+                            <a href="/" aria-label="About us">
                                 About us
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Careers">
+                            <a href="/" aria-label="Careers">
                                 Careers
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Blog">
+                            <a href="/" aria-label="Blog">
                                 Blog
                             </a>
                         </li>
@@ -96,22 +96,22 @@ const TopFooter = () => {
                     <h5>legal</h5>
                     <ul>
                         <li>
-                            <a href=" " aria-label="Terms of Use ">
+                            <a href="/" aria-label="Terms of Use ">
                                 Terms of Use 
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Terms & Conditions">
+                            <a href="/" aria-label="Terms & Conditions">
                                 Terms & Conditions
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Privacy">
+                            <a href="/" aria-label="Privacy">
                                 Privacy
                             </a>
                         </li>
                         <li>
-                            <a href=" " aria-label="Cookie Policy">
+                            <a href="/" aria-label="Cookie Policy">
                                 Cookie Policy
                             </a>
                         </li>

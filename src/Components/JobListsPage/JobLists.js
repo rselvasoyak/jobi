@@ -35,7 +35,7 @@ const JobLists = ({jobs}) => {
                             <div className="bottomListRow">
                                 <p>{location.country},{location.city}</p>
                                 <div>
-                                    <a href=" " className="apply" aria-label="Apply for this job"> apply</a>
+                                    <a href="/" className="apply" aria-label="Apply for this job"> apply</a>
                                 </div>
                             </div> {/* bottom list ending */}
                         </div> /* job ending */

@@ -8,13 +8,13 @@ const IndexHeader = () => {
         <>
             <nav className="indexSecondNav">
                 <ul>
-                    <li><a href=" "> design & creative </a></li>
-                    <li><a href=" ">it & development</a> </li>
-                    <li><a href=" "> trend </a></li>
-                    <li><a href=" "> web & mobile dev</a></li>
-                    <li><a href=" "> writing </a></li>
-                    <li> <a href=" "> music &audio</a></li>
-                    <li><a href=" "> video & animation</a></li>
+                    <li><a href="/"> design & creative </a></li>
+                    <li><a href="/">it & development</a> </li>
+                    <li><a href="/"> trend </a></li>
+                    <li><a href="/"> web & mobile dev</a></li>
+                    <li><a href="/"> writing </a></li>
+                    <li> <a href="/"> music &audio</a></li>
+                    <li><a href="/"> video & animation</a></li>
                     <select
                     className="searchOption"
                     id="searchOption" name="searchOption">
