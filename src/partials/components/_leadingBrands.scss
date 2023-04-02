@@ -5,13 +5,14 @@
         background-color: $darkGreen;
         display: flex;
         justify-content: center;
-        // flex-direction: row;
+        align-items: center;
         // border: 2px solid brown;
         padding: 5rem;
     }
     .content{
         // padding: 10rem 0 10rem 10rem;
         width: 50%;
+        padding-left: 5rem;
         // border: 2px solid magenta;
         h2{
             margin: 0 0 2.5rem 0;
@@ -32,8 +33,11 @@
         justify-content: center;
         // border: 2px solid red;
         margin: 0;
+        // padding: 5rem;
         img{
-            object-fit: scale-down;
+            object-fit: cover;
+            width: 90%;
+            // border: 2px solid green;
         }
          figcaption {
             border: 2px solid red;

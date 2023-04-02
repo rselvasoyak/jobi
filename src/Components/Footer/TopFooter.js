@@ -19,8 +19,8 @@ const TopFooter = () => {
                     <p>Signup and start find your job or talents.</p>
                 </div>
                 <div className="footerTopLinks"> 
-                    <Link to="/jobLists" className={`${lookLinkStyle}`}> Looking for Job?</Link>
-                    <a className={`${postJobStyle}`} href=" "> Post a job</a>
+                    <Link to="/jobLists" className={`${lookLinkStyle}`} aria-label="View Job Lists Page"> Looking for Job?</Link>
+                    <a className={`${postJobStyle}`} href=" " aria-label="Post a Job"> Post a job</a>
                 </div>
             </div>
             <div className="footerNav">
@@ -29,39 +29,39 @@ const TopFooter = () => {
                         <img src= {logo} alt="Jobi company logo with 2 green and while circles overlapping"></img>
                     </div>
                     <div className="shadowBox">
-                        <img src={drawing} alt=""></img>
+                        <img src={drawing} alt="dotted design element"></img>
                     </div>
                 </div>
                 <div className="footerNavList">
                     <h5>products</h5>
                     <ul>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Take the Tour">
                                 Take the tour
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Live Chat">
                                 Live chat 
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Self-Service">
                                 Self-Service
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Mobile">
                                 Mobile
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label=" Collaboration">
                                 Collaboration
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Reviews">
                                 Reviews
                             </a>
                         </li>
@@ -71,22 +71,22 @@ const TopFooter = () => {
                     <h5>links</h5>
                     <ul>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Pricing">
                                 Pricing
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="About us">
                                 About us
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Careers">
                                 Careers
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Blog">
                                 Blog
                             </a>
                         </li>
@@ -96,22 +96,22 @@ const TopFooter = () => {
                     <h5>legal</h5>
                     <ul>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Terms of Use ">
                                 Terms of Use 
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Terms & Conditions">
                                 Terms & Conditions
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Privacy">
                                 Privacy
                             </a>
                         </li>
                         <li>
-                            <a href=" ">
+                            <a href=" " aria-label="Cookie Policy">
                                 Cookie Policy
                             </a>
                         </li>
@@ -122,14 +122,17 @@ const TopFooter = () => {
                     <p>Join & get important new regularly</p>
                     <div className="formInputBundle">
                         <form>
-                            <label></label>
+                            <label htmlFor="newsletter-email"></label>
                             <div className="inputRow" style={{ backgroundColor:signupBackground }}>
                                 <input
                                 style={{ backgroundColor:signupBackground }}
-                                    placeholder=" Enter your email"
+                                aria-label="Enter your email address to subscribe to our newsletter"
+                                placeholder=" Enter your email"
+                                id="newsletter-email"
                                 >
                                 </input>
-                                <button className="send">
+                                <button className="send"
+                                aria-label="Subscribe to newsletter">
                                     Send
                                 </button>
                             </div>

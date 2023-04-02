@@ -10,9 +10,11 @@
         &:hover, 
         &:focus{
             color: red;
+            padding-bottom: .3rem;
+            border-bottom: 1px solid $darkGreen;
+            transition: .7s;
         }
         &:visited{
-            color: purple;
             text-decoration: underline;
         }
     }
