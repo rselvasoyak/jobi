@@ -1,0 +1,98 @@
+@use "../../abstract/variables" as *;
+
+.indexSecondNav{
+    background-color: $whiteFont;
+    height: 10vh;
+    border-bottom: 2px solid $lightGrey;
+    ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5rem;
+        margin: 0;
+        li{
+            list-style: none;
+            a{
+                color: $darkGrey;
+                font-weight: 600;
+            }
+        }
+    }
+    .searchOption{
+        padding: 1rem 2rem;
+        border: none;
+        background-color: inherit;
+        font-size: 1.6rem;
+        color: rgba($color: $darkGrey, $alpha: 0.85);
+        text-transform: capitalize;
+        font-weight: 520;
+        option{
+            font-size: 1.6rem;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.headerContent{
+    // height: 83vh;
+    // height: auto;
+    display: flex;
+    justify-content: flex-start;
+    // border: 5px solid red;
+    .wrapper{
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 60vh;
+        // border: 2px solid red;
+    }
+    .indexHeaderText {
+        // border: 2px solid green;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 40%;
+        // max-height: 50rem;
+        // height: auto;
+        h1{
+            margin: 1rem 0 4rem 0;
+        }
+        h4{
+            margin: 0 0 1rem 0;
+            color: $newGron;
+        }
+        .secondaryLink{
+            margin: 3rem 0;
+        }
+        .trustedBy{
+            display: flex;
+            align-items: center;
+            justify-self: left;
+            margin: 1rem 0;
+            .trustedCompanies{
+                display: flex;
+                // border: 2px solid green;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                margin-left: 5rem;
+            }
+        }
+    }
+    .headerImg{
+        position: absolute;
+        right: 0;
+        // bottom: 15vh;
+        width: 55%;
+        height: 50vh;
+        // border: 2px solid purple;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit:scale-down;
+            object-position: center;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@use "../abstract/variables" as *;
+
+.leadingBrand{
+    .wrapper{
+        background-color: $darkGreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 2px solid brown;
+        padding: 5rem;
+    }
+    .content{
+        // padding: 10rem 0 10rem 10rem;
+        width: 50%;
+        padding-left: 5rem;
+        // border: 2px solid magenta;
+        h2{
+            margin: 0 0 2.5rem 0;
+            color: $whiteFont;
+            line-height: 1.3;
+        }
+        p{
+            width: 80%;
+            line-height: 2;
+            margin-top: 0;
+            margin-bottom: 5rem;
+            color: $whiteFont;
+        }
+    }
+    .leadingBrandImg{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        // border: 2px solid red;
+        margin: 0;
+        // padding: 5rem;
+        img{
+            object-fit: cover;
+            width: 90%;
+            // border: 2px solid green;
+        }
+         figcaption {
+            border: 2px solid red;
+            width: 1px;
+            height: 1px;
+            position: absolute;
+            clip: rect(1px, 1px, 1px, 1px);
+        }
+    }
+}

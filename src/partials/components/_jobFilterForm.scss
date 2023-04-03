@@ -1,0 +1,81 @@
+@use "../abstract/variables" as *;
+
+.filterByForm{
+    margin: 10rem 0;
+    min-width: 20%;
+    h4{
+        color: $black;
+        margin: 2rem .5rem;
+    }
+    .filterCont{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border: 0;
+        border-radius: 10px;
+        background-color: $lightGreen;
+        fieldset{
+            border: 0;
+        }
+        .filter{
+            margin: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            label{
+                text-transform: capitalize;
+            }
+            input, select{
+                width: 100%;
+                border: 0;
+                border-radius: 10px;
+                padding: 1rem;
+                height: 4vh;
+                background-color: $whiteFont;
+                color: $blurBlack;
+            }
+            input::placeholder{
+                text-transform: capitalize;
+            }
+            select{
+                text-transform: capitalize;
+                height: 4vh;
+                padding: 1rem;
+                border: 0;
+                border-radius: 10px;
+                margin-top: 1rem;
+            }
+        }
+        .checkboxItem{
+            margin: 1rem 0;
+            display: flex;
+            label{
+                margin-left: 1rem;
+            }
+            input{
+                height: 2vh;
+                width: auto;
+            }
+        }
+        .jobTypeCont, 
+        .experienceLevelCont{
+            width: 100%;
+        }
+        .salaryRangeSect{
+            .salaryRangeInput{
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+            }
+            input{
+                height: 2vh;
+                border-radius: 5px;
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+}
+
+// To Add 
+    // Hover and Focus states? 

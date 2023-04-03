@@ -1,0 +1,106 @@
+@use "../abstract/variables" as *;
+
+footer{
+    margin-bottom: 4rem;
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .socialMedia{
+            display: flex;
+            flex-basis: 7%;
+            justify-content: space-between;
+        }
+    }
+}
+
+.topFooter{
+    // background-color: $lightGreen;
+    padding: 5rem 0;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+    .footerHeader{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid $medGrey;
+        width: 100%;
+        padding-bottom: 5rem;
+        h3{
+            margin: 0
+        }
+        p{
+            color: $blurBlack;
+            margin-top: 1.5rem;
+        }
+        .footerTopLinks{
+            margin: auto 0;
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+            .postLink{
+                margin-left: 10px;
+            }
+        }
+    }
+    .footerNav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 6rem 0;
+        h5{
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+        .logo{
+            margin-bottom: 11rem;
+        }
+        .footerNavList{
+            padding: 0 1rem;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+            }
+            li{
+                width: 100%;
+                margin: 1.2rem 0;
+            }
+            a{
+                color: $blurBlack;
+                width: 100%;
+            }
+        }
+        .footerForm{
+            width: 28%;
+            p{
+                margin: 3rem 0;
+            }
+            .inputRow{
+                display: flex;
+                justify-content: space-between;
+                border-radius: 5px;
+                padding: .5rem;
+                width: 81%;
+                background-color: $whiteFont;
+            }
+            .formText{
+                color: $blurDarkGrey;
+                margin: .8rem 0;
+            }
+        }
+
+        input{
+            border: none;
+            width: 100%;
+            padding: 1rem 10rem 1rem .8rem;
+            &::placeholder{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

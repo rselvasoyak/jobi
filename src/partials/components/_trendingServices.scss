@@ -1,0 +1,79 @@
+@use "../abstract/variables" as *;
+
+.trendingServ{
+    background-color: $lightGrey;
+    padding: 5rem 0 10rem 0;
+    .wrapper{
+        flex-direction: column;
+    }
+    .serviceTopRow{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        .carouselButtons{
+            background-color: $whiteFont;
+            border: 2px solid $lightGrey;
+            border-radius: 5px;
+            height: 100%;
+            width: 6%;
+            .left, .right {
+                width: 50%;
+            }
+        }
+    }
+    .serviceLinks{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        // border: 2px solid red;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 4rem;
+        .service{
+            background-color: $grey;
+            border-radius: 5px;
+            height: 35rem;
+            width: calc((100% / 4) - 2.5rem);
+            position: relative;
+            margin: 0 1rem;
+            &:hover, 
+            &:focus{
+                box-sizing: border-box;
+                border: 2px solid $jobiGreen;
+            }
+            a{
+                // border: 2px solid red;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            .serviceTitle{
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                padding: 2rem 0;
+                color: $whiteFont;
+                font-weight: 600;
+                line-height: 1.8;
+                border-radius: 3px;
+                text-transform: capitalize;
+                background: linear-gradient(to top, $black 20%, rgba($color:$grey, $alpha: 0.1));
+                margin: 0;
+                p{
+                    margin-left: 5rem;
+                }
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+}
+
+
+// To check/Do
+    // Flex-wrap for the individual services for responsiveness. 
+    // Check if thee are any other accessibility elements that can be added. 

@@ -1,0 +1,45 @@
+@use "../abstract/variables" as *;
+
+.errorPage{
+    height: 88vh;
+    display: flex;
+    .wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .errorImg{
+        height: 62rem;
+        width: 62rem;
+        background-color: $grey;
+    }
+    .errorContent{
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-evenly;
+        h1, p, button {
+            margin: 2rem 0;
+        }
+        h1{
+            color: $black;
+            font-weight: 400;
+            margin: 0;
+            span{
+                color: $green;
+            }
+        }
+        button{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $limeGreen;
+            border: none;
+            border-radius: 30px;
+            padding: 0 2rem;
+            p{
+                text-transform: uppercase;
+            }
+        }
+    }
+}

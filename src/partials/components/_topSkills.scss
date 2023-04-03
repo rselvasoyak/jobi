@@ -1,0 +1,38 @@
+@use "../abstract/variables" as *;
+
+.topSkills{
+    .wrapper{
+        padding: 4rem 2rem;
+        nav{
+            height: auto;
+            width: 100%;
+            background-color: $whiteFont;
+            border-bottom: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem 0;
+            margin: 5rem 0;
+        }
+        .navColumn{
+            h4{
+                margin-top: 0;
+                color: $black;
+                &:hover,
+                &:focus{
+                    color: $jobiGreen;
+                    transform: scale(1.05);
+                    transition: .7s;
+                    text-shadow: -1px 1px 1px $blurBlack;
+                }
+            }
+            ul{
+                padding: 0;
+            }
+            li{
+                font-size: 1.8rem;
+                text-transform: capitalize;
+                margin: 1.6rem 0;
+            }
+        }
+    }
+}

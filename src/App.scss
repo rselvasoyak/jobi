@@ -1,0 +1,33 @@
+@use "./partials/abstract/variables" as *;
+
+// Abstract 
+
+// Base 
+@use "./partials/base/buttonsAndLinks";
+@use"./partials/base/defaultStyle";
+@use "./partials/base/setup";
+@use "./partials/base/typography";
+
+// Component 
+@use "./partials/components/nav";
+@use "./partials/components/trendingServices";
+@use "./partials/components/marketplace";
+@use "./partials/components/aboutUs";
+@use "./partials/components/businessSolutions";
+@use "./partials/components/feedback";
+@use "./partials/components/leadingBrands";
+@use "./partials/components/topSkills";
+@use "./partials/components/howItWorks";
+@use "./partials/components/footer";
+@use "./partials/components/error";
+@use "./partials/components/secondaryNav.scss";
+@use "./partials/components/secondaryHeader.scss";
+@use "./partials/components/jobFilterForm";
+@use "./partials/components/jobLists";
+@use "./partials/components/jobDetails";
+
+  // Headers
+  @use "./partials/components/headers/indexHeader";
+
+// Media Queries 
+@use "./partials/abstract/mediaQueries"; 

@@ -1,0 +1,67 @@
+@use "../abstract/variables" as *;
+
+.feedback{
+    margin: 10rem 0;
+    .wrapper{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .feedbackHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // border: 2px solid brown;
+        h2{
+            width: 65%;
+            text-align: center;
+            text-transform: none;
+            margin: 1rem 0 6rem 0;
+        // border: 2px solid magenta;
+        }
+        .feedbackLogo{
+            margin: 1rem 0 0 0;;
+        }
+    }
+    .quote{
+        // border: 2px solid blue;
+        .quoteAndButtons{
+            display: flex;
+            // border: solid red 2px;
+            justify-content: space-between;
+            padding: 0 3rem;
+        }
+        blockquote{
+            // border: 2px solid blue;
+            width: 70%;
+        }
+        .quoteBy{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5rem;
+            div{
+                display: flex;
+                align-items: center;
+                margin: .7rem 0 0 0;
+            }
+            .quoteByFrom{
+                font-weight: 600;
+            }
+        }
+    }
+    .clientImgs{
+        display: flex;
+        justify-content: center;
+        // border: 2px solid orange;
+        padding: 3rem 0;
+        width: auto;
+        .client{
+            background-color: $grey;
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            margin: 2rem 2rem;
+        }
+    }
+}

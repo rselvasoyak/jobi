@@ -1,0 +1,66 @@
+@use "../abstract/variables" as *;
+
+// Font Size: 
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 8.5rem;
+    font-weight: 600;
+    color: $darkGreen;
+    font-family: 'EB Garamond', serif;
+}
+
+h2{
+    font-size: 7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: $darkGreen;
+    font-family: 'EB Garamond', serif;
+}
+
+h3{
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: $darkGreen;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 600;
+    color: $jobiGreen;
+    text-transform: capitalize;
+}
+
+h5{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+blockquote{
+    font-size: 3.6rem;
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+}
+
+
+
+// Form
+legend{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+label{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}

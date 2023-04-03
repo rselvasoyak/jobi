@@ -1,0 +1,318 @@
+@use "../abstract/variables" as *;
+// Anchor Links 
+    // General Anchor Links Styling 
+    a{
+        font-size: 1.6rem;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: $black;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+            padding-bottom: .3rem;
+            border-bottom: 1px solid $darkGreen;
+            transition: .7s;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+
+    .primaryLink{
+        padding: 1rem 3rem;
+        background-color: $limeGreen;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+
+    .secondaryLink {
+        padding: 1rem 3rem;
+        background-color: $jobiGreen;
+        border-radius: 20px;
+        color: $whiteFont;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+
+    // MarketPlace 
+    .explore{
+        color: $jobiGreen;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            padding-bottom: .6rem;
+            border-bottom: 2px solid $jobiGreen;
+            border-radius: 1px;
+            color: $whiteFont;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+    .exploreJobi{
+        // border: solid 2px red;
+        padding: 1rem 3rem;
+        background-color: $jobiGreen;
+        border-radius: 20px;
+        color: $whiteFont;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+
+    .apply{
+        padding: .6rem 1.5rem;
+        background-color: $green;
+        color: $whiteFont;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+    // Footer Nav 
+    .lookLink{
+        border: 2px solid $jobiGreen;
+        color: $jobiGreen;
+        padding: 1rem 3rem;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+
+    .secondLookLink{
+        border: 2px solid $darkGreen;
+        color: $darkGreen;
+        padding: 1rem 3rem;
+        border-radius: 5px; 
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+
+    .secondPostLink{
+        border: 2px solid $limeGreen;
+        background-color: $limeGreen;
+        color: $darkGrey;
+        padding: 1rem 3rem;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover, 
+        &:focus{
+            color: red;
+        }
+        &:visited{
+            text-decoration: underline;
+        }
+    }
+
+
+
+
+// General Button Styling 
+
+    // Index Page 
+        // Trending Services 
+        .left{
+            background-color: $whiteFont;
+            padding: 1.2rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        .right {
+            background-color: $lightGrey;
+            padding: 1.2rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        // Feedback
+        .carouselBtn{
+            border: none;
+            background-color: inherit;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                transform: scale(1.1);
+                transition: .5s;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+
+        .postLink{
+            border: 2px solid $jobiGreen;
+            background-color: $jobiGreen;
+            color: $whiteFont;
+            padding: 1rem 3rem;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        .send{
+            border: none;
+            padding: .8rem 1.5rem;
+            color: $whiteFont;
+            background-color: $darkGreen;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        .goBack {
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        .category{
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 3rem;
+            background-color: rgba($color: $whiteFont, $alpha: 0.1);
+            color: $limeGreen;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        // Second Navigation 
+        .login{
+            border: none;
+            background-color: inherit;
+            font-size: 1.8rem;
+            color: $limeGreen;
+            text-transform: capitalize;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        .search{
+            padding: 0 5rem;
+            font-size: 1.8rem;
+            text-transform: capitalize;
+            background-color: $limeGreen;
+            border: none;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                color: red;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+        .accordionButton{
+            border: none;
+            background-color: inherit;
+            border-radius: 20px;
+            width: 5rem;
+            height: auto;
+            cursor: pointer;
+            &:hover, 
+            &:focus{
+                background-color: $lightGreen;
+            }
+            &:visited{
+                color: purple;
+                text-decoration: underline;
+            }
+        }
+
+
+
+// To Do 
+    // Changle the link and button 'clicked' state color? 
+    // Add active and visited states to clickable anchor links 

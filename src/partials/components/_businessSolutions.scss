@@ -1,0 +1,62 @@
+@use "../abstract/variables" as *;
+
+.businessSolution{
+    margin: 10rem 0;
+    .wrapper{
+        display: flex;
+        // border: 2px solid blue;
+        .businessContent{
+            // border: 2px solid magenta;
+            background-color: $brown;
+            padding: 7rem 10rem;
+            flex-basis: 55%;
+            h2{
+                color: $whiteFont;
+                line-height: 1.1;
+                text-transform: none;
+                margin-top: 1rem;
+                margin-bottom: 3rem;
+                // border: 2px solid orangered;
+                .emphasize{
+                    display: block;
+                    color: $lightBrown;
+                }
+            }
+            h4{
+                margin: 0;
+            }
+            p{
+                color: $whiteFont;
+                line-height: 2;
+                margin: 0;
+                font-size: 2rem;
+            }
+
+            .bottomInfo .stats{
+                // border: 2px solid blue;
+                display: flex;
+                justify-content: space-between;
+                border-top: 2px solid $whiteFont;
+                margin: 5rem 0;
+            }
+            .stat{
+                // border: 2px solid pink;
+                margin-top: 1rem;
+                p{
+                    margin: 0;
+                }
+            }
+            .statTitle {
+                font-size: 3.2rem;
+                font-weight: 600;
+                margin: 1rem 0;
+            }
+
+        }
+        .businessImg{
+            // border: 2px solid green;
+            background-color: $lightGrey;
+            width: 45%;
+        }
+    }
+}

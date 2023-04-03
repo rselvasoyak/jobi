@@ -1,0 +1,78 @@
+@use "../abstract/variables" as *;
+
+.jobLists{
+    .wrapper{
+        flex-direction: row;
+    }
+}
+.jobLists{
+    margin: 10rem 0;
+    margin-left: 4rem;
+    width: auto;
+    .topTopRow{
+        margin: 0 2rem;
+        color: $blurDarkGrey;
+        span{
+            color: $black;
+            display: inline-block;
+        }
+    }
+    .listsContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .job{
+        border: 2px solid $lightGrey;
+        padding: 3rem;
+        border-radius: 10px;
+        margin: .5rem 2rem 1rem 2rem;
+        flex-basis: calc(50% - 4rem);
+        .topListRow{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button{
+                border: none;
+                background-color: inherit;
+                cursor: pointer;
+                &:hover, 
+                &:focus{
+                    transform: scale(1.07);
+                    transition: .7s;
+                }
+            }
+        }
+        .listContent{
+            .jobType{
+                width: 10rem;
+                text-align: center;
+                padding: .4rem .9rem;
+                font-weight: 600;
+                text-transform: capitalize;
+                background-color: $blueGreen;
+                color: $green;
+                border-radius: 10px;
+            }
+            .jobTitle{
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+            .salary{
+                font-weight: 600;
+                .freq{
+                    font-weight: 350;
+                    color: $grey;
+                    display: inline-block;
+                }
+            }
+        }
+        .bottomListRow{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                font-weight: 600;;
+            }
+        }
+    }
+}

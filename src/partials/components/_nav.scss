@@ -1,0 +1,100 @@
+@use "../abstract/variables" as *;
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    // height: 20vh;
+    padding: 5rem;
+    border-bottom: 2px solid $lightGrey;
+    .navLeft{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // border: 2px solid green;
+        width: 40%;
+        .logo{
+            width: 15%;
+            // margin-left: 7rem;
+            // border: 2px solid red;
+        }
+        form{
+            background-color: $lightGrey;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+        }
+        .searchBar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .searchInput, .searchOption{
+                border: none;
+            }
+            .searchInput{
+                width: 40rem;
+                border-right: 2px solid $grey;
+                padding: 1rem;
+                background-color: $lightGrey;
+            }
+            .searchInput::placeholder{
+                padding-left: 2rem; 
+                position: relative; 
+                font-size: 1.6rem;
+            }
+            .searchInput::placeholder::before{
+            content: ""; 
+            background-image: url('../assets/mvpAssets/searchIcon.png');
+            background-repeat: no-repeat;
+            background-size: contain; 
+            position: absolute; 
+            left: 0; 
+            top: 50%;
+            transform: translateY(-50%); 
+            width: 1.5rem; 
+            height: 1.5rem; 
+            }
+
+            .searchOption{
+                flex-basis: 15%;
+                padding: 1.5rem;
+                background-color: $lightGrey;
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .navRight{
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-between;
+        // border: 2px solid blue;
+        .searchLinks{
+            display: flex;
+            width: 60%;
+            justify-content: space-around;
+            a{
+                font-size: 1.8rem;
+                color: $black;
+            }
+            .pages{
+                border: none;
+                background-color: inherit;
+                font-size: 1.8rem;
+            }
+        }
+        .userAuthLinks {
+            width: 25rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .primaryLink {
+                color: $black;
+                margin-left: 10rem;
+            }
+        }
+    }
+}
+
+// To do: 
+    // Add hover and focus state on links with an underline for those states 
