@@ -1,7 +1,16 @@
 import logo from "../../partials/assets/mvpAssets/Logo-3.png";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
+// import * as ReactRouterDom from 'react-router-dom';
 
 const Nav = () => {
+    // let history = ReactRouterDom.useHistory();
+
+    // const handleSelectChange = (event) => {
+    //     const selectedOption = event.target.value;
+    //     if (selectedOption === 'Job Lists') {
+    //         history.push('/jobLists');
+    //     }
+    // };
     return (
         <nav>
             <div className="navLeft">
@@ -30,7 +39,10 @@ const Nav = () => {
                     <select 
                     className="pages"
                     id="pages"
-                    name="pages" aria-describedby="Available Pages in Jobi">
+                    name="pages" 
+                    aria-describedby="Available Pages in Jobi"
+                    // onChange={handleSelectChange}
+                    >
                         <option defaultChecked value="default" title="default">Pages</option>
                         <option value="Home" title="Home">Home</option>
                         <option value="Job Lists" title="Job Lists">Job Lists</option>
