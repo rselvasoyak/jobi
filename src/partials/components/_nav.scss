@@ -3,7 +3,6 @@
 nav{
     display: flex;
     justify-content: space-between;
-    // height: 20vh;
     padding: 5rem;
     border-bottom: 2px solid $lightGrey;
     .navLeft{
@@ -11,11 +10,14 @@ nav{
         align-items: center;
         justify-content: space-between;
         // border: 2px solid green;
-        width: 40%;
+        // width: 40%;
         .logo{
-            width: 15%;
-            // margin-left: 7rem;
+            // width: 15rem;
             // border: 2px solid red;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 5rem;
+            // padding: 0 12rem;
         }
         form{
             background-color: $lightGrey;
@@ -30,7 +32,7 @@ nav{
                 border: none;
             }
             .searchInput{
-                width: 40rem;
+                width: 20vw;
                 border-right: 2px solid $grey;
                 padding: 1rem;
                 background-color: $lightGrey;
@@ -65,14 +67,19 @@ nav{
     }
     .navRight{
         display: flex;
-        width: 40%;
+        width: 45%;
         align-items: center;
         justify-content: space-between;
         // border: 2px solid blue;
         .searchLinks{
             display: flex;
-            width: 60%;
+            width: 65%;
             justify-content: space-around;
+            margin: 0 2rem;
+            // border: 2px solid red; 
+            a, .pages{
+                margin-left: 1rem;
+            }
             a{
                 font-size: 1.8rem;
                 color: $black;
@@ -81,16 +88,24 @@ nav{
                 border: none;
                 background-color: inherit;
                 font-size: 1.8rem;
+                font-weight: 300;
+                color: $darkGrey;
+                cursor: pointer;
+            }
+            option{
+                font-weight: 350;
             }
         }
         .userAuthLinks {
             width: 25rem;
             display: flex;
             align-items: center;
+            margin-left: 2rem;
             justify-content: space-between;
+            // border: 2px solid green;
             .primaryLink {
                 color: $black;
-                margin-left: 10rem;
+                margin-left: 5rem;
             }
         }
     }
