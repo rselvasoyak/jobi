@@ -1,0 +1,55 @@
+.secondNavigation {
+  display: flex;
+  background-color: #254135;
+  padding: 0 10rem;
+  height: 12vh;
+  border-bottom: none;
+}
+.secondNavigation .secNavLeft {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.secondNavigation .secNavLeft .navLeftContent {
+  display: flex;
+  width: 35%;
+}
+.secondNavigation .secNavLeft .navLeftContent .logo {
+  margin-right: 4rem;
+}
+.secondNavigation .secNavLeft .navLeftContent .categButton {
+  margin: auto 0;
+}
+.secondNavigation .secNavLeft .secondNav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 0;
+}
+.secondNavigation .secNavLeft .secondNav a {
+  color: #fff;
+}
+.secondNavigation .designIcon {
+  margin: 0 auto;
+  width: auto;
+}
+.secondNavigation .jobLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+.secondNavigation .jobLinks .postLogin {
+  padding: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.secondNavigation .jobLinks .postLogin .post {
+  padding-right: 3rem;
+  border-right: 2px solid #D2F34C;
+  color: #fff;
+}
+.secondNavigation .jobLinks .postLogin .login {
+  padding-left: 3rem;
+}/*# sourceMappingURL=secondaryNav.css.map */

@@ -62,9 +62,8 @@
                 text-transform: capitalize;
                 background: linear-gradient(to top, $black 20%, rgba($color:$grey, $alpha: 0.1));
                 margin: 0;
-                p{
-                    margin-left: 5rem;
-                }
+                display: flex;
+                justify-content: center;
             }
             span{
                 display: block;

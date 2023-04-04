@@ -14,6 +14,7 @@
     }
     .topCont{
         display: flex;
+            // border: 2px solid brown;
         .topLeftCont{
             // border: 2px solid brown;
             width: 30%;
@@ -27,6 +28,7 @@
             padding-left: 50rem;
             padding-top: 5rem;
             padding-bottom: 25rem;
+            padding-right: 5rem;
         }
         span{
             display: inline-block;
@@ -46,13 +48,14 @@
             // border: 2px solid magenta;
             width: calc(100% / 3);
             padding: 4rem;
-            display: flex;
-            align-items: center;
-            padding-top: 4rem;
             padding-bottom: 7rem;
+            display: flex;
+            height: 100%;
+            align-items: flex-start;
             .numberIcon{
                 // border: 2px solid blue;
                 margin: 0 1.5rem;
+                height: 100%;
             }
         }
     }

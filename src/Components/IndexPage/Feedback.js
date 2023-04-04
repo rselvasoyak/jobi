@@ -7,7 +7,7 @@ import vector from "../../partials/assets/mvpAssets/Vector 720.png"
 
 const Feedback = () => {
     return (
-        <section className="feedback" aria-label="feedback section">'
+        <section className="feedback" aria-label="feedback section">
             <div className="wrapper">
                 <div className="feedbackHeader">
                     <div className="feedbackLogo">
@@ -24,7 +24,7 @@ const Feedback = () => {
                         >
                             <img src={prevButton} alt="button to go left on on changing content" ></img>
                         </button>
-                        <blockquote>❝Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple.❞</blockquote>
+                        <blockquote>❝ Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple. ❞</blockquote>
                         <button className="carouselBtn" tabindex="0"
                         aria-label="Next button"
                         >
@@ -40,23 +40,23 @@ const Feedback = () => {
                         Italy
                     </p>
                 </div> {/* quote ending */}
-                <div className="clientImgs">
-                    <div className="client">
+                <ul className="clientImgs">
+                    <li className="client">
                         <img src="" alt="Headshot of client who gave feedback"></img>
-                    </div>
-                    <div className="client">
+                    </li>
+                    <li className="client">
                         <img src="" alt="Headshot of client who gave feedback"></img>
-                    </div>
-                    <div className="client">
+                    </li>
+                    <li className="client">
                         <img src="" alt="Headshot of client who gave feedback"></img>
-                    </div>
-                    <div className="client">
+                    </li>
+                    <li className="client">
                         <img src="" alt="Headshot of client who gave feedback"></img>
-                    </div>
-                    <div className="client">
+                    </li>
+                    <li className="client">
                         <img src="" alt="Headshot of client who gave feedback"></img>
-                    </div>{/* client ending */}
-                </div> {/* client Imgs ending */}
+                    </li>{/* client ending */}
+                </ul> {/* client Imgs ending */}
             </div> {/* wrapper ending */}
         </section>
     )
