@@ -2,6 +2,12 @@ import secondLogo from "../../partials/assets/mvpAssets/Icon-8.png"
 import prevButton from "../../partials/assets/mvpAssets/Slider Btn Prev.png"
 import nextButton from "../../partials/assets/mvpAssets/Slider Button Next.png"
 import vector from "../../partials/assets/mvpAssets/Vector 720.png"
+import headshot1 from "../../partials/assets/headshot1.jpg";
+import headshot2 from "../../partials/assets/headshot2.jpg";
+import headshot3 from "../../partials/assets/headshot3.jpg";
+import headshot4 from "../../partials/assets/headshot4.jpg";
+import headshot5 from "../../partials/assets/headshot5.jpg";
+
 
 
 
@@ -42,19 +48,19 @@ const Feedback = () => {
                 </div> {/* quote ending */}
                 <ul className="clientImgs">
                     <li className="client">
-                        <img src="" alt="Headshot of client who gave feedback"></img>
+                        <img src={headshot1} alt="Headshot of client who gave feedback"></img>
                     </li>
                     <li className="client">
-                        <img src="" alt="Headshot of client who gave feedback"></img>
+                        <img src={headshot2} alt="Headshot of client who gave feedback"></img>
                     </li>
                     <li className="client">
-                        <img src="" alt="Headshot of client who gave feedback"></img>
+                        <img src={headshot3} alt="Headshot of client who gave feedback"></img>
                     </li>
                     <li className="client">
-                        <img src="" alt="Headshot of client who gave feedback"></img>
+                        <img src={headshot4}alt="Headshot of client who gave feedback"></img>
                     </li>
                     <li className="client">
-                        <img src="" alt="Headshot of client who gave feedback"></img>
+                        <img src={headshot5} alt="Headshot of client who gave feedback"></img>
                     </li>{/* client ending */}
                 </ul> {/* client Imgs ending */}
             </div> {/* wrapper ending */}
