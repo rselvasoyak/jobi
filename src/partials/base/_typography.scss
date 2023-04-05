@@ -23,25 +23,27 @@ h2{
 
 h3{
     font-size: 4.8rem;
-    font-weight: 600;
+    font-family: 'GorditaMedium';
     color: $darkGreen;
 }
 
 h4{
     font-size: 2rem;
-    font-weight: 600;
+    font-family: 'GorditaLight';
     color: $jobiGreen;
     text-transform: capitalize;
 }
 
 h5{
-    font-size: 2.4rem;
+    font-size: 2rem;
+    font-family: 'GorditaMedium';
+    letter-spacing: 1px;
     text-transform: capitalize;
-    font-weight: 600;
 }
 
 p{
     font-size: 1.8rem;
+    font-family: 'GorditaRegular';
 }
 
 blockquote{
@@ -49,6 +51,7 @@ blockquote{
     width: 50%;
     text-align: center;
     line-height: 2;
+    font-family: 'GorditaRegular';
 }
 
 
@@ -63,4 +66,23 @@ legend{
 label{
     text-transform: capitalize;
     font-size: 1.6rem;
+    font-family: 'GorditaLight';
+}
+
+@font-face {
+    font-family: 'GorditaMedium';
+    src: local ('GorditaMedium'),
+        url(../assets/fonts/GorditaMedium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'GorditaLight';
+    src: local ('GorditaMedium'),
+        url(../assets/fonts/GorditaLight.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'GorditaRegular';
+    src: local ('GorditaMedium'),
+        url(../assets/fonts/GorditaRegular.woff) format('woff');
 }
