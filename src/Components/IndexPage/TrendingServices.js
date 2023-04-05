@@ -1,5 +1,9 @@
 // import left from "../partials/assets/mvpAssets/Left Arrow.png";
 // import right from "../partials/assets/mvpAssets/Right Arrow.png";
+import service1 from "../../partials/assets/trendingService1.jpg";
+import service2 from "../../partials/assets/trendingService2.jpg";
+import service3 from "../../partials/assets/trendingService3.jpg";
+import service4 from "../../partials/assets/trendingService4.jpg";
 
 
 const TrendingServices = () => {
@@ -20,7 +24,7 @@ const TrendingServices = () => {
                 <ul className="serviceLinks">
                     <li className="service">
                         <div className="serviceImgCont">
-                            <a href="/"> {/* <img></img> */} </a>
+                            <a href="/"> <img src={service1} alt="a man chatting on his computer"></img> </a>
                         </div>
                         <div className="serviceTitle">
                             <p><span> wordPress </span> development.</p>
@@ -28,7 +32,7 @@ const TrendingServices = () => {
                     </li>
                     <li className="service">
                         <div className="serviceImgCont">
-                            <a href="/" aria-label="Audio and Video Editing"> {/* <img></img> */} </a>
+                            <a href="/" aria-label="Audio and Video Editing"> <img src={service2} alt="a woman working on her laptop"></img> </a>
                         </div>
                         <div className="serviceTitle">
                            <p><span> audio & </span> video editing.</p>
@@ -36,7 +40,7 @@ const TrendingServices = () => {
                     </li>
                     <li className="service">
                         <div className="serviceImgCont">
-                            <a href="/" aria-label="Product and Branding Design"> {/* <img></img> */} </a>
+                            <a href="/" aria-label="Product and Branding Design"> <img src={service3} alt="group working on their laptop"></img> </a>
                         </div>
                         <div className="serviceTitle">
                             <p><span> product & </span> branding design</p>
@@ -44,7 +48,7 @@ const TrendingServices = () => {
                     </li>
                     <li className="service">
                         <div className="serviceImgCont">
-                            <a href=" www.google.com" aria-label="Admin and Customer Support"> {/* <img src={} alt=""></img> */} </a>
+                            <a href=" www.google.com" aria-label="Admin and Customer Support"> <img src={service4} alt="a man working on his laptop"></img> </a>
                         </div>
                         <div className="serviceTitle">
                             <p><span> admin & </span> customer support </p>
