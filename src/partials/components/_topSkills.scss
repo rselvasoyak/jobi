@@ -19,10 +19,8 @@
                 color: $black;
                 &:hover,
                 &:focus{
-                    color: $jobiGreen;
-                    transform: scale(1.05);
-                    transition: .7s;
-                    text-shadow: -1px 1px 1px $blurBlack;
+                color: $jobiGreen;
+                transition: .7s;
                 }
             }
             ul{
