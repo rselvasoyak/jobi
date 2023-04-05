@@ -47,6 +47,11 @@ footer{
             }
         }
     }
+    .footerNavs{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
     .footerNav{
         display: flex;
         justify-content: space-between;
