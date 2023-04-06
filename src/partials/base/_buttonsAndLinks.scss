@@ -3,6 +3,7 @@
     // General Anchor Links Styling 
     a{
         font-size: 1.6rem;
+        font-family: 'GorditaLight';
         text-decoration: none;
         text-transform: capitalize;
         color: $black;
@@ -95,10 +96,15 @@
     }
     // Footer Nav 
     .lookLink{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border: 2px solid $jobiGreen;
         color: $jobiGreen;
-        padding: 1rem 3rem;
+        padding: 10px;
+        width: 19rem;
         border-radius: 5px;
+        min-width: 12rem;
         cursor: pointer;
         &:hover, 
         &:focus{
@@ -158,7 +164,6 @@
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -174,7 +179,6 @@
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -190,25 +194,28 @@
                 transition: .5s;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
 
 
         .postLink{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border: 2px solid $jobiGreen;
             background-color: $jobiGreen;
             color: $whiteFont;
-            padding: 1rem 3rem;
+            padding: 10px;
             border-radius: 5px;
+            width: 19rem;
+            min-width: 12rem;
             cursor: pointer;
             &:hover, 
             &:focus{
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -219,13 +226,14 @@
             color: $whiteFont;
             background-color: $darkGreen;
             border-radius: 5px;
+            width: 8rem;
+            min-width: 6rem;
             cursor: pointer;
             &:hover, 
             &:focus{
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -237,7 +245,6 @@
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -254,7 +261,6 @@
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -272,7 +278,6 @@
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -289,7 +294,6 @@
                 color: red;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }
@@ -306,7 +310,6 @@
                 background-color: $lightGreen;
             }
             &:visited{
-                color: purple;
                 text-decoration: underline;
             }
         }

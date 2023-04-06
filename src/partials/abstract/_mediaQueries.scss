@@ -1,0 +1,725 @@
+@use "../abstract/variables" as *;
+
+@media (max-width: 1200px) {
+// General 
+    // Typography 
+        h2{
+            font-size: 6.6rem;
+        }
+
+    // Index Page 
+    .indexSecondNav{
+        ul{
+            width: 100%;
+            li{
+                align-items: flex-end;
+                span{
+                    display: block;
+                }
+            }
+        }
+        .searchOption{
+            width: 13%;
+
+        }
+    }
+    .headerContent{
+        .indexHeaderText {
+            height: 75%;
+            width: 44%;
+            h1{
+                margin: 1rem 0;
+                font-size: 8rem;
+            }
+            p{
+                width: 90%;
+                margin: 0;
+            }
+            .trustedBy{
+                width: 92%;
+                p{
+                    width: 35%;
+                }
+                .trustedCompanies{
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+
+        // MarketPlace
+    .marketPlace{
+        .wrapper{
+            .marketTopRow{
+                padding: 0 1rem;
+            }
+            .marketLists {
+                .field{
+                    margin: .6rem;
+                    width: calc((100% /3) - 1.2rem);
+                }
+            }
+        }
+    }
+
+    // Why Choose Us? 
+    .whyUs{
+        .whyUsContent{
+            h2{
+                margin: 2rem 0;
+            }
+        }
+        .reason{
+            margin: 1rem 0;
+        }
+    }
+
+    // Business Solution 
+    .businessSolution{
+        .wrapper{
+            .businessContent{
+                p{
+                    line-height: 1.8;
+                }
+                .stat{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    // How It Works 
+    .howItWorks{
+        h2{
+            margin: 1rem 0;
+        }
+        .topCont{
+            .topLeftCont{
+                width: 40%;
+            }
+            .topRightCont {
+                width: 65%;
+                padding-left: 32rem;
+                padding-bottom: 23rem;
+            }
+
+        }
+        .bottomCont{
+            .info{
+                padding-bottom: 6rem;
+                p{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    // Feedback 
+    .feedback{
+        h2{
+            width: 63%;
+        }
+        .quote{
+            blockquote{
+                width: 65%;
+            }
+        }
+        .clientImgs{
+            .client{
+                margin: 2.5rem
+            }
+        }
+    }
+
+    // Footer 
+    footer{
+        .wrapper{
+            .socialMedia{
+                flex-basis: 10%;
+            }
+        }
+    }
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 980px) {
+    // General 
+    h2{
+        font-size: 6rem;
+    }
+    // Index 
+        .indexSecondNav{
+            ul{
+                width: 100%;
+                li{
+                    width: calc((100% / 7));
+                }
+            }
+            .searchOption{
+                padding-left: 3rem;
+                width: 12%;
+            }
+        }
+        .headerContent{
+            .indexHeaderText {
+                height: 72%;
+                h1{
+                    font-size: 7.5rem;
+                }
+                p{
+                    width: 100%;
+                }
+                .secondaryLink{
+                    margin: 3rem 0;
+                }
+                .trustedBy{
+                    width: 95%;
+                    p{
+                        width: 25%;
+                    }
+                }
+            }
+        }
+
+    // MarketPlace
+    .marketPlace{
+        .wrapper{
+            .marketTopRow{
+                padding: 0 1rem;
+            }
+            .marketLists {
+                .field{
+                    margin: .6rem;
+                    width: calc((100% /3) - 1.2rem);
+                    height: 25rem;
+                }
+            }
+        }
+    }
+
+    // Why Choose Us
+    .whyUs{
+        .whyUsContent{
+            h4{
+                margin-bottom: 1.5rem;
+            }
+            h2{
+                margin: 1.2rem 0;
+            }
+        }
+        .reason{
+            margin: 1rem 0;
+            p{
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    // Business Solution 
+    .businessSolution{
+        .wrapper{
+            flex-direction: column;
+        }
+    }
+
+    // How It Works 
+    .howItWorks{
+        h2{
+            margin: 1rem 0;
+        }
+        .topCont{
+            .topLeftCont{
+                width: 0;
+            }
+            .topRightCont {
+                width: 100%;
+                padding-left: 26rem;
+            }
+
+        }
+        .bottomCont{
+            .info{
+                padding-bottom: 4rem;
+            }
+        }
+    }
+
+    // Feedback 
+    .feedback{
+        h2{
+            width: 60%;
+        }
+        .clientImgs{
+            .client{
+                height: 9rem;
+                width: 9rem;
+                margin: 1.2rem;
+            }
+        }
+    }
+
+    // Footer - Top Footer 
+    .topFooter{
+        .wrapper{
+            padding-bottom: 0;
+        }
+        h3{
+            margin: 0
+        }
+        p{
+            color: $blurBlack;
+            margin-top: 1.5rem;
+        }
+        .footerHeader{
+            .footerTopLinks{
+                flex-direction: column;
+                align-items: center;
+                .postLink{
+                    margin-top: 1rem;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    footer{
+        margin: 1rem 0;
+        .wrapper{
+            height: 100%;
+            padding-top: 1rem;
+            .footerLinks{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                a{
+                    margin: .4rem 0;
+                }
+            }
+            .socialMedia{
+                flex-basis: 13%;
+            }
+        }
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    // General 
+        h2{
+            font-size: 5.5rem;
+        }
+            // Index 
+        .indexSecondNav{
+            ul{
+                flex-wrap: wrap;
+                height: auto;
+                padding-left: 3rem;
+                justify-content: flex-start;
+                li{
+                    width: calc((100% / 4));
+                    justify-content: flex-start;
+                    span{
+                        display: inline-block;
+                    }
+                }
+            }
+            .searchOption{
+                padding-left: 0;
+                width: 20%;
+            }
+        }
+        .headerContent{
+            .indexHeaderText {
+                height: 75%;
+                width: 35%;
+                h1{
+                    font-size: 6.2rem;
+                    margin-bottom: 0;
+                }
+                p{
+                    width: 100%;
+                    margin: .7rem 0;
+
+                }
+                .secondaryLink{
+                    margin: 3rem 0;
+                }
+                .trustedBy{
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    margin-top: 1rem;
+                    width: 100%;
+                    .trustedCompanies{
+                        margin-left: 0;
+                    }
+                    p{
+                        width: 50%;
+                        margin: .6rem 0;
+                    }
+                }
+            }
+        }
+    
+    // Trending Services 
+    .trendingServ{
+        padding: 4rem 0 8rem 0;
+        .serviceLinks{
+            .service{
+                width: calc((100% / 2) - 2.5rem);
+                margin: 1rem;
+                .serviceTitle{
+                    padding: 2rem 4rem;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }  
+
+    // MarketPlace
+    .marketPlace{
+        margin: 8rem 0;
+    }
+
+    // Why Choose Us
+    .whyUs{
+        .wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        .whyUsImgCont{
+            width: 57%;
+        }
+        .whyUsContent{
+            h4{
+                margin-bottom: 1.5rem;
+            }
+            h2{
+                margin: 1.2rem 0;
+            }
+            .learnMore{
+                margin-top: 2rem;
+            }
+        }
+        .reason{
+            margin: 1rem 0;
+            p{
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    // Business Solution 
+    .businessSolution{
+        .wrapper{
+            .businessContent{
+                flex-basis: 50%;
+                padding: 7rem;
+                p{
+                    line-height: 1.8;
+                }
+                .stat{
+                    margin-top: 1rem;
+                }
+            }
+            .bottomInfo .stats{
+                margin: 4rem 0;
+            }
+            .businessImg{
+                width: 50%;
+            }
+        }
+    }
+
+    // How It Works 
+    .howItWorks{
+        h2{
+            margin: 1rem 0;
+        }
+        .topCont{
+            .topLeftCont{
+                display: none;
+            }
+            .topRightCont {
+                width: 100%;
+                background: rgba($color: $darkGrey, $alpha: 0.75);
+                padding: 8rem;
+                padding-bottom: 20rem;
+            }
+
+        }
+        .bottomCont{
+            .info{
+                padding: 3rem 1rem;
+            }
+        }
+    }
+
+    // Feedback 
+    .feedback{
+        h2{
+            width: 60%;
+        }
+        blockquote{
+            font-size: 2.5rem;
+        }
+        .clientImgs{
+            .client{
+                height: 8rem;
+                width: 8rem;
+                margin: 1rem;
+            }
+        }
+    }
+
+    // Leading Brands
+    .leadingBrand{
+        .content{
+            // border: 2px solid magenta;
+            padding-bottom: 2rem;
+            width: 100%;
+            p{
+            line-height: 1.6;
+            }
+        }
+        .leadingBrandImg{
+            display: none;
+        }
+    }
+
+    // Top Skills 
+    .topSkills{
+        .wrapper{
+            padding: 3rem 1.5rem;
+        }
+    }
+    // Footer - Top Footer 
+    .topFooter{
+        .footerNav{
+            flex-direction: column;
+            padding: 2rem 0;
+                // border: 2px solid red;
+                .brandVisual{
+                    display: none;
+                }
+            .footerNavs{
+                display: flex;
+            }
+            .footerNavList{
+                width: calc(100% / 3);
+                // border: 2px solid rgb(30, 255, 0);
+                ul{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0;
+                }
+                li{
+                    margin: .8rem 0;
+                    // border: 2px solid rgb(255, 123, 0);
+                    // display: none;
+                }
+            }
+            .footerForm{
+                width: 100%;
+                    // border: 2px solid rgb(149, 0, 255);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 3rem;
+                p{
+                    margin: 1rem;
+                }
+                .inputRow{
+                    width: 100%;
+                    background-color: $whiteFont;
+                    // border: 2px solid rgb(149, 0, 255);
+                }
+                .formText{
+                    color: $blurDarkGrey;
+                    margin: .8rem 0;
+                    display: none;
+                }
+                input{
+                    border: none;
+                    width: 100%;
+                    // border: 2px solid red;
+                    padding: 1rem 10rem 1rem 0;
+                    &::placeholder{
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        margin: 1rem 0;
+        .wrapper{
+            height: 100%;
+            padding-top: 1rem;
+            .footerLinks{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                a{
+                    margin: .4rem 0;
+                }
+            }
+            .socialMedia{
+                flex-basis: 13%;
+            }
+        }
+    }
+}
+
+/* Design Specific BreakPoint */
+@media (max-width: 670px) {
+    // Index 
+    .indexSecondNav{
+        ul{
+            flex-wrap: wrap;
+            height: auto;
+            padding-left: 3rem;
+            justify-content: flex-start;
+            li{
+                width: 30%;
+                justify-content: flex-start;
+                padding: .5rem;
+                margin: .3rem;
+                background-color: $lightGreen;
+                border-radius: 5px;
+                span{
+                    display: inline-block;
+                }
+            }
+        }
+        .searchOption{
+            padding: 0;
+            width: 30%;
+            height: auto;
+            padding: .5rem;
+            margin: .3rem;
+            background-color: $lightGreen;
+            border-radius: 5px;
+        }
+    }
+    .headerContent{
+        .wrapper{
+            flex-direction: column-reverse;
+            padding: 2rem 0;
+            // border: 2px solid red;
+        }
+        .indexHeaderText {
+            // border: 2px solid red;
+            padding-top: 1rem;
+            width: 100%;
+            height: 50%;
+            h1{
+                font-size: 6rem;
+            }
+            .trustedBy{
+                flex-direction: row;
+                width: 100%;
+                // border: 2px solid green;
+                .trustedCompanies{
+                    width: 100%;
+                    margin-left: 5rem;
+                }
+            }
+        }
+        .headerImg{
+            position: static;
+            margin-top: 2rem;
+            width: 100%;
+            height: 50%;
+        }
+    }
+
+    // Trending Services 
+    .trendingServ{
+        padding: 1rem 0 2rem 0;
+    }  
+
+    // How It Works 
+    .howItWorks{
+        h2{
+            margin: 1rem 0;
+        }
+        .topCont{
+            .topLeftCont{
+                display: none;
+            }
+            .topRightCont {
+                width: 100%;
+                background: rgba($color: $darkGrey, $alpha: 0.75);
+                padding: 8rem;
+                padding-bottom: 20rem;
+            }
+
+        }
+        .bottomCont{
+            .info{
+                padding: 3rem 1rem;
+            }
+        }
+    }
+
+    // Feedback 
+    .feedback{
+        margin: 4rem 0;
+        .wrapper{
+            padding: 0;
+        }
+        .feedbackHeader{
+            h2{
+                width: 90%;
+                margin-bottom: 2rem;
+            }
+        }
+        .quoteBy{
+            margin-bottom: 1.8rem;
+        }
+    }
+
+    // Top Skills 
+    .topSkills{
+        .wrapper{
+            padding:0;
+            nav{
+                flex-wrap: wrap;
+            }
+            .navColumn{
+                // text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // align-self: center;
+                text-align: left;
+                margin: 3rem 0;
+                width: calc((100% / 2) - 1rem);
+            }
+            h4{
+                width: 100%;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            ul{
+                width: 100%;
+                text-align: center;
+                padding-left: .5rem;
+            }
+        }
+    }
+    // Footer - Top Footer 
+    .topFooter{
+        .footerNav{
+            .footerForm{
+                p{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}

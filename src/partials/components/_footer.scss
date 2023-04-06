@@ -38,13 +38,19 @@ footer{
         }
         .footerTopLinks{
             margin: auto 0;
-            width: 20%;
+            width: auto;
             display: flex;
             justify-content: space-between;
+            // border: 2px solid red;
             .postLink{
-                margin-left: 10px;
+                margin-left: 2.5rem;
             }
         }
+    }
+    .footerNavs{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
     }
     .footerNav{
         display: flex;
@@ -84,23 +90,25 @@ footer{
                 display: flex;
                 justify-content: space-between;
                 border-radius: 5px;
-                padding: .5rem;
-                width: 81%;
+                padding: .5rem .2rem;
+                width: auto;
                 background-color: $whiteFont;
+                // border: 2px solid rgb(149, 0, 255);
             }
             .formText{
                 color: $blurDarkGrey;
                 margin: .8rem 0;
             }
-        }
-
-        input{
-            border: none;
-            width: 100%;
-            padding: 1rem 10rem 1rem .8rem;
-            &::placeholder{
-                font-size: 1.6rem;
+            input{
+                border: none;
+                width: 100%;
+                // border: 2px solid red;
+                padding: 1rem 10rem 1rem 0;
+                &::placeholder{
+                    font-size: 1.6rem;
+                }
             }
         }
+
     }
 }

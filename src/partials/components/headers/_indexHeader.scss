@@ -2,35 +2,54 @@
 
 .indexSecondNav{
     background-color: $whiteFont;
-    height: 10vh;
     border-bottom: 2px solid $lightGrey;
+    // border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    height: auto;
     ul{
+    // border: 5px solid rgb(0, 255, 204);
         display: flex;
-        width: 100%;
+        width: 95%;
+        height: 3vh;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 5rem;
+        padding: 0;
         margin: 0;
         li{
             list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            width: calc((100% / 7));
+    // border: 5px solid rgb(0, 255, 204);
             a{
                 color: $darkGrey;
                 font-weight: 600;
             }
+            span{
+                display: inline-block;
+            }
         }
     }
     .searchOption{
-        padding: 1rem 2rem;
+        // padding: 1rem 2rem 1rem 2rem;
+        padding-left: 5rem;
+    // border: 5px solid rgb(0, 255, 204);
         border: none;
         background-color: inherit;
         font-size: 1.6rem;
         color: rgba($color: $darkGrey, $alpha: 0.85);
         text-transform: capitalize;
-        font-weight: 520;
-        option{
-            font-size: 1.6rem;
-            text-transform: capitalize;
-        }
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        height: 4vh;
+        width: 12%;
     }
 }
 
@@ -42,27 +61,37 @@
     // border: 5px solid red;
     .wrapper{
         display: flex;
-        align-self: center;
         align-items: center;
         padding: 5rem 0;
         // height: 60vh;
+        // height: 80vh;
         // border: 2px solid red;
     }
     .indexHeaderText {
         // border: 2px solid green;
-        height: 80%;
+        // height: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: 40%;
         // max-height: 50rem;
         // height: auto;
         h1{
-            margin: 1rem 0 4rem 0;
+            margin: 1rem 0 2rem 0;
+            width: 100%;
         }
         h4{
             margin: 0 0 1rem 0;
             color: $newGron;
+        }
+        a{
+            &:hover, 
+            &:focus{
+                text-decoration: none;
+            }
+        }
+        p{
+            padding: 1rem 0;
         }
         .secondaryLink{
             margin: 3rem 0;
@@ -72,6 +101,8 @@
             align-items: center;
             justify-self: left;
             margin: 1rem 0;
+            width: 85%;
+            // border: 2px solid green;
             .trustedCompanies{
                 display: flex;
                 // border: 2px solid green;
@@ -89,10 +120,12 @@
         width: 55%;
         height: 100%;
         // border: 2px solid purple;
+        display: flex;
+        align-items: center;
         img{
             width: 100%;
             height: 100%;
-            object-fit:scale-down;
+            object-fit:cover;
             object-position: center;
         }
     }

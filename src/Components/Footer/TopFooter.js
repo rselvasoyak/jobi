@@ -34,94 +34,98 @@ const TopFooter = () => {
                                 <img src={drawing} alt="dotted design element"></img>
                             </div>
                         </div>
-                        <div className="footerNavList">
-                            <h5>products</h5>
-                            <ul>
-                                <li>
-                                    <a href="/" aria-label="Take the Tour">
-                                        Take the tour
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Live Chat">
-                                        Live chat 
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Self-Service">
-                                        Self-Service
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Mobile">
-                                        Mobile
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label=" Collaboration">
-                                        Collaboration
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Reviews">
-                                        Reviews
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="footerNavList">
-                            <h5>links</h5>
-                            <ul>
-                                <li>
-                                    <a href="/" aria-label="Pricing">
-                                        Pricing
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="About us">
-                                        About us
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Careers">
-                                        Careers
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Blog">
-                                        Blog
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="footerNavList">
-                            <h5>legal</h5>
-                            <ul>
-                                <li>
-                                    <a href="/" aria-label="Terms of Use ">
-                                        Terms of Use 
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Terms & Conditions">
-                                        Terms & Conditions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Privacy">
-                                        Privacy
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/" aria-label="Cookie Policy">
-                                        Cookie Policy
-                                    </a>
-                                </li>
-                            </ul>
+                        <div className="footerNavs">
+                            <div className="footerNavList">
+                                <h5>products</h5>
+                                <ul>
+                                    <li>
+                                        <a href="/" aria-label="Take the Tour">
+                                            Take the tour
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Live Chat">
+                                            Live chat 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Self-Service">
+                                            Self-Service
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Mobile">
+                                            Mobile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label=" Collaboration">
+                                            Collaboration
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Reviews">
+                                            Reviews
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="footerNavList">
+                                <h5>links</h5>
+                                <ul>
+                                    <li>
+                                        <a href="/" aria-label="Pricing">
+                                            Pricing
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="About us">
+                                            About us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Careers">
+                                            Careers
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Blog">
+                                            Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="footerNavList">
+                                <h5>legal</h5>
+                                <ul>
+                                    <li>
+                                        <a href="/" aria-label="Terms of Use ">
+                                            Terms of Use 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Terms & Conditions">
+                                            Terms & Conditions
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Privacy">
+                                            Privacy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/" aria-label="Cookie Policy">
+                                            Cookie Policy
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div className="footerForm">
-                            <h5>newsletter</h5>
-                            <p>Join & get important new regularly</p>
+                            <div>
+                                <h5>newsletter</h5>
+                                <p>Join & get important new regularly</p>
+                            </div>
                             <div className="formInputBundle">
                                 <form>
                                     <label htmlFor="newsletter-email"></label>

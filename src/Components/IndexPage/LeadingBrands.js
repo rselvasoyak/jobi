@@ -7,8 +7,8 @@ const LeadingBrands = () => {
                 <div className="content">
                     <h2>
                         Collaboration
-                        <span>with leading</span>
-                        Brands.
+                        <span>with leading </span>
+                         Brands.
                     </h2>
                     <p>
                         We collaborate with a number of top tier companies on imagining the future of work, have a look.

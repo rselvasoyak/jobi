@@ -1,3 +1,5 @@
+import business from "../../partials/assets/businessSolution.jpg";
+
 const BusinessSolution = () => {
     return (
         <section className="businessSolution" aria-label="Business Solutions">
@@ -32,8 +34,8 @@ const BusinessSolution = () => {
                         <a className="exploreJobi" href=" "> explore jobi business</a>
                     </div>
                 </div>{/* business content ending */}
-                <div className="businessImg" aria-hidden="true">
-
+                <div className="businessImg">
+                    <img src={business} alt="a man working on his laptop"></img>
                 </div>
             </div>{/* wrapper ending */}
         </section>
