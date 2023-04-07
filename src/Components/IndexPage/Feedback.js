@@ -25,7 +25,6 @@ const Feedback = () => {
                 <div className="quote">
                     <div className="quoteAndButtons">
                         <button className="carouselBtn"
-                        tabindex="0"
                         aria-label="Previous button"
                         >
                             <img src={prevButton} alt="button to go left on on changing content" ></img>
