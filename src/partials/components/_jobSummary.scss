@@ -1,0 +1,48 @@
+@use "../abstract/variables" as *;
+
+.jobSummary{
+    width: 25%;
+    margin: 15rem 0;
+    .wrapper{
+        border: 2px solid red;
+        flex-direction: column;
+        width: 100%;
+    }
+    .companyTitle{
+        border: 2px solid blue;
+        margin: 5rem;
+    }
+    .mainDetails{
+        border: 2px solid rgb(156, 76, 22);
+        display: flex;
+        flex-direction: column;
+        .jobMainInfo{
+            border: 2px solid magenta;
+            display: flex;
+            width: 100%;
+        }
+        .mainInfo{
+            border: 2px solid brown;
+            width: 50%;
+        }
+        .keywords{
+            border: 2px solid purple;
+            width: 100%;
+            ul{
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            li{
+                border: 2px solid green;
+                width: calc((100% / 2.5) - 1rem);
+                margin: .5rem;
+            }
+        }
+        .primaryLink{
+            text-align: center;
+            margin: .5rem;
+        }
+
+    }
+}
