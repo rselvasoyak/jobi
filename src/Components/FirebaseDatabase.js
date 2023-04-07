@@ -9,7 +9,7 @@ const FirebaseDatabase = ({children}) => {
     const [isDataPushed, setIsDataPushed] = useState(false);
     const [isJobDataPushed, setIsJobDataPushed] = useState(false);
 
-    // Push data 
+    // Checking if data exists in Firebase on app mount to prevent dublicating data
     useEffect(() => {
         const database = getDatabase(firebase);
         const dbRef = ref(database);
@@ -37,7 +37,7 @@ const FirebaseDatabase = ({children}) => {
             })
             setIsDataPushed(true);
             localStorage.setItem('dataPushed', true);
-        }
+        } 
     }, [isJobDataPushed, isDataPushed]);
 
     // Pull Data 
