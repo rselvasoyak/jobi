@@ -1,3 +1,7 @@
+import { FaFacebook, FaTwitter, FaCopy } from "react-icons/fa";
+import { AiOutlineFacebook, AiOutlineTwitter, AiOutlinePaperClip } from "react-icons/ai";
+
+
 const JobDetails = () => {
     return(
         <section  className="jobDetails" aria-label="Job Details">
@@ -7,13 +11,14 @@ const JobDetails = () => {
                     <h3>Senior Product & Brand Design</h3>
                     <div className="companyLinks">
                         <div className=" link media">
-                            <a href="https://www.facebook.com/" title="Facebook Link"> Facebook </a>
+                            <a href="https://www.facebook.com/" title="Facebook Link"> 
+                            <FaFacebook /> Facebook </a>
                         </div>
                         <div className=" link media">
-                            <a href="https://www.facebook.com/" title="Twitter Link"> Twitter </a>
+                            <a href="https://www.facebook.com/" title="Twitter Link"> <FaTwitter /> Twitter </a>
                         </div>
                         <button className="link copy" aria-label="Copy" type="copy">
-                            Copy
+                            <FaCopy /> Copy
                         </button>
                     </div>
                 </div>

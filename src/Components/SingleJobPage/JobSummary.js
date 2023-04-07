@@ -1,5 +1,4 @@
 
-
 const JobSummary = () => {
     return(
         <aside className="jobSummary" aria-label="Job Summary">
