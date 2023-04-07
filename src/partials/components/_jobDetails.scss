@@ -1,2 +1,107 @@
 @use "../abstract/variables" as *;
 
+.jobDetails {
+  margin: 10rem 0;
+  width: 75%;
+  
+  .wrapper {
+    // width: 70%;
+    flex-direction: column;
+  }
+  
+  .singleJobTitle {
+    padding: 1rem 0;
+    
+    h3 {
+      margin: 4rem 0;
+    }
+    
+    p {
+      margin: 0;
+      color: $grey;
+      
+      span {
+        display: inline-block;
+        margin: 0;
+        color: $black;
+      }
+    }
+  }
+  
+  .companyLinks {
+    display: flex;
+    
+    .link { 
+      border: 2px solid $green;
+      border-radius: 5px;
+      margin: 5px;
+      padding: 10px 20px;
+      
+      a {
+        color: $green;
+      }
+    }
+    
+    button {
+      font-family: 'GorditaMedium';
+      font-size: 1.6rem;
+      color: $green;
+      border: none;
+      background-color: inherit;
+    }
+  }
+  
+  h4 {
+    color: $black;
+    font-family: 'GorditaMedium';
+  }
+  
+  a, span {
+    display: inline-block;
+    color: $black;
+    font-family: 'GorditaMedium';
+  }
+  
+  p {
+    color: rgba($color: $darkGrey, $alpha: 0.75);
+    line-height: 1.8;
+  }
+  
+  li {
+    margin: 3rem 0;
+    line-height: 1.5;
+    list-style-type: disc;
+  }
+  
+  .detail {
+    margin: 1rem 0;
+  }
+  
+  .jobDescription {
+    p {
+      margin: 3rem 0;
+    }
+  }
+  
+  .singleResp {
+    margin: 3rem 0;
+    line-height: 1.5;
+    list-style-type: none;
+    padding: 0;
+    
+    &:before {
+      content: '✔';
+      display: inline-block;
+      margin-right: 8px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: $jobiGreen;
+      color: white;
+      font-size: 1rem;
+      padding-left: 0;
+      margin-left: -22px;
+    }
+  }
+}

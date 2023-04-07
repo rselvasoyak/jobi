@@ -10,9 +10,7 @@
         cursor: pointer;
         &:hover, 
         &:focus{
-            color: red;
-            padding-bottom: .3rem;
-            border-bottom: 1px solid $darkGreen;
+            transform: scale(1.05);
             transition: .7s;
         }
         &:visited{

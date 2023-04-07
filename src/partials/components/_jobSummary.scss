@@ -1,0 +1,108 @@
+@use "../abstract/variables" as *;
+
+.jobSummary {
+  width: 35%;
+  margin: 15rem 0;
+  
+  .wrapper {
+    padding: 2rem;
+    background-color: $lightGreen;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .companyTitle {
+    border-bottom: 2px solid $grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+    padding-bottom: 8rem;
+    width: 100%;
+    
+    .companyImg {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      background-color: red;
+      margin: 0 auto;
+    }
+    
+    p {
+      margin-bottom: 4rem;
+    }
+  }
+  
+  .mainDetails {
+    display: flex;
+    flex-direction: column;
+    
+    .jobMainInfo {
+      display: flex;
+      width: 100%;
+    }
+    
+    .mainInfo {
+      width: 50%;
+      
+      .info {
+        margin-bottom: 2.5rem;
+        padding-left: 5px;
+      }
+      
+      p {
+        margin: .5rem;
+        text-transform: capitalize;
+      }
+      
+      .heading {
+        color: rgba($color: $darkGrey, $alpha: 0.7);
+        text-transform: capitalize;
+      }
+    }
+    
+    .second {
+      margin-left: 1rem;
+      
+      .info {
+        padding-left: 15px;
+      }
+    }
+    
+    .keywords {
+      width: 100%;
+      
+      ul {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      li {
+        border: 2px solid $green;
+        text-align: center;
+        border-radius: 50px;
+        padding: 8px 16px;
+        color: $green;
+        width: auto;
+        margin: .5rem;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+      }
+    }
+    .primaryLink {
+      text-align: center;
+      margin: 2rem 1rem;
+      font-family: 'GorditaMedium';
+      min-height: 4.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
