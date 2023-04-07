@@ -1,5 +1,4 @@
 import { FaFacebook, FaTwitter, FaCopy } from "react-icons/fa";
-import { AiOutlineFacebook, AiOutlineTwitter, AiOutlinePaperClip } from "react-icons/ai";
 
 
 const JobDetails = () => {
