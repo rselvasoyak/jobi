@@ -1,2 +1,88 @@
 @use "../abstract/variables" as *;
 
+.jobDetails{
+    border: 2px solid magenta;
+    margin: 10rem 0;
+    .wrapper{
+        flex-direction: column;
+        border: 2px solid red;
+    }
+    .singleJobTitle{
+        border: 2px solid rgb(4, 255, 0);
+        margin: 2rem;
+        h3{
+            margin: 1rem;
+        }
+        p{
+            margin: 0;
+            color: $grey;
+            span{
+                display: inline-block;
+                color: $black;
+            }
+        }
+    }
+    .companyLinks{
+        display: flex;
+        border: 2px solid rgb(0, 34, 255);
+        .link{ 
+            border: 2px solid $green;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 10px 20px;
+            a{
+                color: $green;
+            }
+        }
+        button{
+            border: none;
+            background-color: inherit;
+            font-family: 'GorditaMedium';
+            color: $green;
+            font-size: 1.6rem;
+
+        }
+    }
+    h4{
+        color: $black;
+        font-family: 'GorditaMedium';
+        // border: 2px solid rgb(0, 34, 255);
+    }
+    a, span{
+        display: inline-block;
+        color: $black;
+        font-family: 'GorditaMedium';
+
+    }
+    p{
+        color: rgba($color: $darkGrey, $alpha: 0.75);
+        line-height: 1.8;
+    }
+    li{
+        list-style-type: disc;
+        margin: 2rem 0;
+        line-height: 1.5;
+    }
+    .detail{
+        margin: 2rem 0;
+    }
+    .singleResp{
+        list-style-type: none;
+        margin: 2rem 0;
+        line-height: 1.5;
+        padding: 0;
+        &:before {
+            content: '✔';
+            display: inline-block;
+            margin-right: 8px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            text-align: center;
+            background-color: $jobiGreen;
+            color: white;
+            font-size: 1rem;
+            padding-left: 0;
+            }
+    }
+}
