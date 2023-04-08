@@ -1,13 +1,25 @@
 import { FaFacebook, FaTwitter, FaCopy } from "react-icons/fa";
+import { useParams } from 'react-router-dom';
 
 
-const JobDetails = () => {
+const JobDetails = ({jobs}) => {
+
+    // console.log(jobs);
+    const { key } = useParams();
+    //   console.log(key);
+    const singleJob = jobs.find((job)=> {
+    return job.key === key;
+    })
+    console.log(singleJob);
+
+
+    // const { /* description, *//*  benefits, requiredSkills, responsabilities, */ /* title, *//*  twitter, facebook, */ employer } = singleJob;
     return(
-        <section  className="jobDetails" aria-label="Job Details">
+        <section  className="jobDetails" aria-label="Job Details" /* key={key} */ >
             <div className="wrapper">
                 <div className="singleJobTitle">
-                    <p> 18 Jul 2022 by <span>Adobe</span></p>
-                    <h3>Senior Product & Brand Design</h3>
+                    <p> 18 Jul 2022 by <span>{singleJob.employer}</span></p>
+                    <h3>{/* {title} */}</h3>
                     <div className="companyLinks">
                         <div className=" link media">
                             <a href="https://www.facebook.com/" title="Facebook Link"> 
@@ -28,8 +40,7 @@ const JobDetails = () => {
                 <div className=" detail jobDescription">
                     <h4>Job Description:</h4>
                     <p id="overview" className="sr-only">This is an overview of the interested job.</p>
-                    <p aria-describedby="overview"> As a <span>Product Designer</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque deserunt, culpa tempore itaque asperiores nisi ex cum velit exercitationem alias magni vero reiciendis fuga, excepturi atque! Deserunt laborum velit aspernatur doloremque odio.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque deserunt, culpa tempore itaque asperiores nisi ex cum velit exercitationem alias magni vero reiciendis fuga, excepturi atque! Deserunt laborum velit aspernatur doloremque odio. Eius culpa sint enim inventore aut eveniet eos soluta quaerat magnam? Non consequatur molestias repellat minus ut? Fugiat.</p>
+                    <p aria-describedby="overview"> As a <span>{/* {title} */}</span> {/* {description} */}</p>
                 </div>
                 <div className=" detail responsabilities">
                     <h4>Responsabilities:</h4>
@@ -66,7 +77,7 @@ const JobDetails = () => {
                         <li className="benefit">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque deserunt, culpa tempore itaque asperiores nisi ex cum velit exercitationem alias magni vero reiciendis fuga</li>
                         <li className="benefit">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque deserunt, culpa tempore itaque asperiores nisi ex cum velit exercitationem alias magni vero reiciendis fuga</li>
                     </ul>
-
+    
                 </div>
             </div>
         </section>

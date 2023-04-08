@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={ <IndexPage /> } />
           <Route path='/jobLists' element={ <JobListsPage /> } />
-          <Route path='/singleJobPage' element={ <SingleJobPage /> } />
+          <Route path='/singleJobPage/:key' element={ <SingleJobPage /> } />
           <Route path='/error' element ={ <ErrorPage /> } />
         </Routes>
       <Footer />
