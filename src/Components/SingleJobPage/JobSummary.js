@@ -29,7 +29,7 @@ const JobSummary = ({jobs}) => {
     // }
 
 
-    const { url, salary, experienceYears, expertiseLevel, location, contractType, date, keywords } = chosenJob;
+    const { url, /* salary, */ experienceYears, expertiseLevel, location, contractType, date, keywords } = chosenJob;
 
     return(
         <aside className="jobSummary" aria-label="Job Summary">
