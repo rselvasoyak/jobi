@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 const JobLists = ({jobs}) => {
 
     const arrayLength = () => {
-        console.log(jobs);
+        // console.log(jobs);
         return jobs.length.toString();
     }
     
@@ -23,7 +23,7 @@ const JobLists = ({jobs}) => {
                     // console.log(job); 
                     const { logo, key, contractType, title, location, employer} = job;
                     return(
-                        <Link to="/singleJobPage" className="job" key={key}>
+                        <Link to={`/singleJobPage/:${employer}`} className="job" key={key}>
                                 {/* <div className="job" key={key}> */}
                                     <div className="topListRow">
                                         <div className="logoCont" aria-label="Google logo">
