@@ -1,25 +1,33 @@
-import google from "../../partials/assets/mvpAssets/Logo-1.png"
+// import google from "../../partials/assets/mvpAssets/Logo-1.png"
 import bookmark from "../../partials/assets/mvpAssets/Bookmark-1.png"
 import {Link} from "react-router-dom";
 
 const JobLists = ({jobs}) => {
+
+    const arrayLength = () => {
+        // console.log(jobs);
+        return jobs.length.toString();
+    }
+    
     return(
         <section className="jobLists"> 
             <div className="topTopRow"> 
+            {
                 <p>
-                   All <span>7,096</span> jobs found 
+                   All <span>{arrayLength()}</span> jobs found 
                 </p>
+            }
             </div>
             <div className="listsContainer">
                 {jobs.map ((job)=> {
                     // console.log(job); 
-                    const { key, contractType, title, location} = job;
+                    const { logo, key, contractType, title, location, employer} = job;
                     return(
-                        <Link to="/singleJobPage" className="job" key={key}>
+                        <Link to={`/singleJobPage/:${employer}`} className="job" key={key}>
                                 {/* <div className="job" key={key}> */}
                                     <div className="topListRow">
                                         <div className="logoCont" aria-label="Google logo">
-                                            <img src={google} alt="google logo"></img>
+                                            <img src={logo} alt={`${employer} logo`}></img>
                                         </div>
                                         <div>
                                             <button aria-label="Bookmark this job">
