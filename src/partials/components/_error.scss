@@ -1,8 +1,8 @@
 @use "../abstract/variables" as *;
 
 .errorPage{
-    height: 88vh;
     display: flex;
+    height: 75vh;
     .wrapper{
         display: flex;
         justify-content: space-evenly;
@@ -10,7 +10,7 @@
     }
     .errorImg{
         // height: 75vh;
-        width: 45rem;
+        width: 40rem;
         img{
             max-width: 100%;
             object-fit: scale-down;
