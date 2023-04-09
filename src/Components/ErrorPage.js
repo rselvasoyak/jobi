@@ -1,6 +1,7 @@
 import slider from "../partials/assets/mvpAssets/Arrow 3.png"
 // import SecondaryHeader from "./HeaderOptions/SecondaryHeader";
 import SecondaryNav from "./Nav/SecondaryNav";
+import errorPage from "../partials/assets/error.png";
 
 const ErrorPage = () => {
     return (
@@ -8,7 +9,9 @@ const ErrorPage = () => {
             <SecondaryNav />
             <section className="errorPage">
                 <div className="wrapper">
-                    <div className="errorImg"></div>
+                    <div className="errorImg">
+                        <img src={errorPage} alt="404 not Found"></img>
+                    </div>
                     <div className="errorContent">
                         <h1>
                             <span className="error">
