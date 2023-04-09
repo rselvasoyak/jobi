@@ -14,8 +14,8 @@ function App() {
         <Routes>
           <Route path='/' element={ <IndexPage /> } />
           <Route path='/jobLists' element={ <JobListsPage /> } />
-          <Route path='/singleJobPage/:key' element={ <SingleJobPage /> } />
-          <Route path='/error' element ={ <ErrorPage /> } />
+          <Route path='/singleJobPage/:employer' element={ <SingleJobPage /> } />
+          <Route path='*' element ={ <ErrorPage /> } />
         </Routes>
       <Footer />
     </>
