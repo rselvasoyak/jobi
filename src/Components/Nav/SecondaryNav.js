@@ -1,16 +1,15 @@
 import logo from "../../partials/assets/mvpAssets/Logo.png";
 import shape from "../../partials/assets/mvpAssets/Shape.png";
-// import {useLocation} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 
 const SecondaryNav = () => {
-    // const location = useLocation();
-    // const bgColor = location.pathname === "/error" ? "#fff" : "#254135";
+    const location = useLocation();
+    const bgColor = location.pathname === "*" ? "#fff" : "#254135";
 
     return (
         <>
-           {/*  {   
-                location.pathname === "/error" ? */} 
-                    <nav className="secondNavigation" /* style ={{backgroundColor: bgColor}} */>
+            {/* {location.pathname === "/error" ?  */}
+                    <nav className="secondNavigation" style ={{backgroundColor: bgColor}}>
                             <div className="secNavLeft">
                                 <div className="navLeftContent">
                                     <div className="logo">
@@ -26,7 +25,7 @@ const SecondaryNav = () => {
                                     <li><a href="/">home</a></li>
                                     <li><a href="/">job</a></li>
                                     <li><a href="/"> explore </a></li>
-                                    <li><a href="/">contact</a></li>
+                                    <li><a href="*">contact</a></li>
                                     <li><a href="/"> pages </a></li>
                                 </ul>
                             </div>{/* secNAvLeft ending */}
