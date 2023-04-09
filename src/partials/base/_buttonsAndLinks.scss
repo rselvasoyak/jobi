@@ -129,11 +129,19 @@
     }
 
     .secondPostLink{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border: 2px solid $limeGreen;
         background-color: $limeGreen;
         color: $darkGrey;
-        padding: 1rem 3rem;
+        padding: 10px;
         border-radius: 5px;
+        width: 19rem;
+        min-width: 12rem;
+        // padding: 1rem 3rem;
+        // border-radius: 5px;
+        margin-left: 2.5rem;
         cursor: pointer;
         &:hover, 
         &:focus{

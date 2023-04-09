@@ -11,13 +11,13 @@ const IndexHeader = () => {
         <>
             <nav className="indexSecondNav">
                 <ul>
-                    <li><Link to="/error"> design <span>& creative </span></Link></li>
-                    <li><Link to="/error">IT <span>& development</span></Link> </li>
-                    <li><Link to="/error"> trend </Link></li>
-                    <li><Link to="/error"> web <span>& mobile dev</span></Link></li>
-                    <li><Link to="/error"> writing </Link></li>
-                    <li> <Link to="/error"> music <span>& audio</span></Link></li>
-                    <li><Link to="/error"> video <span>& animation</span></Link></li>
+                    <li><Link to="*"> design <span>& creative </span></Link></li>
+                    <li><Link to="*">IT <span>& development</span></Link> </li>
+                    <li><Link to="*"> trend </Link></li>
+                    <li><Link to="*"> web <span>& mobile dev</span></Link></li>
+                    <li><Link to="*"> writing </Link></li>
+                    <li> <Link to="*"> music <span>& audio</span></Link></li>
+                    <li><Link to="*"> video <span>& animation</span></Link></li>
                     <select
                     className="searchOption"
                     id="searchOption" name="searchOption">
