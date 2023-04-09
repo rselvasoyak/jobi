@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 const JobDetails = ({jobs}) => {
 
     const [chosenJob, setChosenJob] = useState({
+        date:"",
         overview: "",
         description: "",
         benefits: [],
@@ -29,13 +30,13 @@ const JobDetails = ({jobs}) => {
     }, [company, jobs]);
 
 
-    const {  overview, description, benefits, requiredSkills, responsibilities,  title, twitter, facebook } = chosenJob;
+    const { date, overview, description, benefits, requiredSkills, responsibilities,  title, twitter, facebook } = chosenJob;
 
     return(
         <section  className="jobDetails" aria-label="Job Details" >
             <div className="wrapper">
                 <div className="singleJobTitle">
-                    <p> 18 Jul 2022 by <span>{company}</span></p>
+                    <p> {date} by <span>{company}</span></p>
                     <h3>{title}</h3>
                     <div className="companyLinks">
                         <div className=" link media">
@@ -92,7 +93,6 @@ const JobDetails = ({jobs}) => {
                             )
                         })}
                     </ul>
-    
                 </div>
             </div>
         </section>
