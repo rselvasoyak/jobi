@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
+import error from "../../partials/assets/error.png"
 const JobSummary = ({jobs}) => {
 
     const [chosenJob, setChosenJob] = useState({
@@ -36,7 +37,7 @@ const JobSummary = ({jobs}) => {
             <div className="wrapper">
                 <div className="companyTitle">
                     <div className="companyImg">
-                        <img src="" alt="Company Logo"></img>
+                        <img src={error} alt="Company Logo"></img>
                     </div>
                     <p className="companyName">{company}</p>
                     <div>

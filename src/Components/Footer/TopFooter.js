@@ -12,7 +12,7 @@ const TopFooter = () => {
     
  return(
     <>
-        { location.pathname === "*" ? null : (
+        { location.pathname === "/*" ? null : (
             <section className="topFooter" style={{ backgroundColor: bgColor }}>
                 <div className="wrapper">
                     <div className="footerHeader">

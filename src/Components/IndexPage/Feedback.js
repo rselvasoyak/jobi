@@ -30,7 +30,7 @@ const Feedback = () => {
                             <img src={prevButton} alt="button to go left on on changing content" ></img>
                         </button>
                         <blockquote>❝ Very easy to set-up. I had no experience with hosting before signing up with HostGator but they've made everyhting seem simple. ❞</blockquote>
-                        <button className="carouselBtn" tabindex="0"
+                        <button className="carouselBtn" tabIndex="0"
                         aria-label="Next button"
                         >
                             <img src={nextButton} alt="button to go right on on changing content"
