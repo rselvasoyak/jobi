@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <>
         {
-            location.pathname === "*" ? null : (
+            location.pathname === "/*" ? null : (
                 <footer>
                     <TopFooter />
                     <div className="wrapper">

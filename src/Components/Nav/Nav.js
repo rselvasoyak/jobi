@@ -1,16 +1,18 @@
 import logo from "../../partials/assets/mvpAssets/Logo-3.png";
-import { Link} from "react-router-dom";
-// import * as ReactRouterDom from 'react-router-dom';
+import { Link/* , useHistory */ } from "react-router-dom";
+// import { useState } from "react";
 
 const Nav = () => {
-    // let history = ReactRouterDom.useHistory();
+    // let history = useHistory();
+
+    // const [selectedPage, setSelectedPage] = useState('');
 
     // const handleSelectChange = (event) => {
-    //     const selectedOption = event.target.value;
-    //     if (selectedOption === 'Job Lists') {
-    //         history.push('/jobLists');
-    //     }
+    //     const selectedPage = event.target.value;
+    //     setSelectedPage(selectedPage);
+    //     history.pushState(selectedPage);
     // };
+
     return (
         <nav>
             <div className="navLeft">
@@ -35,17 +37,18 @@ const Nav = () => {
             <div className="navRight">
                 <div className="searchLinks">
                     <Link to="/jobLists"> find job </Link>
-                    <a href="/"> find talents </a>
+                    <Link to="/*"> find talents </Link>
                     <select 
                     className="pages"
                     id="pages"
                     name="pages" 
                     aria-describedby="Available Pages in Jobi"
+                    // value={selectedPage}
                     // onChange={handleSelectChange}
                     >
                         <option defaultChecked value="default" title="default">Pages</option>
-                        <option value="Home" title="Home">Home</option>
-                        <option value="Job Lists" title="Job Lists">Job Lists</option>
+                        <option value="/" title="Home">Home</option>
+                        <option value="/jobLists" title="Job Lists">Job Lists</option>
                     </select>
                 </div>
                 <div className="userAuthLinks">
