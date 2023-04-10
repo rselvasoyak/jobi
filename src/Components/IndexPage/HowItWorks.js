@@ -9,8 +9,7 @@ const HowItWorks = () => {
         <section className="howItWorks" aria-label="How it Works">
             <div className="wrapper">
                 <div className="topCont">
-                    <div className="topLeftCont" aria-label="an individual working on their laptop">
-                        <img src="" alt="an individual working on their laptop"></img>
+                    <div className="topLeftCont" aria-label="empty container">
                     </div>
                     <div className="topRightCont" aria-describedby="simpleTitleDescription">
                         <div className="playIcon" aria-label="video play icon">

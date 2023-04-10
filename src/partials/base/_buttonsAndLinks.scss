@@ -1,157 +1,162 @@
 @use "../abstract/variables" as *;
+
 // Anchor Links 
-    // General Anchor Links Styling 
-    a{
-        font-size: 1.6rem;
-        font-family: 'GorditaLight';
-        text-decoration: none;
-        text-transform: capitalize;
-        color: $black;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            transform: scale(1.05);
-            transition: .7s;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
+a {
+  font-size: 1.6rem;
+  font-family: 'GorditaLight';
+  text-decoration: none;
+  text-transform: capitalize;
+  color: $black;
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    transform: scale(1.05);
+    transition: .7s;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
 
-    .primaryLink{
-        padding: 1rem 3rem;
-        background-color: $limeGreen;
-        border-radius: 20px;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            color: red;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
+.primaryLink {
+  padding: 1rem 3rem;
+  background-color: $limeGreen;
+  border-radius: 20px;
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    color: red;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
 
-    .secondaryLink {
-        padding: 1rem 3rem;
-        background-color: $jobiGreen;
-        border-radius: 20px;
-        color: $whiteFont;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            color: red;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
+.secondaryLink {
+  padding: 1rem 3rem;
+  background-color: $jobiGreen;
+  border-radius: 20px;
+  color: $whiteFont;
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    color: red;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
 
-    // MarketPlace 
-    .explore{
-        color: $jobiGreen;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            padding-bottom: .6rem;
-            border-bottom: 2px solid $jobiGreen;
-            border-radius: 1px;
-            color: $whiteFont;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
-    .exploreJobi{
-        // border: solid 2px red;
-        padding: 1rem 3rem;
-        background-color: $jobiGreen;
-        border-radius: 20px;
-        color: $whiteFont;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            color: red;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
+.explore {
+  color: $jobiGreen;
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    padding-bottom: .6rem;
+    border-bottom: 2px solid $jobiGreen;
+    border-radius: 1px;
+    color: $whiteFont;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
 
-    .apply{
-        padding: .6rem 1.5rem;
-        background-color: $green;
-        color: $whiteFont;
-        border-radius: 20px;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            color: red;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
-    // Footer Nav 
-    .lookLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid $jobiGreen;
-        color: $jobiGreen;
-        padding: 10px;
-        width: 19rem;
-        border-radius: 5px;
-        min-width: 12rem;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            color: red;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
+.exploreJobi {
+  padding: 1rem 3rem;
+  background-color: $jobiGreen;
+  border-radius: 20px;
+  color: $whiteFont;
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    color: red;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
 
-    .secondLookLink{
-        border: 2px solid $darkGreen;
-        color: $darkGreen;
-        padding: 1rem 3rem;
-        border-radius: 5px; 
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            color: red;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
+.apply {
+  padding: .6rem 1.5rem;
+  background-color: $green;
+  color: $whiteFont;
+  border-radius: 20px;
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    color: red;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
 
-    .secondPostLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid $limeGreen;
-        background-color: $limeGreen;
-        color: $darkGrey;
-        padding: 10px;
-        border-radius: 5px;
-        width: 19rem;
-        min-width: 12rem;
-        // padding: 1rem 3rem;
-        // border-radius: 5px;
-        margin-left: 2.5rem;
-        cursor: pointer;
-        &:hover, 
-        &:focus{
-            color: red;
-        }
-        &:visited{
-            text-decoration: underline;
-        }
-    }
+.lookLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid $jobiGreen;
+  color: $jobiGreen;
+  padding: 10px;
+  width: 19rem;
+  border-radius: 5px;
+  min-width: 12rem;
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    color: red;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
 
+.secondLookLink {
+  border: 2px solid $darkGreen;
+  color: $darkGreen;
+  padding: 1rem 3rem;
+  border-radius: 5px; 
+  cursor: pointer;
+  
+  &:hover, 
+  &:focus {
+    color: red;
+  }
+  
+  &:visited {
+    text-decoration: underline;
+  }
+}
+
+.secondPostLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid $limeGreen;
+  background-color: $limeGreen;
+  color: $darkGrey;
+  padding: 10px;
+  border-radius: 5px;
+  width: 19rem;
+  min-width: 12rem;
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
 
 
 
@@ -257,10 +262,11 @@
 
         .category{
             border: none;
-            padding: 1rem 2rem;
+            padding: .7rem 2rem;
             border-radius: 3rem;
             background-color: rgba($color: $whiteFont, $alpha: 0.1);
             color: $limeGreen;
+            font-size: 1.6rem;
             cursor: pointer;
             &:hover, 
             &:focus{
@@ -268,6 +274,19 @@
             }
             &:visited{
                 text-decoration: underline;
+            }
+        }
+
+        .secondCategory {
+            border: none;
+            padding: .7rem 2rem;
+            border-radius: 3rem;
+            font-size: 1.6rem;
+            background-color: rgba($color: $newGron, $alpha: 0.3);
+            color: $black;
+            &:hover, 
+            &:focus{
+                color: red;
             }
         }
 
