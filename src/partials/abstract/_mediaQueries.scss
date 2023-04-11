@@ -146,7 +146,7 @@
     h2{
         font-size: 6rem;
     }
-    // Index 
+    // Index - Page 
         .indexSecondNav{
             ul{
                 width: 100%;
@@ -180,122 +180,128 @@
             }
         }
 
-    // MarketPlace
-    .marketPlace{
-        .wrapper{
-            .marketTopRow{
-                padding: 0 1rem;
-            }
-            .marketLists {
-                .field{
-                    margin: .6rem;
-                    width: calc((100% /3) - 1.2rem);
-                    height: 25rem;
+        // MarketPlace
+        .marketPlace{
+            .wrapper{
+                .marketTopRow{
+                    padding: 0 1rem;
+                }
+                .marketLists {
+                    .field{
+                        margin: .6rem;
+                        width: calc((100% /3) - 1.2rem);
+                        height: 25rem;
+                    }
                 }
             }
         }
-    }
 
-    // Why Choose Us
-    .whyUs{
-        .whyUsContent{
-            h4{
-                margin-bottom: 1.5rem;
+        // Why Choose Us
+        .whyUs{
+            .whyUsContent{
+                h4{
+                    margin-bottom: 1.5rem;
+                }
+                h2{
+                    margin: 1.2rem 0;
+                }
             }
-            h2{
-                margin: 1.2rem 0;
+            .reason{
+                margin: 1rem 0;
+                p{
+                    margin: 1rem 0;
+                }
             }
         }
-        .reason{
-            margin: 1rem 0;
-            p{
+
+        // Business Solution 
+        .businessSolution{
+            .wrapper{
+                flex-direction: column;
+            }
+        }
+
+        // How It Works 
+        .howItWorks{
+            h2{
                 margin: 1rem 0;
             }
-        }
-    }
+            .topCont{
+                .topLeftCont{
+                    width: 0;
+                }
+                .topRightCont {
+                    width: 100%;
+                    padding-left: 26rem;
+                }
 
-    // Business Solution 
-    .businessSolution{
-        .wrapper{
-            flex-direction: column;
+            }
+            .bottomCont{
+                .info{
+                    padding-bottom: 4rem;
+                }
+            }
         }
-    }
 
-    // How It Works 
-    .howItWorks{
-        h2{
+        // Feedback 
+        .feedback{
+            h2{
+                width: 60%;
+            }
+            .clientImgs{
+                .client{
+                    height: 9rem;
+                    width: 9rem;
+                    margin: 1.2rem;
+                }
+            }
+        }
+
+        // Footer - Top Footer 
+        .topFooter{
+            .wrapper{
+                padding-bottom: 0;
+            }
+            h3{
+                margin: 0
+            }
+            p{
+                color: $blurBlack;
+                margin-top: 1.5rem;
+            }
+            .footerHeader{
+                .footerTopLinks{
+                    flex-direction: column;
+                    align-items: center;
+                    .postLink{
+                        margin-top: 1rem;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        footer{
             margin: 1rem 0;
-        }
-        .topCont{
-            .topLeftCont{
-                width: 0;
-            }
-            .topRightCont {
-                width: 100%;
-                padding-left: 26rem;
-            }
-
-        }
-        .bottomCont{
-            .info{
-                padding-bottom: 4rem;
-            }
-        }
-    }
-
-    // Feedback 
-    .feedback{
-        h2{
-            width: 60%;
-        }
-        .clientImgs{
-            .client{
-                height: 9rem;
-                width: 9rem;
-                margin: 1.2rem;
-            }
-        }
-    }
-
-    // Footer - Top Footer 
-    .topFooter{
-        .wrapper{
-            padding-bottom: 0;
-        }
-        h3{
-            margin: 0
-        }
-        p{
-            color: $blurBlack;
-            margin-top: 1.5rem;
-        }
-        .footerHeader{
-            .footerTopLinks{
-                flex-direction: column;
-                align-items: center;
-                .postLink{
-                    margin-top: 1rem;
-                    margin-left: 0;
+            .wrapper{
+                height: 100%;
+                padding-top: 1rem;
+                .footerLinks{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    a{
+                        margin: .4rem 0;
+                    }
+                }
+                .socialMedia{
+                    flex-basis: 13%;
                 }
             }
         }
-    }
-    footer{
-        margin: 1rem 0;
-        .wrapper{
-            height: 100%;
-            padding-top: 1rem;
-            .footerLinks{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                a{
-                    margin: .4rem 0;
-                }
-            }
-            .socialMedia{
-                flex-basis: 13%;
-            }
+    // Job Lists Page 
+    .jobLists{
+        .job{
+            flex-basis: calc(100%);
         }
     }
 }
