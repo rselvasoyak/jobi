@@ -14,15 +14,15 @@
     }
     .topCont{
         display: flex;
-        .topLeftCont{
-            width: 30%;
-        }
+        // .topLeftCont{
+        //     width: 30%;
+        // }
         .topRightCont {
-            width: 70%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             background: linear-gradient(to left, $black, $transparent);
-            padding-left: 50rem;
+            padding-left: 65%;
             padding-top: 5rem;
             padding-bottom: 25rem;
             padding-right: 5rem;
