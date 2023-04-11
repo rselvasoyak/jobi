@@ -7,12 +7,13 @@
     padding: 1rem 4rem;
     // height: 12vh;
     border-bottom: none;
+    position: relative;
     .secNavLeft{
         display: flex;
-        // justify-content: space-between;
+        justify-content: space-between;
         align-items: center;
         // border: 2px solid palevioletred;
-        // width: 50%;
+        width: 40%;
         .navLeftContent{
             display: flex;
             // border: 2px solid red;
@@ -28,8 +29,8 @@
             display: flex;
             justify-content: space-between;
             // border: 2px solid orange;
+            width: 60%;
             margin-left: 2rem;
-            // width: 50%;
             padding: 0;
             a{
                 color: $whiteFont;
@@ -40,14 +41,18 @@
     .designIcon{
         margin: .5rem auto;
         // border: 2px solid brown;
-        width: auto;
+        // width: auto;
+        position: absolute;
+        right: 50%;
+        left: 50%;
     }
     .jobLinks{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
         // border: 2px solid purple;
-        width: 40%;
+        width: 25%;
+        margin: 2rem 0;
         .postLogin{
             padding: 2rem;
             margin-right: 2rem;
