@@ -108,6 +108,19 @@ nav{
                 margin-left: 4rem;
             }
         }
+        .menuList {
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            z-index: 1;
+        }
+
+  .menuList.open {
+    display: block;
+  }
     }
 }
 
