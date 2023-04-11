@@ -1,7 +1,7 @@
 import logo1 from "../../partials/assets/mvpAssets/Logo 1.png"
 import logo2 from "../../partials/assets/mvpAssets/Logo 2.png"
 import logo3 from "../../partials/assets/mvpAssets/Logo 3.png"
-import person1 from "../../partials/assets/person1.jpg"
+import headerImg from "../../partials/assets/headerImg.jpg";
 
 import {Link} from "react-router-dom";
 
@@ -46,7 +46,7 @@ const IndexHeader = () => {
                         </div>{/* trustedBy container end  */}
                     </div>{/* index header tet end */}
                     <div className="headerImg">
-                        <img src={person1} alt="a woman working on her laptop"></img>
+                        <img src={headerImg} alt="a woman working on her laptop"></img>
                     </div>
                 </div> {/* wrapper ending */}
             </section> {/* header content ending */}
